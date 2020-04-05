@@ -4,8 +4,8 @@ layout: single
 
 
 header:
-  overlay_color: "#EEEEEE"
-  overlay_filter: "0.5"
+  overlay_color: "#000000"
+  overlay_filter: "0.8"
   overlay_image: /assets/images/moncloa.jpg
 excerpt: '> "Art is the science of uselessness." &mdash; _Torcuato Luca de Tena_'
 
