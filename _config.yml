@@ -13,14 +13,23 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Rodrigo's personal website
+title: Arrest this man, he talks in maths
+subtitle: Rodrigo Hernangómez's personal website
+name: Rodrigo Hernangómez
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Rodrigo Hernangómez's personal website.
+url: "https://rodrihgh.github.io"
+repository: "rodrihgh/rodrihgh.github.io"
 twitter_username: rodrihgh
 github_username: rodrihgh
 minimal_mistakes_skin: dirt
 search: true
+
+reCaptcha:
+  enabled: true
+  siteKey: "6LdF5uYUAAAAALPHJAys7PkiU7BiTJi-NRPTG9wm"
+  secret: "KHMItsMBnmy+xppFbb2tRJvh3VL0F5dmPpsDPKfjWZE8wg2ZN54h3OepOD5G0PMiIz092LEHGzNc4kZjIZzfZZRd/qOlD+xsS6+rpvRmlM1gWf7xTvE1TxrbDmLz0vvKOWxcZ92fZJ5hmwrAwdmtt3H+2TECCkfvMs2yZkRydPg="
 
 # Build settings
 markdown: kramdown
@@ -57,7 +66,7 @@ plugins:
 
 author:
   name   : "Rodrigo Hernangómez"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio-photo.png"
   bio    : "PhD student in Electrical Engineering. Fascinated by the interplay between beauty and math."
   location: raised in Madrid, based in Berlin
   links:
