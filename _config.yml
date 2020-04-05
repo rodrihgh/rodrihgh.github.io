@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Arrest this man, he talks in maths
+title: Science of Uselessness
 subtitle: Rodrigo Hernangómez's personal website
 name: Rodrigo Hernangómez
 email:
@@ -117,17 +117,6 @@ defaults:
       read_time: true
       comments: true
       share: true
-  # _posts
-  # - scope:
-  #    path: ""
-  #    type: posts
-  #  values:
-  #    layout: single
-  #    author_profile: true
-  #    read_time: true
-  #    comments: true
-  #    share: true
-  #    related: true
   # _pages
   - scope:
       path: "_pages"
