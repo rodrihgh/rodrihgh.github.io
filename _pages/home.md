@@ -1,14 +1,11 @@
 ---
 permalink: /
 layout: splash
+author_profile: true
 
-title: "Splash Page"
-layout: splash
-permalink: /splash-page/
-date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#525D79"
-  overlay_filter: "0.4"
+  overlay_filter: "0.5"
   overlay_image: /assets/images/moncloa.jpg
 excerpt: '> "Art is the science of uselessness." &mdash; _Torcuato Luca de Tena_'
 
