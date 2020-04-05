@@ -1,10 +1,10 @@
 ---
 permalink: /
-layout: splash
-author_profile: true
+layout: single
+
 
 header:
-  overlay_color: "#525D79"
+  overlay_color: "#EEEEEE"
   overlay_filter: "0.5"
   overlay_image: /assets/images/moncloa.jpg
 excerpt: '> "Art is the science of uselessness." &mdash; _Torcuato Luca de Tena_'
