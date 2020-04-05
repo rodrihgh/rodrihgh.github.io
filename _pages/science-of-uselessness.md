@@ -107,7 +107,7 @@ Here you can find a translation of my own (I hope it conveys the original messag
 >
 >-How do you deem Poetry?
 >
->-Its merit is parallel to that of Painting, yet somewhat more useless.
+>-Its merit is parallel to that of Painting, yet somewhat more useless. (...)
 >
 >There is finally only Music left.
 >What can be more useless than joining noise to some other noises, none of them
