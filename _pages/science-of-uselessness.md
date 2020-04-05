@@ -1,15 +1,16 @@
 ---
 permalink: /science-of-uselessness
 title: "Art is the science of uselessness"
+read_time: true
 ---
 
 I owe the title of my website to no other than **Don Torcuato Luca de Tena**.
-This Spanish journalist and writer wrote its most acclaimed novel
+This Spanish journalist and author wrote its most acclaimed novel
 _"Los Renglones Torcidos de Dios"_
 (English: _God's Crooked Lines_) in 1979.
 It narrates the story of detective Alice Gould during her confinement in a psychiatric
 hospital, where she is allegedly investigating a mysterious crime. In the book, Luca de Tena
-render his particular views on art, from where I borrow my website's title.
+renders his particular views on art, from where I borrow my website's title.
 
 Let me reproduce the specific excerpt in the original Spanish, with a subsequent translation:
 
@@ -84,7 +85,7 @@ Here you can find a translation of my own (I hope it conveys the original messag
 >lines that exceed his needs. Well, all these useless addenda on top of pure necessity...
 >is what we call art!
 >
->Gastronomy, the so-called haute couture and decoration are the first arts that our specied
+>Gastronomy, the so-called haute couture and decoration are the first arts that our species
 >created, as they display the useless excesses to the primary necessities of eating,
 >protection and shelter.
 >
@@ -108,7 +109,7 @@ Here you can find a translation of my own (I hope it conveys the original messag
 >
 >-Its merit is parallel to that of Painting, yet somewhat more useless.
 >
->-There is finally only Music left.
+>There is finally only Music left.
 >What can be more useless than joining noise to some other noises, none of them
 >remotely expressing anything while they are open to a thousand different interpretations
 >according to one's mood? Who can this nourish? Who should this protect?
@@ -122,7 +123,7 @@ and the like. This is in deep conflict with many of my personal interests (read 
 in general), which according to don Torcuato are not only useless, but they can only become
 greater the more useless they are.
 
-However, one can generate, render, manipulate, process
+However, I also like coding. And through code one can generate, render, manipulate, process
 futile streams of audio, pixels, bits of uselessness so rigorously analyzed that it becomes
 incredibly useful.
 
@@ -132,7 +133,7 @@ to any colleague or boss. This is what has pushed me to publish them on a person
 Now that they are accessible to anyone, I am no longer the one that has to deem it useful or
 useless, but I will let you take that role.
 
-#### More information
+## More information
 
 Both author and novel seem to be quite unknown at an international level. Unfortunately,
 this means that the only faithful sources I can provide are from the Spanish Wikipedia.
