@@ -41,7 +41,7 @@ mathematics and programming,
 have also some arty touch.
 Moreover, these creations are quite often _useless_ in terms of my job, so that I cannot sell them
 to any colleague or boss. This is what has pushed me to publish them on a personal website.
-Now that they are accessible to anyone,
+Now that they are accessible to everyone,
 I am no longer the one that has to deem them useful or
 useless; I will let you take that role instead.
 

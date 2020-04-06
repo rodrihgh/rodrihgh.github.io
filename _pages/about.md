@@ -35,4 +35,5 @@ You can also find me on
 and
 [Google scholar](https://www.researchgate.net/profile/Rodrigo_Hernangomez).
 
-Any questions? Do not hesitate to [contact me](contact).{: .notice--primary}
+Any questions? Do not hesitate to [contact me](../contact).
+{: .notice--primary}

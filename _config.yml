@@ -96,10 +96,6 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/rodrihgh"
-      
-head_scripts:
-  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML
-  - https://www.google.com/recaptcha/api.js
 
 collections:
   projects:
@@ -117,6 +113,7 @@ defaults:
       read_time: true
       comments: true
       share: true
+      mathjax: true
   # _pages
   - scope:
       path: "_pages"

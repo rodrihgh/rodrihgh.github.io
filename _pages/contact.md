@@ -1,20 +1,19 @@
 ---
 permalink: /contact/
 title: "Contact"
+recaptcha: true
 ---
 
 Do you have any questions, comments, suggestions... ?
 
-Please leave them here so that we can get in contact.
+Please leave them here so that I can get in contact with you.
 
 <form
   action="https://formspree.io/mrgaproo"
   method="POST"
 >
   <fieldset>
-  {% if site.reCaptcha.enabled %}
-  <div class="g-recaptcha" data-sitekey={{site.reCaptcha.siteKey}}></div>
-  {% endif %}
+  <div class="g-recaptcha" data-sitekey={{site.reCaptcha.siteKey}}></div> 
   <legend>Contact Form</legend>
   <label>
     Your email:
@@ -22,8 +21,8 @@ Please leave them here so that we can get in contact.
   </label><br>
   <label>
     Your message:
-    <textarea name="message"></textarea>
+    <textarea name="message" rows="5"></textarea>
   </label><br>
-  <button type="submit" class="btn--primary">Send</button>
+  <button type="submit" class="btn btn--primary">Send</button>
   </fieldset>
 </form>
