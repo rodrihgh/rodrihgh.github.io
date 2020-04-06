@@ -4,9 +4,8 @@ title: "Contact"
 recaptcha: true
 ---
 
-Do you have any questions, comments, suggestions... ?
-
-Please leave them here so that I can get in contact with you.
+Do you have any questions, comments, suggestions... ? Please leave them here so that I can get in contact with you.
+{: .notice--primary}
 
 <form
   action="https://formspree.io/mrgaproo"
