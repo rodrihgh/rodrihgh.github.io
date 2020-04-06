@@ -2,17 +2,62 @@
 permalink: /science-of-uselessness
 title: "Art is the science of uselessness"
 read_time: true
+categories:
+  - Literature
+tags:
+  - Spanish
+  - art
+  - novel
+  - science
 ---
 
 I owe the title of my website to no other than **Don Torcuato Luca de Tena**.
 This Spanish journalist and author wrote its most acclaimed novel
-_"Los Renglones Torcidos de Dios"_
+**"Los Renglones Torcidos de Dios"**
 (English: _God's Crooked Lines_) in 1979.
 It narrates the story of detective Alice Gould during her confinement in a psychiatric
-hospital, where she is allegedly investigating a mysterious crime. In the book, Luca de Tena
-renders his particular views on art, from where I borrow my website's title.
+hospital, where she is allegedly investigating a mysterious crime.
 
-Let me reproduce the specific excerpt in the original Spanish, with a subsequent translation:
+In the book, Luca de Tena expresses his particular views on art.
+In a nutshell, art is for him the _science of uselessness_, as it is detached
+from the primary biological needs of human beings.
+This is not meant as a scorn but
+as a metric of its value; the more _elevated_ art is,
+the more _useless_ it gets with respect to our animal necessities.
+
+As an engineer, I am used to thinking along such terms as
+usefulness/uselessness, accuracy, requirement
+and the like. This is in deep conflict with many of my personal interests (read music and art
+in general), which according to don Torcuato are not only useless, but they can only become
+greater the more useless they are.
+
+On the other hand, I also enjoy maths and coding. And through maths and code one can model, generate, render, manipulate, process
+futile streams of audio samples, pixels, bits of uselessness so rigorously analyzed that
+they become incredibly useful.
+
+Therefore, you may not wonder that most of my projects here,
+while heavily focused on
+mathematics and programming,
+have also some arty touch.
+Moreover, these creations are quite often _useless_ in terms of my job, so that I cannot sell them
+to any colleague or boss. This is what has pushed me to publish them on a personal website.
+Now that they are accessible to anyone,
+I am no longer the one that has to deem them useful or
+useless; I will let you take that role instead.
+
+Both Luca de Tena and (his) God's Crooked Lines seem to be quite unknown
+outside the Spanish-speaking world. Therefore,
+[further references](#more-information), as well as
+the [discussed fragment of the book](#excerpt-of-gods-crooked-lines-by-torcuato-luca-de-tena),
+are only available in Spanish.
+
+Let me nevertheless reproduce the
+[original excerpt](#excerpt-of-gods-crooked-lines-by-torcuato-luca-de-tena) 
+my point is based on,
+followed by my own [translation to English](#english-translation)
+(which I hope it conveys the original message):
+
+#### Excerpt of "God's Crooked Lines" by Torcuato Luca de Tena
 
 >-¿Qué piensa usted de las artes?
 >
@@ -62,7 +107,7 @@ Let me reproduce the specific excerpt in the original Spanish, with a subsequent
 >es la más grande de todas ellas; la menos irracional, la más intelectual,
 >la más espiritual, la más humana.
 
-Here you can find a translation of my own (I hope it conveys the original message):
+#### English translation
 
 >-What are your views on art?
 >
@@ -75,17 +120,19 @@ Here you can find a translation of my own (I hope it conveys the original messag
 >
 >-Please explain yourself.
 >
->-The man is the only animal who creates necessities that do not have anything to do with
->the subsistence of the individual or the reproduction of the species. It is not enough for him
->to eat in order to nourish himself, but he seasons his nourishment to add pleasure to the
->satisfaction of his needs. It is not enough to cover himself up to protect from cold,
->but he must add on top
->of this elemental function the requirement of clothing with particular shapes and colors.
+>-Man is the only animal who creates necessities that do not have anything to do with
+>the subsistence of the individual or the reproduction of the species. Eating is not enough for him
+>to nourish himself, but he seasons his nourishment in order to add pleasure to the
+>satisfaction of his need. Clothing is not enough to protect from cold,
+>but he must add, on top
+>of this elemental function, the requirement of clothes with particular shapes and colors.
 >Shelter does not content him, for he must construct buildings with harmonious and fanciful
->lines that exceed his needs. Well, all these useless addenda on top of pure necessity...
->is what we call art!
+>lines that exceed his need.
+>Is there anything more useless than the tie you are wearing?
+>Well, all these useless addenda on top of pure necessity...
+>is indeed art!
 >
->Gastronomy, the so-called haute couture and decoration are the first arts that our species
+>Gastronomy, the so-called haute couture and decoration are the first arts our species
 >created, as they display the useless excesses to the primary necessities of eating,
 >protection and shelter.
 >
@@ -95,8 +142,8 @@ Here you can find a translation of my own (I hope it conveys the original messag
 >necessity that held its lucubrations, that is when the great Arts were born.  
 >
 >Dance is... How can I explain? Nothing but... Sublimed mimic! Perhaps dance is even older than
->speech and it originally had some practical intention; it may have had some erotic, reverential
->or religious charge. I was not there and thus I ignore its true intentionality.
+>speech, and it originally had some practical intention; it may have had some erotic, reverential
+>or religious charge. I was not there and I ignore its true intentionality.
 >But no doubt it involved some purpose leading to the achievement of an aim...
 >
 >(...)
@@ -110,33 +157,15 @@ Here you can find a translation of my own (I hope it conveys the original messag
 >-Its merit is parallel to that of Painting, yet somewhat more useless. (...)
 >
 >There is finally only Music left.
->What can be more useless than joining noise to some other noises, none of them
->remotely expressing anything while they are open to a thousand different interpretations
->according to one's mood? Who can this nourish? Who should this protect?
->Whose shelter will this be? No one! Music is the most useless, biologically speaking,
+>What can be more useless than joining noise to some other noises,
+>which directly lack any meaning
+>while they are open to a thousand different interpretations
+>according to one's mood? Who can this nourish? Who will this protect?
+>Who should this shelter? No one! Music is the most useless, biologically speaking,
 >among all Arts and, as a result of its terrifying radical uselessness, it is the greatest
 >among them; the least irrational, the most intellectual, the most spiritual, the most humane.
 
-As an engineer, I am used to thinking along such terms as requirement, accuracy,
-usefulness/uselessness
-and the like. This is in deep conflict with many of my personal interests (read music and art
-in general), which according to don Torcuato are not only useless, but they can only become
-greater the more useless they are.
-
-However, I also like coding. And through code one can generate, render, manipulate, process
-futile streams of audio, pixels, bits of uselessness so rigorously analyzed that it becomes
-incredibly useful.
-
-Most of my projects here have some arty touch, as this is something I truly enjoy. Also,
-these creations are often enough _useless_ in terms of my job, so that I cannot sell them
-to any colleague or boss. This is what has pushed me to publish them on a personal website.
-Now that they are accessible to anyone, I am no longer the one that has to deem it useful or
-useless, but I will let you take that role.
-
 ## More information
-
-Both author and novel seem to be quite unknown at an international level. Unfortunately,
-this means that the only faithful sources I can provide are from the Spanish Wikipedia.
 
 * [Torcuato Luca de Tena](https://es.wikipedia.org/wiki/Torcuato_Luca_de_Tena_Brunet)
 * [Los Renglones Torcidos de Dios](https://es.wikipedia.org/wiki/Los_renglones_torcidos_de_Dios)

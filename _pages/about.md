@@ -3,6 +3,36 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Hi! My name is Rodrigo Hernangómez and
+I was born and raised in Madrid, where I also got my M.Sc.
+in Telecommunication Engineering from the
+[Universidad Politécnica de Madrid](http://www.upm.es/internacional).
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Currently I am pursuing a PhD in Electrical Engineering at the
+[Technische Universität Berlin](https://www.tu-berlin.de/menue/home/parameter/en/)
+while working as a research assistant for the
+[Fraunhofer Institute for Telecommunication, Heinrich Hertz Institute](https://www.hhi.fraunhofer.de/).
+
+As a research assistant, I am involved in
+public and private projects with several partners.
+Among them I would like to cite 
+[Infineon Technologies AG](https://www.infineon.com/),
+which I have been closely working with since 2018.
+
+My research interests include machine and deep learning,
+Bayesian statistics, information theory and signal processing,
+specially in application to the fields of radar and
+wireless communication.
+
+Apart from this, I am also deeply interested in other topics
+dealing with digital art, music information retrieval and
+image and sound. Most of my personal projects fall under
+these topics, while the former ones are covered by my professional
+and research activities.
+
+You can also find me on
+[TU Berlin's site](https://www.netit.tu-berlin.de/menue/team/extern/hernangomez/)
+and
+[Google scholar](https://www.researchgate.net/profile/Rodrigo_Hernangomez).
+
+Any questions? Do not hesitate to [contact me](contact).{: .notice--primary}

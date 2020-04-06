@@ -29,7 +29,6 @@ search: true
 reCaptcha:
   enabled: true
   siteKey: "6LdF5uYUAAAAALPHJAys7PkiU7BiTJi-NRPTG9wm"
-  secret: "KHMItsMBnmy+xppFbb2tRJvh3VL0F5dmPpsDPKfjWZE8wg2ZN54h3OepOD5G0PMiIz092LEHGzNc4kZjIZzfZZRd/qOlD+xsS6+rpvRmlM1gWf7xTvE1TxrbDmLz0vvKOWxcZ92fZJ5hmwrAwdmtt3H+2TECCkfvMs2yZkRydPg="
 
 # Build settings
 markdown: kramdown
@@ -68,7 +67,7 @@ author:
   name   : "Rodrigo Hernangómez"
   avatar : "/assets/images/bio-photo.png"
   bio    : "PhD student in Electrical Engineering. Fascinated by the interplay between beauty and math."
-  location: raised in Madrid, based in Berlin
+  location: Berlin, Germany
   links:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
@@ -100,6 +99,7 @@ footer:
       
 head_scripts:
   - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML
+  - https://www.google.com/recaptcha/api.js
 
 collections:
   projects:
