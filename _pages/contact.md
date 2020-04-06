@@ -12,8 +12,8 @@ Please leave them here so that I can get in contact with you.
   action="https://formspree.io/mrgaproo"
   method="POST"
 >
-  <fieldset>
   <div class="g-recaptcha" data-sitekey={{site.reCaptcha.siteKey}}></div> 
+  <fieldset>
   <legend>Contact Form</legend>
   <label>
     Your email:
