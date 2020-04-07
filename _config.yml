@@ -107,12 +107,14 @@ defaults:
       path: ""
       type: projects
     values:
-      layout: single
+      layout: repo
       author_profile: true
       read_time: true
       comments: true
       share: true
       mathjax: true
+      toc: true
+      toc_sticky: true
   # _pages
   - scope:
       path: "_pages"

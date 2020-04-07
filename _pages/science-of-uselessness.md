@@ -10,6 +10,8 @@ tags:
   - novel
   - science
 search: true
+toc: true
+toc_sticky: true
 ---
 
 I owe the title of my website to no other than **Don Torcuato Luca de Tena**.
@@ -47,10 +49,11 @@ I am no longer the one that has to deem them useful or
 useless; I will let you take that role instead.
 
 Both Luca de Tena and (his) God's Crooked Lines seem to be quite unknown
-outside the Spanish-speaking world. Therefore,
-[further references](#more-information), as well as
-the [discussed fragment of the book](#excerpt-of-gods-crooked-lines-by-torcuato-luca-de-tena),
-are only available in Spanish.
+outside the Spanish-speaking world. This is a pity,
+as the
+[discussed fragment of the book](#excerpt-of-gods-crooked-lines-by-torcuato-luca-de-tena),
+is only available in Spanish.
+The same goes for any [further references](#more-information).
 
 Let me nevertheless reproduce the
 [original excerpt](#excerpt-of-gods-crooked-lines-by-torcuato-luca-de-tena) 
@@ -110,7 +113,7 @@ followed by my own [translation to English](#english-translation)
 
 #### English translation
 
->-What are your views on art?
+>-What do you think about art?
 >
 >-Art is the science of uselessness.
 >
@@ -124,12 +127,12 @@ followed by my own [translation to English](#english-translation)
 >-Man is the only animal who creates necessities that do not have anything to do with
 >the subsistence of the individual or the reproduction of the species. Eating is not enough for him
 >to nourish himself, but he seasons his nourishment in order to add pleasure to the
->satisfaction of his need. Clothing is not enough to protect from cold,
+>satisfaction of his need. Clothing is not enough to protect him from cold,
 >but he must add, on top
 >of this elemental function, the requirement of clothes with particular shapes and colors.
 >Shelter does not content him, for he must construct buildings with harmonious and fanciful
 >lines that exceed his need.
->Is there anything more useless than the tie you are wearing?
+>Is there anything more useless than the tie you are wearing right now?
 >Well, all these useless addenda on top of pure necessity...
 >is indeed art!
 >
@@ -143,7 +146,7 @@ followed by my own [translation to English](#english-translation)
 >necessity that held its lucubrations, that is when the great Arts were born.  
 >
 >Dance is... How can I explain? Nothing but... Sublimed mimic! Perhaps dance is even older than
->speech, and it originally had some practical intention; it may have had some erotic, reverential
+>speech, and it originally had some practical intention; it might have had some erotic, reverential
 >or religious charge. I was not there and I ignore its true intentionality.
 >But no doubt it involved some purpose leading to the achievement of an aim...
 >
@@ -164,7 +167,7 @@ followed by my own [translation to English](#english-translation)
 >according to one's mood? Who can this nourish? Who will this protect?
 >Who should this shelter? No one! Music is the most useless, biologically speaking,
 >among all Arts and, as a result of its terrifying radical uselessness, it is the greatest
->among them; the least irrational, the most intellectual, the most spiritual, the most humane.
+>among them; the least irrational, the most intellectual, the most spiritual, the most human.
 
 ## More information
 

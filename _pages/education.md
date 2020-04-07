@@ -43,7 +43,7 @@ the [Departamento de Ingeniería Electrónica](http://www.die.upm.es/en), either
 
 More detailed info following soon... Meanwhile you can check some links:
 
-- [Pi Macthing. RaspPi-based Speech recognition system](https://pimatching.wordpress.com/)
 - [Ofelia. High-End Loudspeakers](http://elb105.com/tag/ofelia/)
 - [Cátedra BQ](https://www.youtube.com/watch?v=ww8EBchI8Fg)
+- [Pi Matching. RaspPi-based Speech recognition system](https://pimatching.wordpress.com/)
 
