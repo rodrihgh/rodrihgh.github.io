@@ -9,6 +9,7 @@ tags:
   - art
   - novel
   - science
+search: true
 ---
 
 I owe the title of my website to no other than **Don Torcuato Luca de Tena**.

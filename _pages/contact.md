@@ -4,7 +4,7 @@ title: "Contact"
 recaptcha: true
 ---
 
-<i class="fas fa-info-circle"></i>Do you have any questions, comments, suggestions... ? Please leave them here so that I can get in contact with you.
+<i class="fas fa-info-circle"></i> Do you have any questions, comments, suggestions... ? Please leave them here so that I can get in contact with you.
 {: .notice--primary}
 
 <form
