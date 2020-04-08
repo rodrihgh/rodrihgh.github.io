@@ -63,7 +63,7 @@ my point is based on,
 followed by my own [translation to English](#english-translation)
 (which I hope it conveys the original message):
 
-#### Excerpt from the book
+### Excerpt from the book
 
 >-¿Qué piensa usted de las artes?
 >
@@ -113,7 +113,7 @@ followed by my own [translation to English](#english-translation)
 >es la más grande de todas ellas; la menos irracional, la más intelectual,
 >la más espiritual, la más humana.
 
-#### English translation
+### English translation
 
 >-What do you think about art?
 >

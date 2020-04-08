@@ -5,6 +5,7 @@ header:
   video:
     id: ZzZ8mFEQnbo
     provider: youtube
+  teaser: /assets/images/white-nightmare-th.png
 
 ---
 
@@ -14,6 +15,8 @@ header:
 ## The story
 
 Short introduction
+
+{
 
 ### English
 
@@ -37,13 +40,20 @@ El sueño no tiene ningún desarrollo. Las sensaciones que describo simplemente 
 
 ## The math
 
-$$X_t=\alpha X_{t-1}+\left(1-\alpha\right)\epsilon_t$$
+The nature of the nightmare, based on this concept of a maze emerging out of white noise, lend itself to a
+quite clean mathematical model. I just needed a couple of ingredients to bring it together nicely:
+
+- A **maze generation** algorithm
+- Some statistical tools to mimic the noisy effects, most of which are related with **autoregressive models**. 
+
 
 ### Maze generation
 
-TODO
+
 
 ### Autoregressive models
+
+$$X_t=\alpha X_{t-1}+\left(1-\alpha\right)\epsilon_t$$
 
 TODO
 
