@@ -14,12 +14,12 @@ title: "Education"
 
 Currently I am pursuing my PhD at
 [TU Berlin](https://www.tu-berlin.de/menue/home/parameter/en/)
-under the supervision of
-[Prof. Dr.-Ing. Slawomir Stanczak](https://www.netit.tu-berlin.de/menue/team/prof_dr_ing_slawomir_stanczak/).
-You can find some information about our research
+within the 
+[Network Information Theory Group](https://www.netit.tu-berlin.de/menue/network_information_theory_group/).
+You can find some information about my research
 [here](../research)
 or at
-[TU Berlin's site](https://www.netit.tu-berlin.de/menue/team/extern/hernangomez/).
+[the group's site](https://www.netit.tu-berlin.de/menue/team/extern/hernangomez/).
 
 ### Technische Universität München
 

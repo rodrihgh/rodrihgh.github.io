@@ -14,6 +14,8 @@ toc: true
 toc_sticky: true
 ---
 
+## God's Crooked Lines
+
 I owe the title of my website to no other than **Don Torcuato Luca de Tena**.
 This Spanish journalist and author wrote its most acclaimed novel
 **"Los Renglones Torcidos de Dios"**
@@ -51,17 +53,17 @@ useless; I will let you take that role instead.
 Both Luca de Tena and (his) God's Crooked Lines seem to be quite unknown
 outside the Spanish-speaking world. This is a pity,
 as the
-[discussed fragment of the book](#excerpt-of-gods-crooked-lines-by-torcuato-luca-de-tena),
+[discussed fragment of the book](#excerpt-from-the-book),
 is only available in Spanish.
 The same goes for any [further references](#more-information).
 
 Let me nevertheless reproduce the
-[original excerpt](#excerpt-of-gods-crooked-lines-by-torcuato-luca-de-tena) 
+[original excerpt](#excerpt-from-the-book) 
 my point is based on,
 followed by my own [translation to English](#english-translation)
 (which I hope it conveys the original message):
 
-#### Excerpt of "God's Crooked Lines" by Torcuato Luca de Tena
+#### Excerpt from the book
 
 >-¿Qué piensa usted de las artes?
 >
