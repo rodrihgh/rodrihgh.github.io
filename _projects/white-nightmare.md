@@ -6,6 +6,7 @@ header:
     id: ZzZ8mFEQnbo
     provider: youtube
   teaser: /assets/images/white-nightmare-th.png
+excerpt: "When I was a child, I used to have a recurrent nightmare. Now I recreated using some math voodoo."
 
 ---
 
@@ -13,10 +14,6 @@ header:
 {: .notice--warning}
 
 ## The story
-
-Short introduction
-
-{
 
 ### English
 
