@@ -20,7 +20,7 @@ excerpt: "When I was a child, I used to have a recurrent nightmare. Now I recrea
 
 I do not remember my own dreams anymore.
 I only wake up to feel the last shreds of a dream tangling around my pillow,
-and then I try to munch out its aftertaste while I rouse myself, until it finally vanishes away
+and then I try to munch out its aftertaste while I rouse myself, until it finally vanishes away.
  Whether that taste is bitter or sweet, it is up to each dream, but they all end up fading out of my memory.
 There are, however, some recurrent childhood dreams from which I still keep a vivid image.
 
@@ -59,7 +59,7 @@ to some probability distribution; every time you generate a maze, it will be a d
 Likewise, everytime I simulate my nightmare it will be similar but not the same one.
 That is exactly the way it would also happen during my childhood, every four or five months. 
 
-{% include figure image_path="https://media.githubusercontent.com/media/rodrihgh/white-nightmare/master/media/white_nightmare.gif" alt="White noise maze" caption='One of the many "nightmares" that would haunt me.' %}
+{% include figure image_path="assets/images/white-nightmare.gif" alt="White noise maze" caption='One of the many "nightmares" that would haunt me.' %}
 
 
 ### Maze generation
@@ -69,7 +69,7 @@ There is a bunch of algorithms to generate mazes out there, those based on
 Under this setup, the maze is modelled as a **graph** where nodes represent cells and edges represent walls,
 and the task consists of finding a **spanning tree** for that model.
 
-{% include figure image_path="assets/images/maze-graph.gif" alt="graph-theory-based maze generation" caption="Graph-theory based maze generation. Source: Wikipedia" %}
+{% include figure image_path="assets/images/maze-graph.gif" alt="graph-theory-based maze generation" caption="Graph-theory-based maze generation. Source: Wikipedia" %}
 
 For this project I chose
 [Wilson's algorithm](https://en.wikipedia.org/wiki/Maze_generation_algorithm#Wilson's_algorithm),
@@ -148,13 +148,23 @@ I have cheated
 
 Gaussian white noise looks like this:
 
+{% include figure image_path="assets/images/noise-frame.svg" alt="White noise" %}
+
 The background of the image looks like this:
 
+{% include figure image_path="assets/images/bg-frame.svg" alt="Background noise" %}
+
 They actually look different, and if you watch the spectra :
+
+{% include figure image_path="assets/images/noise-spectrum.svg" alt="Noise spectrum" %}
+
+{% include figure image_path="assets/images/bg-spectrum.svg" alt="Background spectrum" %}
 
 Background not flat -> not white
 
 The explanation has to do with the maze. Here you have its spectrum:
+
+{% include figure image_path="assets/images/maze-spectrum.svg" alt="Maze spectrum" %}
 
 Looks the same as the background up to some shiny edges which represent the maze structure.
 The central plateau accounts for low frequencies or low-resolution details -> the thick walls and cells.
@@ -162,14 +172,18 @@ The floor represents fine-grain noise, high frequencies, high resolution.
 (As a matter of fact, video coding standards wildly reduce such high-res features, that's the reason
 they are more visible in the GIF than in the video above).
 
-the background is fake "white noise" that mimicks the maze. I create it by generating coarse wn,
+the background is fake "white noise" that mimics the maze. I create it by generating coarse wn,
 zooming in and adding fine-grain wn. That's why its spectrum looks similar as.
 But not only spectra look similar: That's a comparison of a half-emerged maze against the actual background
 vs. the same rendering against pure white noise:
 
+{% include figure image_path="assets/images/transition.svg" alt="Half transitioned maze against background noise and white noise" %}
+
 If I used pure white noise for the background, the transition would look patchy instead of gradual.
 
 Background and maze do have a similarity with this Gaussian white noise. Look at their histograms:
+
+{% include figure image_path="assets/images/histograms.svg" alt="Noise histograms" %}
 
 This is an example that the histogram of a stochastic signal does not say anything about its
 spectrum, and vice-versa. This is a very common pitfall for undergraduate and graduate students
