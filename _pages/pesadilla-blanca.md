@@ -13,7 +13,7 @@ excerpt: "Recreación de una inquietante pesadilla que solía tener de niño."
 
 ---
 
-**Info** To read the English version along with some technical details, please visit my project [White Nightmare](projects/white-nightmare).
+**Info** To read the English version along with some technical details, please visit my project [White Nightmare](../projects/white-nightmare).
 {: .notice--info}
 
 
