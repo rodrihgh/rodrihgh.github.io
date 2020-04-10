@@ -6,6 +6,8 @@ header:
     id: ZzZ8mFEQnbo
     provider: youtube
   teaser: /assets/images/white-nightmare-th.png
+colab:
+  enabled: true
 excerpt: "When I was a child, I used to have a recurrent nightmare. Now I recreated it using some math voodoo."
 
 ---
@@ -161,7 +163,7 @@ While the actual background of the animation would be something like this for th
 
 {% include figure image_path="assets/images/bg-frame.svg" alt="Background noise" %}
 
-I am sure you can spot the difference. They are even easier to tell apart if we rather take a look
+I am sure you can spot the difference. They are even easier to tell apart if we take a look
 at their frequency spectra:
 
 {% include figure image_path="assets/images/noise-spectrum.svg" alt="Noise spectrum" %}
@@ -181,13 +183,13 @@ Here you can see its spectrum:
 
 It is definitely not flat either. Furthermore, it also exhibits the same low-frequency
 plateau and high-frequency floor than
-the background, plus some shiny edges at the transition enclosing some ripple in the center.
-That is the secret of the magick trick: ripples and edges account for the maze structure,
+the background, plus some shiny edges at the transition which enclose some ripple.
+That is the trick: ripples and edges account for the maze structure,
 the central plateau represents low-resolution details (the thick walls and cells),
 and the floor represents fine-grained noise, that is, high-resolution details
 (which are encoded at higher frequencies).
 
-The background is "quasi-white noise" that mimics the maze.
+The background is some "quasi-white noise" that mimics the maze.
 I create it by generating coarse white noise,
 zooming in and adding finer white noise.
 That is why its spectrum looks similar as the maze's does.

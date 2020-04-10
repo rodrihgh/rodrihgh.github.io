@@ -115,6 +115,10 @@ defaults:
       mathjax: true
       toc: true
       toc_sticky: true
+      colab:
+        enabled: false
+        branch: "master"
+        path: "colab.ipynb"
   # _pages
   - scope:
       path: "_pages"
