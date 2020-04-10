@@ -10,10 +10,10 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   height="391.67999pt"
+   height="421.67999pt"
    version="1.1"
-   viewBox="0 0 750.00001 391.68"
-   width="750pt"
+   viewBox="0 0 421.68 421.68"
+   width="421.67999pt"
    id="svg19"
    sodipodi:docname="noise-frame.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
@@ -38,17 +38,21 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1600"
-     inkscape:window-height="821"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
      id="namedview21"
      showgrid="false"
-     inkscape:zoom="0.45189952"
-     inkscape:cx="294.31321"
-     inkscape:cy="261.12"
+     inkscape:zoom="1.2781649"
+     inkscape:cx="138.13443"
+     inkscape:cy="127.10971"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg19" />
+     inkscape:current-layer="svg19"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <defs
      id="defs4"
      style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
@@ -61,7 +65,7 @@
   <g
      id="figure_1"
      style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round"
-     transform="translate(180,-5.3515628e-6)">
+     transform="translate(15,15)">
     <g
        id="patch_1"
        style="white-space:pre;stroke-linecap:butt;stroke-linejoin:round">
