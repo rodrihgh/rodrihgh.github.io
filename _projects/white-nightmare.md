@@ -10,12 +10,9 @@ excerpt: "When I was a child, I used to have a recurrent nightmare. Now I recrea
 
 ---
 
-**Warning** <i class="fas fa-exclamation-triangle"></i> Project under construction.
-{: .notice--warning}
-
 ## The story
 
-**Note** _This is a translation of the original story I wrote about my recurrent nightmare in Spanish. You can find the original text [here](../../pesadilla-blanca)._
+**Note** _This is a translation of the original story I wrote in Spanish about a recurrent nightmare I had as a child. You can find the original text [here](../../pesadilla-blanca)._
 {: .notice--info}
 
 I do not remember my own dreams anymore.
@@ -41,23 +38,29 @@ while the image convulses furiously.
 The evidence of confinement grips me tighter and tighter in this abstract corner of the labyrinth.
 My family and friends may be hidden in another unreachable region of this black-and-white map.
 The experience is probably also unpleasant for them, but they are at least together,
-that is the only thing I know. Unlike them, I am fully isolated, dozens of pixels away from them.
+that is the only thing I know. Unlike them, I am fully isolated, dozens of pixels away from my loved ones.
 And I ignore whether they miss me, or if they are worried, or trying to find me by all means…
 
-There is no further development of the dream. The sensations I have described just keep building up in a cruel crescendo until anxiety grows unbearable. On the edge of a child’s psychological pain threshold, I suddenly wake up. The deafening white noise starts to settle down, like venomous sea foam that retires from the skin without moistening it. It will still take one or two minutes to untie the knot in the stomach.
+There is no further development of the dream.
+The sensations I have described just keep building up in a cruel crescendo until anxiety grows unbearable.
+On the edge of a child’s psychological pain threshold, I suddenly wake up.
+The deafening white noise starts to settle down,
+like venomous sea foam that retires from the skin without moistening it.
+It will still take one or two minutes to untie the knot in my stomach.
 
 ## The math
 
 The nature of the nightmare, based on this concept of a maze emerging out of white noise, lends itself to a
-quite clean mathematical model. I just needed a couple of ingredients to bring it together nicely:
+quite clean mathematical model. I just needed a couple of ingredients to put it together nicely:
 
 - A **maze generation** algorithm.
-- Some statistical tools to mimic the noisy effects, most of which are related with **autoregressive models**. 
+- Some statistical tools to mimic the noisy effects, most of which are related to **autoregressive models**. 
 
 Both concepts sink their roots into **probability theory**. This means that they operate randomly according
-to some probability distribution; every time you generate a maze, it will be a different than the preovious one.
-Likewise, everytime I simulate my nightmare it will be similar but not the same one.
-That is exactly the way it would also happen during my childhood, every four or five months. 
+to some probability distribution; with every run of the algorithm you generate a unique, distinct maze.
+Likewise, every time I simulate my nightmare it will be similar but subtly different.
+That is exactly the way it would also happen during my childhood, every four or five months
+the same vibes to different pictures. 
 
 {% include figure image_path="assets/images/white-nightmare.gif" alt="White noise maze" caption='One of the many "nightmares" that would haunt me.' %}
 
@@ -90,18 +93,18 @@ Signal theory designates as **white noise** those random signals whose
 frequency spectrum is flat. This means that they are composed of all frequencies
 of the spectrum, in the same way that white light comprises all frequencies in
 the visible spectrum (what we actually know as colors), hence the name. A consequence of this is that all signal values
-are **independent** of each other. These values may follow a Gaussian distribution,
+are **independent** of each other. These values often follow a Gaussian distribution,
 although this is not always the case.
 
 ### Autoregressive models
 
 The grayscale levels of the cells and walls in the maze cannot be independent
 random values, otherwise the structure would be lost. On the other hand,
-if we naively assign black level to walls and white level to cells it
+if we naively assign black level to walls and white level to cells this
 will stand out of the white noise and the visual impact will be equally lost.
 
 The solution is to find a trade-off: the brightness of the maze pixels will be random,
-but not entirely, so that the structure is preserved.
+but somehow similar to their neighbor's, so that the structure is preserved.
 That is what autoregressive models are about.
 
 **Autoregressive models** (AR models for short) are random processes obtained by weighting 
@@ -121,7 +124,7 @@ $$X_t=\alpha X_{t-1}+\left(1-\alpha\right)\epsilon_t$$
 
 where $$\epsilon_t$$ represents an (independent) random value, $$X_{t-1}$$ and $$X_t$$
 are the values of the AR model for positions $$t-1$$ and $$t$$ respectively,
-and $$\alpha\in\left(0,1\right)$$ is a smooth factor: the closer $$\alpha$$ is
+and $$\alpha\in\left(0,1\right)$$ is a smoothing factor: the closer $$\alpha$$ is
 to 1, the more similar $$X_t$$ will be to $$X_{t-1}$$.
 
 I apply this AR model along the path, in the same direction as the color gradient above.
@@ -133,66 +136,80 @@ But this is not all. Walls and cells have a certain width, so they cannot be
 as granular as proper white noise. In order to overcome this, I apply fine-grained white
 noise on top of the AR maze, making it indeed look noisier.
 
-You may have noticed that the maze pattern does not stay still.
+**Note** As a matter of fact, video coding standards wildly reduce such high-res features. That's the reason
+the GIF and the pictures exhibit more granularity that the video on top of the page.
+{: .notice--info }
+
+You may have noticed that the maze pattern does not stay still,
 but it rather keeps shaking around timidly. Can you guess how I modeled this random shift?
 You are right: Autoregression.
 
 In that case I calculate two different AR processes: one for the column shift and
 another one for the row shift. Then I apply this $$\alpha$$-smoothing along the corresponding
-direction, so that two consecutive rows/columns are not abruptly shifted from each other.
+direction, so that two consecutive rows/columns are not abruptly shifted apart from each other.
 On top of that, I also smooth it down along the time direction to avoid extremely fast changes.
 
 ### How white is your noise?
 
-I have cheated
-
-Gaussian white noise looks like this:
+This is a bonus for signal-theory lovers. I have to reckon I have cheated: I keep talking
+about white noise while the background of the image is _clearly_ not white noise.
+Gaussian white noise looks like this for a certain picture width and height:
 
 {% include figure image_path="assets/images/noise-frame.svg" alt="White noise" %}
 
-The background of the image looks like this:
+While the actual background of the animation would be something like this for the same dimensions:
 
 {% include figure image_path="assets/images/bg-frame.svg" alt="Background noise" %}
 
-They actually look different, and if you watch the spectra :
+I am sure you can spot the difference. They are even easier to tell apart if we rather take a look
+at their frequency spectra:
 
 {% include figure image_path="assets/images/noise-spectrum.svg" alt="Noise spectrum" %}
 
 {% include figure image_path="assets/images/bg-spectrum.svg" alt="Background spectrum" %}
 
-Background not flat -> not white
+The spectrum of pure white noise is clearly flat at around -27 dB (as it is one of its properties).
+On the other hand,
+the noise background I generate has a -16 dB plateau from -0.125 to 0.125 cycles/pixel
+(for both vertical and horizontal frequency) on top of a -31 dB floor.
+It is, thus, not flat, and so it is also not white. 
 
-The explanation has to do with the maze. Here you have its spectrum:
+The reason why I painted the background with colored (a.k.a non-white) noise has to do with the maze.
+Here you can see its spectrum:
 
 {% include figure image_path="assets/images/maze-spectrum.svg" alt="Maze spectrum" %}
 
-Looks the same as the background up to some shiny edges which represent the maze structure.
-The central plateau accounts for low frequencies or low-resolution details -> the thick walls and cells.
-The floor represents fine-grain noise, high frequencies, high resolution.
-(As a matter of fact, video coding standards wildly reduce such high-res features, that's the reason
-they are more visible in the GIF than in the video above).
+It is definitely not flat either. Furthermore, it also exhibits the same low-frequency
+plateau and high-frequency floor than
+the background, plus some shiny edges at the transition enclosing some ripple in the center.
+That is the secret of the magick trick: ripples and edges account for the maze structure,
+the central plateau represents low-resolution details (the thick walls and cells),
+and the floor represents fine-grained noise, that is, high-resolution details
+(which are encoded at higher frequencies).
 
-the background is fake "white noise" that mimics the maze. I create it by generating coarse wn,
-zooming in and adding fine-grain wn. That's why its spectrum looks similar as.
-But not only spectra look similar: That's a comparison of a half-emerged maze against the actual background
+The background is "quasi-white noise" that mimics the maze.
+I create it by generating coarse white noise,
+zooming in and adding finer white noise.
+That is why its spectrum looks similar as the maze's does.
+
+But not only their spectra look similar. Here it is a comparison of a half-emerged maze against the actual background
 vs. the same rendering against pure white noise:
 
 {% include figure image_path="assets/images/transition.svg" alt="Half transitioned maze against background noise and white noise" %}
 
-If I used pure white noise for the background, the transition would look patchy instead of gradual.
+Do you notice? If I used pure white noise for the background, the transition would look patchy instead of gradual.
 
-Background and maze do have a similarity with this Gaussian white noise. Look at their histograms:
+Background and maze do have a similarity with pure Gaussian white noise, though.
+It unveils if we look at their histograms:
 
 {% include figure image_path="assets/images/histograms.svg" alt="Noise histograms" %}
 
-This is an example that the histogram of a stochastic signal does not say anything about its
-spectrum, and vice-versa. This is a very common pitfall for undergraduate and graduate students
-in Engineering, including myself. 
+They are very similar! This is an example that the histogram of a stochastic signal does not say anything about its
+spectrum, and vice-versa. This is a very common pitfall among undergraduate and graduate
+engineering students, including myself. 
 
-**Disclaimer:** The histogram of maze and background is not Gaussian strictly speaking, but a mixture of
-two Gaussian curves (one for dark values -> walls and another for white values -> cells) that lie
-so close together that appear as a single one in the histogram. However, if you look at the histograms
-you see a notch between the Gaussian fit and the actual count bins, which accounts for this fact.
+**Disclaimer** The histogram of maze and background is not Gaussian strictly speaking, but a mixture of two Gaussian curves (one for walls and another for cells) lying so close together that appear as a single one in the histogram. This is also why there is a notch between the dashed Gaussian fit and the actual count bins, as their distribution is slightly broader. This comment is irrelevant for the sake of the discussion, anyway.
+{: .notice--warning }
 
 
 ## Further references
