@@ -20,10 +20,17 @@ excerpt: "When I was a child, I used to have a recurrent nightmare. Now I recrea
 I do not remember my own dreams anymore.
 I only wake up to feel the last shreds of a dream tangling around my pillow,
 and then I try to munch out its aftertaste while I rouse myself, until it finally vanishes away.
- Whether that taste is bitter or sweet, it is up to each dream, but they all end up fading out of my memory.
+ Whether that taste is bitter or sweet, it is up to each dream,
+but they all end up fading out of my memory anyway.
 There are, however, some recurrent childhood dreams from which I still keep a vivid image.
 
-Almost all these recurrent dreams were nightmares, most of them ridiculously naive and harmless when thinking retrospectively. Maybe some spooky monster here and there, or images from a horror movie trailer I should not have watched… The usual stuff kids experience at that age. One of them was, nevertheless, particularly haunting, and still nowadays it makes me admire the psyche of my inner pants-shitting ten-year-old. There are no monsters in that dream, nor blood or definite dangers. I cannot even say whether a single person I know shows up there. I do think I am present, even though that presence is intangible, incorporeal, almost indescribable.
+Almost all these recurrent dreams were nightmares,
+most of them ridiculously naive and harmless when thinking retrospectively.
+Maybe some spooky monster here and there, or images from a horror movie trailer I should not have watched…
+The usual stuff kids experience at that age. One of them was, nevertheless, particularly haunting,
+and still nowadays it makes me admire the psyche of my inner pants-shitting ten-year-old.
+There are no monsters in that dream, nor blood or any definite dangers.
+I cannot even say whether a single person I know shows up there. I do think I am present, even though that presence is intangible, incorporeal, almost indescribable.
 
 Let me try to explain it: This nightmare looks like a fuzzy frame of white noise,
 this kind of snowy mess you can see on the screen of an old untuned TV.
@@ -105,13 +112,14 @@ random values, otherwise the structure would be lost. On the other hand,
 if we naively assign black level to walls and white level to cells this
 will stand out of the white noise and the visual impact will be equally lost.
 
-The solution is to find a trade-off: the brightness of the maze pixels will be random,
+The solution is to find a trade-off: the brightness of the pixels will be random,
 but somehow similar to their neighbor's, so that the structure is preserved.
 That is what autoregressive models are about.
 
 **Autoregressive models** (AR models for short) are random processes obtained by weighting 
 and averaging a random value
-with some of the past values of the process. If the right parameters are chosen, this
+with some of the previously calculated values of the process.
+If the right parameters are chosen, this
 has a smoothing effect: values are arbitrary, but they do not deviate wildly from
 their neighboring values.
 
@@ -138,8 +146,8 @@ But this is not all. Walls and cells have a certain width, so they cannot be
 as granular as proper white noise. In order to overcome this, I apply fine-grained white
 noise on top of the AR maze, making it indeed look noisier.
 
-**Note** As a matter of fact, video coding standards wildly reduce such high-res features. That's the reason
-the GIF and the pictures exhibit more granularity that the video on top of the page.
+**Note** As a matter of fact, video coding standards wildly reduce such high-res features.
+That is the reason the GIF and the pictures exhibit more granularity that the video on top of the page.
 {: .notice--info }
 
 You may have noticed that the maze pattern does not stay still,
@@ -154,8 +162,8 @@ On top of that, I also smooth it down along the time direction to avoid extremel
 ### How white is your noise?
 
 This is a bonus for signal-theory lovers. I have to reckon I have cheated: I keep talking
-about white noise while the background of the image is _clearly_ not white noise.
-Gaussian white noise looks like this for a certain picture width and height:
+about white noise while the background of the image is everything but white noise.
+This is how Gaussian white noise looks like for a certain picture width and height:
 
 {% include figure image_path="assets/images/noise-frame.svg" alt="White noise" %}
 
@@ -163,17 +171,17 @@ While the actual background of the animation would be something like this for th
 
 {% include figure image_path="assets/images/bg-frame.svg" alt="Background noise" %}
 
-I am sure you can spot the difference. They are even easier to tell apart if we take a look
+I am sure you can spot the difference. This is even easier to see if we take a look
 at their frequency spectra:
 
 {% include figure image_path="assets/images/noise-spectrum.svg" alt="Noise spectrum" %}
 
 {% include figure image_path="assets/images/bg-spectrum.svg" alt="Background spectrum" %}
 
-The spectrum of pure white noise is clearly flat at around -27 dB (as it is one of its properties).
+The spectrum of pure white noise is clearly flat at around -27 dB (as this is one of its properties).
 On the other hand,
 the noise background I generate has a -16 dB plateau from -0.125 to 0.125 cycles/pixel
-(for both vertical and horizontal frequency) on top of a -31 dB floor.
+(for both vertical and horizontal frequency axes) on top of a -31 dB floor.
 It is, thus, not flat, and so it is also not white. 
 
 The reason why I painted the background with colored (a.k.a non-white) noise has to do with the maze.
@@ -183,7 +191,7 @@ Here you can see its spectrum:
 
 It is definitely not flat either. Furthermore, it also exhibits the same low-frequency
 plateau and high-frequency floor than
-the background, plus some shiny edges at the transition which enclose some ripple.
+the background, plus some shiny edges at the transitions and some ripple in between.
 That is the trick: ripples and edges account for the maze structure,
 the central plateau represents low-resolution details (the thick walls and cells),
 and the floor represents fine-grained noise, that is, high-resolution details
@@ -191,7 +199,7 @@ and the floor represents fine-grained noise, that is, high-resolution details
 
 The background is some "quasi-white noise" that mimics the maze.
 I create it by generating coarse white noise,
-zooming in and adding finer white noise.
+zooming in and adding finer white noise on top.
 That is why its spectrum looks similar as the maze's does.
 
 But not only their spectra look similar. Here it is a comparison of a half-emerged maze against the actual background
@@ -199,14 +207,16 @@ vs. the same rendering against pure white noise:
 
 {% include figure image_path="assets/images/transition.svg" alt="Half transitioned maze against background noise and white noise" %}
 
-Do you notice? If I used pure white noise for the background, the transition would look patchy instead of gradual.
+Do you notice? If I used pure white noise for the background,
+the animation would look patchy instead of gradual.
 
 Background and maze do have a similarity with pure Gaussian white noise, though.
-It unveils if we look at their histograms:
+It unveils itself if we look at their histograms:
 
 {% include figure image_path="assets/images/histograms.svg" alt="Noise histograms" %}
 
-They are very similar! This is an example that the histogram of a stochastic signal does not say anything about its
+They are actually very similar!
+Here you have an example how the histogram of a stochastic signal does not say anything about its
 spectrum, and vice-versa. This is a very common pitfall among undergraduate and graduate
 engineering students, including myself. 
 
