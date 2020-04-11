@@ -10,7 +10,7 @@ in Telecommunication Engineering from the
 
 Currently I am pursuing a PhD in Electrical Engineering at the
 [Technische Universität Berlin](https://www.tu-berlin.de/menue/home/parameter/en/)
-while working as a research assistant for the
+while working as a research associate for the
 [Fraunhofer Institute for Telecommunication, Heinrich Hertz Institute](https://www.hhi.fraunhofer.de/).
 
 For an overview of my research activities and projects, do not forget to check the
@@ -24,7 +24,7 @@ on this site is related to these.
 You can also find me on
 [TU Berlin's site](https://www.netit.tu-berlin.de/menue/team/extern/hernangomez/)
 and
-[Google scholar](https://www.researchgate.net/profile/Rodrigo_Hernangomez).
+[Research Gate](https://www.researchgate.net/profile/Rodrigo_Hernangomez).
 
 **Any questions?** Do not hesitate to [contact me](../contact).
 {: .notice--info}

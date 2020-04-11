@@ -17,7 +17,7 @@ which you can find in
 
 ### Projects
 
-As a research assistant at the
+As a research associate at the
 [Fraunhofer Heinrich Hertz Institute](https://www.hhi.fraunhofer.de/),
 I am involved in several
 public and private research projects, including the following ones:
