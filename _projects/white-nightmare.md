@@ -46,7 +46,7 @@ And then the sound rises up to a deafening volume,
 while the image convulses furiously.
 The evidence of confinement grips me tighter and tighter in this abstract corner of the labyrinth.
 My family and friends may be hidden in another unreachable region of this black-and-white map.
-The experience is probably also unpleasant for them, but they are at least together,
+The experience is probably also unpleasant for them, but they are at least together.
 Unlike them, I am fully isolated, dozens of pixels away from my loved ones.
 And I ignore whether they miss me, or if they are worried, or trying to find me by any means…
 

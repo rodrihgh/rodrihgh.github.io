@@ -9,7 +9,8 @@ header:
 permalink: /pesadilla-blanca/
 repository: "white-nightmare"
 read_time: true
-
+colab:
+  enabled: true
 excerpt: "Recreación de una inquietante pesadilla que solía tener de niño."
 
 ---
