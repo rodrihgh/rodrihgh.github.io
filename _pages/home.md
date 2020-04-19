@@ -4,7 +4,7 @@ layout: single
 
 header:
   overlay_color: "#888888"
-  overlay_filter: "0.1"
+  overlay_filter: "0.3"
   overlay_image: /assets/images/harmonics.svg
 excerpt: '"Art is the science of uselessness." --- _Torcuato Luca de Tena_'
 
