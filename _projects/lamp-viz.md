@@ -16,17 +16,15 @@ gallery:
   - url: /assets/images/scv-35dB.png
     image_path: /assets/images/scv-35dB.png
     alt: "Sparse complex vector reconstruction. Normalized error around -35 dB"
-
 ---
 
 Not only are sparse complex vectors useful for real-world problems, but they also look amazing.
-
 <!--more-->
 
 **Warning** <i class="fas fa-exclamation-triangle"></i> Project under construction.
 {: .notice--warning}
 
-TODO: Gallery
+{% include gallery caption="Reconstructed sparse complex vectors under different error levels." %}
 
 The pictures I am showing you here are actually a by-product of a real project I participated in
 at work. We were exploring some strategies to enable massive connectivity in 5G mobile networks,
