@@ -27,8 +27,6 @@ Precise 3D-Localization System for Wireless Controllers in District Heating Netw
 * [AI4Mobile](https://www.forschung-it-sicherheit-kommunikationssysteme.de/projekte/ai4mobile) ---
 KI-gestützte Mobilfunksysteme für Mobilität in Industrie und Verkehr
 (AI-supported Radiocommunication Systems for Mobility in Industry and Traffic).
-* [PEPP-PT](https://www.pepp-pt.org/) ---
-Pan-European Privacy-Preserving Proximity Tracing.
 
 ### Publications
 
