@@ -1,5 +1,6 @@
 ---
 title: "Well Formed Scales"
+excerpt_separator: "<!--more-->"
 header:
     overlay_color: "#888888"
     overlay_filter: "0.25"
@@ -9,6 +10,8 @@ header:
 ---
 
 **COMING SOON**. My next project will deal with the mathematical theory of well formed scales.
+
+<!--more-->
 
 **Warning** <i class="fas fa-exclamation-triangle"></i> Project under construction.
 {: .notice--warning}
