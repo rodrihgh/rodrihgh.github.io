@@ -1,6 +1,6 @@
 ---
 title: "Sparse Complex Vectors"
-excerpt_separator: <!--more-->
+excerpt: Not only are sparse complex vectors useful for real-world problems, but they also look amazing.
 header:
     overlay_color: "#888888"
     overlay_filter: "0.25"
@@ -17,9 +17,6 @@ gallery:
     image_path: /assets/images/scv-35dB.png
     alt: "Sparse complex vector reconstruction. Normalized error around -35 dB"
 ---
-
-Not only are sparse complex vectors useful for real-world problems, but they also look amazing.
-<!--more-->
 
 **Warning** <i class="fas fa-exclamation-triangle"></i> Project under construction.
 {: .notice--warning}

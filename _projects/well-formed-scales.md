@@ -1,6 +1,6 @@
 ---
 title: "Well Formed Scales"
-excerpt_separator: "<!--more-->"
+excerpt: "**COMING SOON**. My next project will deal with the mathematical theory of well formed scales."
 header:
     overlay_color: "#888888"
     overlay_filter: "0.25"
@@ -8,8 +8,10 @@ header:
     teaser: /assets/images/well-formed-scales-th.png
 ---
 
+**Warning** <i class="fas fa-exclamation-triangle"></i> Project under construction.
+{: .notice--warning}
+
 **COMING SOON**. My next project will deal with the mathematical theory of well formed scales.
-<!--more-->
 
 My idea is to write interactive code to play around with the concepts that are explained in the following videos...
 
