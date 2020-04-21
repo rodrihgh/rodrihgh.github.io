@@ -1,6 +1,6 @@
 ---
 title: "Sparse Complex Vectors"
-excerpt_separator: "<!--more-->"
+excerpt_separator: <!--more-->
 header:
     overlay_color: "#888888"
     overlay_filter: "0.25"
