@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Science of Uselessness
-subtitle: Rodrigo's personal website
+subtitle: A math nerd approach to art
 name: Rodrigo Hernangómez
 email: rodrigo@uselessness.science
 description: >- # this means to ignore newlines until "baseurl:"
-  Rodrigo Hernangómez's personal website.
+  Rodrigo Hernangómez's personal website focused on projects that bring together art and maths.
 url: "https://uselessness.science"
 repository: "rodrihgh/rodrihgh.github.io"
 twitter_username: rodrihgh

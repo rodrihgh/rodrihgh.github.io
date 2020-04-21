@@ -81,7 +81,7 @@ There is a bunch of algorithms to generate mazes out there, those based on
 Under this setup, the maze is modelled as a **graph** where nodes represent cells and edges represent walls,
 and the task consists in finding a **spanning tree** for that model.
 
-{% include figure image_path="assets/images/maze-graph.gif" alt="graph-theory-based maze generation" caption="Graph-theory-based maze generation. Source: Wikipedia" %}
+{% include figure image_path="assets/images/maze-graph.gif" alt="graph-theory-based maze generation" caption="Graph-theory-based maze generation. Adapted from Wikipedia" %}
 
 For this project I chose
 [Wilson's algorithm](https://en.wikipedia.org/wiki/Maze_generation_algorithm#Wilson's_algorithm),

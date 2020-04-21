@@ -1,15 +1,14 @@
 ---
 title: "Well Formed Scales"
-excerpt_separator: "<!--more-->"
 header:
     overlay_color: "#888888"
     overlay_filter: "0.25"
     overlay_image: /assets/images/well-formed-scales.png
     teaser: /assets/images/well-formed-scales-th.png
+    caption: "Image source: [**Castrillón & Domínguez, 2013**](http://gaceta.rsme.es/abrir.php?id=1130)"
 ---
 
 **COMING SOON**. My next project will deal with the mathematical theory of well formed scales.
-<!--more-->
 
 **Warning** <i class="fas fa-exclamation-triangle"></i> Project under construction.
 {: .notice--warning}

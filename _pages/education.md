@@ -3,7 +3,7 @@ permalink: /education/
 title: "Education"
 ---
 
-**Warning** <i class="fas fa-exclamation-triangle"></i> Site under construction.
+**Warning** <i class="fas fa-exclamation-triangle"></i> Section under construction.
 {: .notice--warning}
 
 ## Studies
