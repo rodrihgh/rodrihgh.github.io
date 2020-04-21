@@ -1,6 +1,6 @@
 ---
 title: "Well Formed Scales"
-excerpt: "**COMING SOON**. My next project will deal with the mathematical theory of well formed scales."
+excerpt: "**COMING SOON**. Probando"
 header:
     overlay_color: "#888888"
     overlay_filter: "0.25"
@@ -8,16 +8,9 @@ header:
     teaser: /assets/images/well-formed-scales-th.png
 ---
 
-**Warning** <i class="fas fa-exclamation-triangle"></i> Project under construction.
-{: .notice--warning}
-
 **COMING SOON**. My next project will deal with the mathematical theory of well formed scales.
 
 My idea is to write interactive code to play around with the concepts that are explained in the following videos...
-
-{% include video id="P7iC-fbdKmQ" provider="youtube" %}
-{% include video id="1Hqm0dYKUx4" provider="youtube" %}
-{% include video id="cyW5z-M2yzw" provider="youtube" %}
 
 ... and papers:
 
