@@ -1,8 +1,6 @@
 ---
 title: "Sparse Complex Vectors"
-excerpt: Not only are sparse complex vectors useful for real-world problems, but they also look amazing.
-layout: single
-author_profile: false
+excerpt_separator: "<!--more-->"
 header:
     image: /assets/images/sparse-complex-vector.png
     teaser: /assets/images/sparse-complex-vector-th.png
@@ -17,6 +15,10 @@ gallery:
     image_path: /assets/images/scv-35dB.png
     alt: "Sparse complex vector reconstruction. Normalized error around -35 dB"
 ---
+
+Not only are sparse complex vectors useful for real-world problems, but they also look amazing.
+
+<!--more-->
 
 {% include gallery caption="Reconstructed sparse complex vectors under different error levels. Within each picture, the left column shows a portion of the original vector and the right column its reconstruction." %}
 
@@ -49,10 +51,11 @@ for real numbers.
 ### Complex numbers
 
 Once again, complex numbers comprise of a real part and an imaginary part.
-The real part can be any prosaic real number like 1, -3.8, 1846495.576945, $$\pi$$ or even 0.
+The real part can be any prosaic real number like $$1$$, $$-3.8$$,
+$$1846495.576945$$, $$\pi$$ or even $$0$$.
 The imaginary part, on the contrary, is the square root of a negative number. In order to write this
-esoteric part, we notate $$i=\sqrt(-1)$$ and refer any other imaginary number to $$i$$, i.e.:
-$$\sqrt(-4)=2i$$, $$\sqrt(-7)=\sqrt(7)i$$. The full complex number is only the sum of both terms, i.e.:
+esoteric part, we notate $$i=\sqrt{-1}$$ and refer any other imaginary number to $$i$$, i.e.:
+$$\sqrt{-4}=2i$$, $$\sqrt{-7}=\sqrt{7}i$$. The full complex number is only the sum of both terms, i.e.:
 
 $$z=x+y\cdot i$$
 

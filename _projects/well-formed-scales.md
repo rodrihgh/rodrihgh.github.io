@@ -1,15 +1,14 @@
 ---
 title: "Well Formed Scales"
 excerpt_separator: "<!--more-->"
-layout: single
-author_profile: false
 header:
     image: /assets/images/well-formed-scales.png
-    teaser: /assets/images/well-formed-scales-th.png
+    teaser: /assets/images/well-formed-scales.png
     caption: "Image source: [**Castrillón & Domínguez, 2013**](http://gaceta.rsme.es/abrir.php?id=1130)"
+    toc: false
 ---
 
-**COMING SOON**. My next project will deal with the mathematical theory of well formed scales.
+**COMING SOON**. My next project will deal with a mathematical theory for music scales.
 
 <!--more-->
 
