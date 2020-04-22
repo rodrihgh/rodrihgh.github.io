@@ -1,6 +1,8 @@
 ---
 title: "Sparse Complex Vectors"
 excerpt: Not only are sparse complex vectors useful for real-world problems, but they also look amazing.
+layout: single
+author_profile: false
 header:
     image: /assets/images/sparse-complex-vector.png
     teaser: /assets/images/sparse-complex-vector-th.png

@@ -1,6 +1,8 @@
 ---
 title: "Well Formed Scales"
 excerpt_separator: "<!--more-->"
+layout: single
+author_profile: false
 header:
     image: /assets/images/well-formed-scales.png
     teaser: /assets/images/well-formed-scales-th.png
