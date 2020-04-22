@@ -2,9 +2,7 @@
 title: "Sparse Complex Vectors"
 excerpt: Not only are sparse complex vectors useful for real-world problems, but they also look amazing.
 header:
-    overlay_color: "#888888"
-    overlay_filter: "0.25"
-    overlay_image: /assets/images/sparse-complex-vector.png
+    image: /assets/images/sparse-complex-vector.png
     teaser: /assets/images/sparse-complex-vector-th.png
 gallery:
   - url: /assets/images/scv-0dB.png
