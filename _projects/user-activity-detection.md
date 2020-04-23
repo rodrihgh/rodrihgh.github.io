@@ -47,16 +47,19 @@ then it can promise coverage to up to 1000 users as long as the activity rate
 does not exceed that threshold.
 
 In order to keep track of their activity, every user receives a unique word
-to transmit to the antenna whenever they want to connect. So for example
-Alice will get the word Apple.
+to transmit to the antenna whenever they want to connect. So for instance
+Alice will get the word Apple,
 Bob will use Banana instead, Carol will go with Cherry, and so on.
 If users start shouting their connection words _all_ at once the antenna will not understand
 anything but fruity gibberish,
 but if only _some_ users do, it may manage to tell apples from pears.
 
 This is what I mean by compressed information. The only thing the antenna receives
-is a tiny and juicy fruit salad that will hopefully tell which users are active and
-which ones are not. Thus, every colored stripe in the pictures accounts for the activity
+is a tiny and juicy fruit smoothie that will hopefully tell which users are active and
+which ones are not.
+
+What you see in the pictures is a collection
+of color-coded user activity values, with every colored stripe accounting for the activity
 of one single user.
 Intense colors indicate intense activity, i.e., _how loud_ the antenna perceives
 the corresponding connection word. On the other hand, white regions are groups of inactive users.
