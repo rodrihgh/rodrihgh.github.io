@@ -67,6 +67,7 @@ On top of that, every picture contains two columns, left for the original inform
 for the reconstruction.
 
 ---
+---
 
 ## Phone waves, complex numbers and colors
 

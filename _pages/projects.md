@@ -16,5 +16,5 @@ towards the end to
 content also my fellow scientists and engineers.
 
 I even separate art and technique physically with a
-horizontal rule, so that in case you lack the background you have a warning signal
+**double horizontal line**, so that in case you lack the background you have a warning signal
 of the moment you are allowed to jump out of the boat.
