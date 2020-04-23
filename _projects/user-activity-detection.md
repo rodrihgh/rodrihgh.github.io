@@ -184,9 +184,6 @@ ideas from neural networks and artificial intelligence.
 [“Random Access in C-RAN for User Activity Detection With Limited-Capacity Fronthaul,”](http://ieeexplore.ieee.org/document/7762775/)
 IEEE Signal Processing Letters, vol. 24, no. 1, pp. 17–21, Jan. 2017, doi: 10.1109/LSP.2016.2633962.
 
-
-TODO
-
 [^1]: Spanish for "White and bottled". This is actually a saying to point out something obvious, like the fact that if someone is talking about a white and bottled substance they probably refer to milk.
 
 [wired]: https://www.wired.com/2010/02/ff_algorithm/
