@@ -82,7 +82,7 @@ using [complex numbers].
 
 <i class="fas fa-graduation-cap"></i>
 If you studied **complex numbers** in high school you may have wondered
-why they are even useful, since they even include a so-called _imaginary_ part.
+why they are even useful, since they literally include an _imaginary_ part.
 I hope you are glad to find out there are engineers out there squeezing
 their brains with imaginary figures to solve real problems.
 {: .notice}

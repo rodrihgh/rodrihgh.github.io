@@ -1,6 +1,6 @@
 ---
 order: 3
-title: "Well Formed Scales (**COMING SOON**)"
+title: "Well Formed Scales (COMING SOON)"
 excerpt_separator: "<!--more-->"
 header:
     image: /assets/images/well-formed-scales.png
