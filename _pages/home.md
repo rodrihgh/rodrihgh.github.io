@@ -10,9 +10,11 @@ excerpt: '[**"Art is the science of uselessness."**](science-of-uselessness) ---
 
 ---
 
-Hi! Welcome to my personal website. Here I will focus on some
-[side projects](projects) I have developed in my free time.
-Links to my [professional activity](research)
-are also there for the curious, though.
+Hi! Welcome to **Science of Uselessness**.
+This is a personal website I have created to give exposure to some
+[engineering-meet-art ideas](projects) I have developed in my free time.
 
-More to Luca de Tena's quote [here](science-of-uselessness).
+I hope you find some cool project here and
+[you reach me out](contact) for feedback, appreciation, clarification and so on.
+
+Have fun!
