@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Science of Uselessness
-subtitle: A math nerd approach to art
+subtitle: A nerd approach to art
 name: Rodrigo Hernangómez
 email: rodrigo@uselessness.science
 description: >- # this means to ignore newlines until "baseurl:"
@@ -64,7 +64,7 @@ plugins:
 
 author:
   name   : "Rodrigo Hernangómez"
-  avatar : "/assets/images/bio-photo.png"
+  avatar : "/assets/images/bio-photo.jpg"
   bio    : "PhD student in Electrical Engineering. Fascinated by the interplay between beauty and math."
   location: Berlin, Germany
   links:
@@ -109,7 +109,7 @@ defaults:
     values:
       layout: repo
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       mathjax: true

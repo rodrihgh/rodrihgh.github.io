@@ -1,4 +1,5 @@
 ---
+order: 3
 title: "Well Formed Scales"
 excerpt_separator: "<!--more-->"
 header:

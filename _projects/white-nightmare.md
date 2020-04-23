@@ -1,4 +1,5 @@
 ---
+order: 1
 title: "White Nightmare"
 repository: "white-nightmare"
 header:
@@ -8,8 +9,7 @@ header:
   teaser: /assets/images/white-nightmare-th.png
 colab:
   enabled: true
-excerpt: "When I was a child, I used to have a recurrent nightmare. Now I recreated it using some math voodoo."
-
+excerpt: "When I was a child, I used to have a recurrent nightmare. Now I recreated it using math."
 ---
 
 ## The story

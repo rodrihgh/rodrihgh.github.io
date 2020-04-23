@@ -1,5 +1,6 @@
 ---
-title: "Sparse Complex Vectors"
+order: 2
+title: "Mobile user activity detection"
 excerpt_separator: "<!--more-->"
 header:
     image: /assets/images/sparse-complex-vector.png
@@ -14,17 +15,6 @@ gal_scv:
   - url: /assets/images/scv-35dB.png
     image_path: /assets/images/scv-35dB.png
     alt: "Sparse complex vector reconstruction. Normalized error around -35 dB"
-
-gal_opcam:
-  - url: /assets/images/cs_soccer.png
-    image_path: /assets/images/cs_soccer.png
-    alt: "Images of a football acquired with a one-pixel camera"
-  - url: /assets/images/cs_books.png
-    image_path: /assets/images/cs_books.png
-    alt: "Image of books acquired with a one-pixel camera"
-  - url: /assets/images/cs_soccer.png
-    image_path: /assets/images/cs_cat.png
-    alt: "Image of a sleeping cat acquired with a one-pixel camera"
 ---
 
 Engineering problems are often too abstract to catch the eyes of laymen.
@@ -35,13 +25,13 @@ beauty of the underlying math.
 
 Take a look at the following images:
 
-{% include gallery id="gal_scv" caption="Reconstructed user activity under different error levels (about 0, -10 and -35 dB respectively). Within each picture, the left column shows a portion of the original vector and the right column its reconstruction." %}
+{% include gallery id="gal_scv" caption="Reconstructed user activity under different error levels (about 0, -10 and -35 dB respectively). Within each picture, the left column shows a portion of the original values and the right column its reconstruction." %}
 
 They are actually a by-product of a real project I participated in
 at work. We were exploring some strategies to enable massive connectivity in 5G mobile networks,
 which relied on reconstructing compressed information
 about mobile users' activity. As I went through the implementation,
-I realized I needed a way to visually assess how good I was doing with the reconstruction,
+I realized I needed a way to visually assess how good the reconstruction was doing,
 so by serendipity I ended up
 creating these minimalist patterns you could hang in your living room.
 
@@ -52,24 +42,26 @@ The key point about massive mobile connectivity is to keep more users within you
 network than you can technically serve. The reason why this works is because not
 all users want to communicate at the same time.
 Imagine a 5G mobile cell can provide resources for 100 users at the same time.
-If the antenna in the cell knows that only 1 out of 10 users are actually active at any given time,
-then it can promise connection to up to 1000 users as long as the activity rate stays at that level.
+If the antenna in the cell knows that only 1 out of 10 users are indeed active at any given time,
+then it can promise coverage to up to 1000 users as long as the activity rate
+does not exceed that threshold.
 
 In order to keep track of their activity, every user receives a unique word
-to transmit to the antenna whenever they want to connect. So for example when
-Alice needs connection she will inform the antenna by saying the word Apple.
+to transmit to the antenna whenever they want to connect. So for example
+Alice will get the word Apple.
 Bob will use Banana instead, Carol will go with Cherry, and so on.
-If users shouted their connection words out loud all at once the antenna would not understand
+If users start shouting their connection words _all_ at once the antenna will not understand
 anything but fruity gibberish,
 but if only _some_ users do, it may manage to tell apples from pears.
 
 This is what I mean by compressed information. The only thing the antenna receives
-is a short and juicy fruit salad from which it has to guess which users are active and
-which ones are not. Thus, every colored stripe in the pictures accounts for a single user's activity.
-Intense colors indicate intense activity, i.e., "how loud" the antenna perceives
-the corresponding connection word. On the other hand, White regions are groups of inactive users.
-Every picture contains two columns, left for the original information and right
-for the reconstruction, so you can actually assess how well the reconstruction process went.
+is a tiny and juicy fruit salad that will hopefully tell which users are active and
+which ones are not. Thus, every colored stripe in the pictures accounts for the activity
+of one single user.
+Intense colors indicate intense activity, i.e., _how loud_ the antenna perceives
+the corresponding connection word. On the other hand, white regions are groups of inactive users.
+On top of that, every picture contains two columns, left for the original information and right
+for the reconstruction.
 
 ## Phone waves, complex numbers and colors
 
@@ -78,9 +70,9 @@ to write about. I cannot deny I lent wings to my creativity,
 but this rainbow color mapping was also required by the way we encode user activity.
 
 In order to communicate, mobile phones transmit electromagnetic waves.
-These transmitted waves traverse space and time until reaching the receiver,
-which affects some of their physical properties. More specifically,
-their **amplitude** decreases (they become _more quiet_) and their **phase** changes
+These transmitted waves traverse space and time until reaching the receiver
+and their physical properties get transformed along the path. More specifically,
+their **amplitude** attenuates (they become _more quiet_) and their **phase** shifts
 (they arrive at a _delayed_ point in time). What we encode as user activity is a compact
 representation of amplitude and phase using [complex numbers].
 
@@ -93,7 +85,7 @@ their brains with imaginary figures to solve real problems.
 
 ### Complex numbers
 
-Complex numbers are composed of two values known as **real** and **imaginary** part.
+Complex numbers are composed of two values known as **real** and **imaginary** parts.
 This means that, unlike real numbers,
 we cannot place them on a line.
 We need a two-coordinate system instead, the so-called complex plane:
@@ -117,13 +109,15 @@ so why not use the color wheel?
 {% include figure image_path="assets/images/colorwheel.png" alt="Color wheel" caption="Color wheel. Source: ariya.io" %}
 
 I could write a whole post about color theory, but let us restrict ourselves to the basics.
-The colors we perceive can be described by three quantities. Which three? Well,
-there are a handful of different possibilities: RGB, CMY, YCbCr... but I have actually
-chosen **hue**, **saturation** and **value** (HSV).
+The colors we perceive can be described by three quantities. Which ones? Well,
+there are a handful of different possibilities: RGB, CMY, YCbCr... but the
+most convenient ones here
+are **hue**, **saturation** and **brightness** (HSB).
 
-The color wheel above displays combinations of hue and saturation for a value of 100%.
-Colors at the edge are fully saturated, while the center exhibits a completely
-unsaturated white. The hue is given by the angular sector or _piece of pie_ we slice out of the
+The color wheel above displays combinations of hue and saturation for full brightness.
+Colors at the edge are fully saturated and
+the saturation gradually decreases the closer colors get to the wheel center.
+The hue is given by the angular sector or _piece of pie_ we slice out of the
 wheel.
 
 As you see, talking in terms of angle and amplitude comes in naturally.
@@ -139,16 +133,16 @@ colors as per the color wheel, we can verify very quickly how faithful the recon
 by placing it side by side with the original information.
 
 This also explains why inactive users are given a white color. Their user activity equals zero,
-as they remain quiet without issuing their connection word.
+as they remain quiet without issuing any message.
 Now pay attention which color the zero value is assigned by our color mapping.
 _Blanco y en botella_[^1].
 
 
-**Note** So far, this color mapping assumes that the color value is fixed.
-In my experiments, I set the value to 95% but I raised it to 100% for those values
+**Note** So far, this color mapping assumes that color brightness is fixed.
+In my experiments, I set brightness to 95% but I raised it to 100% for those values
 equal (and not only close) to zero. As a result, all non-white colors are a little
 bit darker than in the displayed color wheel and
-the reconstructed values who should be zero but are _only_ close to zero
+the reconstructed values which should be zero but are _only_ close to zero
 appear as light gray stripes.
 {: .notice--info }
 
@@ -156,28 +150,41 @@ appear as light gray stripes.
 
 Retrieving a large amount of data from a reduced combination of their elements is a challenging problem
 in the field of **signal and information theory**.
-In fact, classical math will tell you that you will fail to solve the problem
+In fact, high school math will tell you that you will fail to solve the problem
 if you try to write the equations down.
 
 In our project, we used a technique called **compressive sensing** (CS)
 that has been around since the late 2000s. Its applications extend far beyond
-mobile communications and they are usually related to the acquisition of a signal from
+mobile communications as they are mostly related to the acquisition of a signal from
 a reduced set of measurements. To have a feeling of how powerful this technique can be,
 I really encourage you to have a look at this magnificent
-[Wired article](https://www.wired.com/2010/02/ff_algorithm/) of 2010,
+[Wired article][wired] of 2010,
 which explains how the algorithm works and how it 
 was applied to magnetic resonance imaging to
 save a 2-year-old toddler's life back in 2009.
 
 Compressive sensing is an exciting research area, with hundreds of top-level scientists devoted to
-push its boundaries day by day. In our implementation, we took as a reference a 2017 paper by
-Mark Borgerding, Philip Schniter and Sundeep Rangan which enhances CS algorithms by including
+push its boundaries day by day. In our implementation, we took as a reference a
+[2017 paper](http://ieeexplore.ieee.org/document/7934066/) by
+Mark Borgerding, Philip Schniter and Sundeep Rangan which enhances CS algorithms by borrowing
 ideas from neural networks and artificial intelligence.
 
 ## Further references
+
+- [Complex numbers]
+- [HSB color system](https://en.wikipedia.org/wiki/HSL_and_HSV)
+- [Fill in the Blanks: Using Math to Turn Lo-Res Datasets Into Hi-Res Samples][wired]
+- M. Borgerding, P. Schniter, and S. Rangan,
+[“AMP-Inspired Deep Networks for Sparse Linear Inverse Problems,”][lamp] IEEE Transactions on Signal Processing, vol. 65, no. 16, pp. 4293–4308, Aug. 2017, doi: 10.1109/TSP.2017.2708040.
+- Z. Utkovski, O. Simeone, T. Dimitrova, and P. Popovski,
+[“Random Access in C-RAN for User Activity Detection With Limited-Capacity Fronthaul,”](http://ieeexplore.ieee.org/document/7762775/)
+IEEE Signal Processing Letters, vol. 24, no. 1, pp. 17–21, Jan. 2017, doi: 10.1109/LSP.2016.2633962.
+
 
 TODO
 
 [^1]: Spanish for "White and bottled". This is actually a saying to point out something obvious, like the fact that if someone is talking about a white and bottled substance they probably refer to milk.
 
+[wired]: https://www.wired.com/2010/02/ff_algorithm/
 [complex numbers]: https://en.wikipedia.org/wiki/Complex_number
+[lamp]: http://ieeexplore.ieee.org/document/7934066/
