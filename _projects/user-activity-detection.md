@@ -42,7 +42,7 @@ The key point about massive mobile connectivity is to keep more users within you
 network than you can technically serve. The reason why this works is because not
 all users want to communicate at the same time.
 Imagine a 5G mobile cell can provide resources for 100 users at the same time.
-If the antenna in the cell knows that only 1 out of 10 users are indeed active at any given time,
+If the antenna in the cell knows that only 1 out of 10 users are indeed active at any given point in time,
 then it can promise coverage to up to 1000 users as long as the activity rate
 does not exceed that threshold.
 
@@ -55,7 +55,7 @@ anything but fruity gibberish,
 but if only _some_ users do, it may manage to tell apples from pears.
 
 This is what I mean by compressed information. The only thing the antenna receives
-is a tiny and juicy fruit smoothie that will hopefully tell which users are active and
+is a tiny and juicy fruit mix that will hopefully tell which users are active and
 which ones are not.
 
 What you see in the pictures is a collection
