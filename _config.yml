@@ -100,7 +100,6 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-    sort_by: order
 
 defaults:
   # _projects
