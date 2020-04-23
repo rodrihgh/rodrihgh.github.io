@@ -127,6 +127,8 @@ defaults:
       layout: single
       author_profile: true
 
+og_image: /assets/images/harmonics_og.png
+
 category_archive:
   type: liquid
   path: /categories/
