@@ -77,11 +77,12 @@ These transmitted waves traverse space and time until reaching the receiver
 and their physical properties get transformed along the path. More specifically,
 their **amplitude** attenuates (they become _more quiet_) and their **phase** shifts
 (they arrive at a _delayed_ point in time). What we encode as user activity is a compact
-representation of amplitude and phase using [complex numbers].
+representation of the amplitude and phase of the incoming "connection words"
+using [complex numbers].
 
 <i class="fas fa-graduation-cap"></i>
 If you studied **complex numbers** in high school you may have wondered
-why are they even useful, since they even include a so-called _imaginary_ part.
+why they are even useful, since they even include a so-called _imaginary_ part.
 I hope you are glad to find out there are engineers out there squeezing
 their brains with imaginary figures to solve real problems.
 {: .notice}

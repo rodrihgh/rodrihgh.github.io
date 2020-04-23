@@ -1,6 +1,6 @@
 ---
 order: 3
-title: "Well Formed Scales"
+title: "Well Formed Scales (**COMING SOON**)"
 excerpt_separator: "<!--more-->"
 header:
     image: /assets/images/well-formed-scales.png
@@ -9,7 +9,7 @@ header:
     toc: false
 ---
 
-**COMING SOON**. My next project will deal with a mathematical theory for music scales.
+My next project will deal with a mathematical theory for music scales.
 
 <!--more-->
 
@@ -18,9 +18,9 @@ header:
 
 My idea is to write interactive code to play around with the concepts that are explained in the following videos...
 
-{% include video id="P7iC-fbdKmQ" provider="youtube" %}
 {% include video id="1Hqm0dYKUx4" provider="youtube" %}
 {% include video id="cyW5z-M2yzw" provider="youtube" %}
+{% include video id="P7iC-fbdKmQ" provider="youtube" %}
 
 ... and papers:
 
@@ -28,3 +28,5 @@ My idea is to write interactive code to play around with the concepts that are e
 N. Carey and D. Clampitt, “Aspects of Well-Formed Scales,” Music Theory Spectr, vol. 11, no. 2, pp. 187–206, Oct. 1989, doi: 10.2307/745935.
 - [[2]](http://gaceta.rsme.es/abrir.php?id=1130)
 M. Castrillón and M. Domínguez, “Un encuentro entre las matemáticas y la teoría de escalas musicales: Escalas bien formadas,” La Gaceta de la RSME, vol. 16, no. 1, pp. 87–106, 2013.
+
+Follow me on social media to stay tuned!
