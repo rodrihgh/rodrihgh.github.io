@@ -63,6 +63,8 @@ The deafening white noise starts to settle down,
 like venomous sea foam that retires from the skin without moistening it.
 It will still take one or two minutes to untie the knot in my stomach.
 
+---
+
 ## The math
 
 The nature of the nightmare, based on this concept of a maze emerging out of white noise, lends itself to a

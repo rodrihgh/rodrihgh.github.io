@@ -66,6 +66,8 @@ the corresponding connection word. On the other hand, white regions are groups o
 On top of that, every picture contains two columns, left for the original information and right
 for the reconstruction.
 
+---
+
 ## Phone waves, complex numbers and colors
 
 You may think I chose such an eye-catching palette as a frivolous excess, just to have something
