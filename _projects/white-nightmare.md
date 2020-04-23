@@ -14,7 +14,7 @@ excerpt: "When I was a child, I used to have a recurrent nightmare. Now I recrea
 
 ## The story
 
-**Note** _This is a translation of the original story I wrote in Spanish about a recurrent nightmare I had as a child. You can find the original text [here](../../pesadilla-blanca)._
+**Note** _This is the translation of a story I wrote in Spanish about a recurrent nightmare I had as a child. You can find the original text [here](../../pesadilla-blanca)._
 {: .notice--info}
 
 I do not remember my own dreams anymore.
