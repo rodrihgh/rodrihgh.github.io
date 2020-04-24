@@ -61,6 +61,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 author:
   name   : "Rodrigo Hernangómez"
@@ -100,6 +101,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+    sort_by: order
 
 defaults:
   # _projects
