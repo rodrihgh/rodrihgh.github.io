@@ -6,7 +6,7 @@ header:
   overlay_color: "#888888"
   overlay_filter: "0.25"
   overlay_image: /assets/images/harmonics.png
-excerpt: '[**"Art is the science of uselessness."**](science-of-uselessness) --- _Torcuato Luca de Tena_'
+excerpt: '[**"Art is the science of uselessness."**](science-of-uselessness) --- <cite>Torcuato Luca de Tena</cite>'
 
 ---
 
