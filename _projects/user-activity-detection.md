@@ -174,21 +174,26 @@ in the field of **signal and information theory**.
 In fact, high school math will tell you that you will fail to solve the problem
 if you try to write the equations down.
 
-In our project, we used a technique called **compressive sensing** (CS)
+In our project, we used a technique called **compressive sensing**
 that has been around since the late 2000s. Its applications extend far beyond
 mobile communications, as they are mostly related to the acquisition of a signal from
 a reduced set of measurements. To have a feeling of how powerful this technique can be,
 I really encourage you to have a look at this magnificent
-[Wired article][wired] of 2010,
-which provides the reader with a non-technical overview and how CS 
+[Wired article][wired] from 2010.
+There the reader is provided with a non-technical overview on
+the topic and how it 
 was applied to magnetic resonance imaging to
 save a 2-year-old toddler's life back in 2009.
 
 Compressive sensing is an exciting research area, with hundreds of top-level scientists devoted to
-push its boundaries day by day. In our implementation, we took as a reference a
-[2017 paper](http://ieeexplore.ieee.org/document/7934066/) by
-Mark Borgerding, Philip Schniter and Sundeep Rangan which enhances an algorithm
-called **approximate message passing** by borrowing
+push its boundaries day by day. In our implementation, we used as a reference
+the work of
+Mark Borgerding, Philip Schniter and Sundeep Rangan from
+[the Ohio State University](https://www.ece.osu.edu/).
+In their [2017 paper](http://ieeexplore.ieee.org/document/7934066/),
+they took an algorithm
+called **approximate message passing**
+and enhanced it by borrowing
 ideas from **neural networks** and **artificial intelligence**.
 
 ## Further references

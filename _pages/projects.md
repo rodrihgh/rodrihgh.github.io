@@ -21,5 +21,5 @@ You can also find the icons
 <i class="fas fa-palette"></i> and
 <i class="fas fa-laptop-code"></i>
 as a guideline to establish the separation between art and technique, respectively.
-Consequently, if you think you lack the background to understand the deepest details,
+That being said, if you think you lack the background to understand the deepest details,
 feel free to jump out of the boat at any time.
