@@ -5,6 +5,7 @@ permalink: /projects/
 collection: projects
 entries_layout: grid
 classes: wide
+sort_by: order
 ---
 
 These are some of the personal projects I have been up to. Make sure to check them out on
