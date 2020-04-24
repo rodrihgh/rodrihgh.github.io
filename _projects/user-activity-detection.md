@@ -23,7 +23,8 @@ beauty of the underlying math.
 
 <!--more-->
 
-## <i class="fas fa-palette"></i> Inspiration exists, but it has to find us working[^1]
+## <i class="fas fa-palette"></i> Inspiration exists, but it has to find us working
+[^1]
 
 Take a look at the following images:
 

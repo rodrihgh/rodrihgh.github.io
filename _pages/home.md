@@ -18,3 +18,5 @@ I hope you find some cool project here and
 [you reach me out](contact) for feedback, appreciation, clarification and so on.
 
 Have fun!
+
+<i class="fas fa-palette"></i><i class="fas fa-laptop-code"></i>
