@@ -24,7 +24,8 @@ beauty of the underlying math.
 <!--more-->
 
 ## <i class="fas fa-palette"></i> Inspiration exists, but it has to find us working
---- <cite>[Pablo Picasso](https://www.brainyquote.com/quotes/pablo_picasso_378943)</cite> {: .small}
+--- <cite>[Pablo Picasso](https://www.brainyquote.com/quotes/pablo_picasso_378943)</cite>
+{: .small}
 
 Take a look at the following images:
 
