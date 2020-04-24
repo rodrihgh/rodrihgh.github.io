@@ -24,7 +24,7 @@ beauty of the underlying math.
 <!--more-->
 
 ## <i class="fas fa-palette"></i> Inspiration exists, but it has to find us working
-[^1]{: .small}
+--- <cite>[Pablo Picasso](https://www.brainyquote.com/quotes/pablo_picasso_378943)</cite> {: .small}
 
 Take a look at the following images:
 
@@ -155,7 +155,7 @@ by placing it side by side with the original information.
 This also explains why inactive users are given a white color. Their user activity equals zero,
 as they remain quiet without issuing any message.
 Now pay attention which color the zero value is assigned by our color mapping.
-_Blanco y en botella_[^2].
+_Blanco y en botella_[^1].
 
 
 **Note** So far, this color mapping assumes that color brightness is fixed.
@@ -201,8 +201,7 @@ ideas from **neural networks** and **artificial intelligence**.
 [“Random Access in C-RAN for User Activity Detection With Limited-Capacity Fronthaul,”](http://ieeexplore.ieee.org/document/7762775/)
 IEEE Signal Processing Letters, vol. 24, no. 1, pp. 17–21, Jan. 2017, doi: 10.1109/LSP.2016.2633962.
 
-[^1]: Quote by [Pablo Picasso](https://www.brainyquote.com/quotes/pablo_picasso_378943)
-[^2]: Spanish for "White and bottled". This is actually a saying to point out something obvious, like the fact that if someone is talking about a white and bottled substance they probably refer to milk.
+[^1]: Spanish for "White and bottled". This is actually a saying to point out something obvious, like the fact that if someone is talking about a white and bottled substance they probably refer to milk.
 
 [wired]: https://www.wired.com/2010/02/ff_algorithm/
 [complex numbers]: https://en.wikipedia.org/wiki/Complex_number
