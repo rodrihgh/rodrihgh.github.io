@@ -23,6 +23,8 @@ beauty of the underlying math.
 
 <!--more-->
 
+## <i class="fas fa-palette"></i> Inspiration exists, but it has to find us working[^1]
+
 Take a look at the following images:
 
 {% include gallery id="gal_scv" caption="Reconstructed user activity under different error levels (about 0, -10 and -35 dB respectively). Within each picture, the left column shows a portion of the original values and the right column its reconstruction." %}
@@ -37,12 +39,21 @@ creating these minimalist patterns you could hang in your living room.
 
 ## Massive connectivity and user activity
 
-Let me explain the concept with simple words before diving into details.
-The key point about massive mobile connectivity is to keep more users within your
-network than you can technically serve. The reason why this works is because not
+Let me first try to explain these concepts in the most
+informal (and tasty <i class="fas fa-apple-alt"></i>)
+way I can before diving into technical details.
+Mobile antennas have a certain area of influence where they
+provide connectivity to as many users as possible
+using some available resources.
+We call our approach "massive connectivity" because 
+we would even like the antenna
+to keep more users within its area of influence
+than the resources technically permit.
+
+The reason why this is possible is because not
 all users want to communicate at the same time.
-Imagine a 5G mobile cell can provide resources for 100 users at the same time.
-If the antenna in the cell knows that only 1 out of 10 users are indeed active at any given point in time,
+Imagine a 5G antenna can exchange information with 100 users at the same time.
+If the antenna knows that only 1 out of 10 users are indeed active at any given point in time,
 then it can promise coverage to up to 1000 users as long as the activity rate
 does not exceed that threshold.
 
@@ -50,9 +61,10 @@ In order to keep track of their activity, every user receives a unique word
 to transmit to the antenna whenever they want to connect. So for instance
 Alice will get the word Apple,
 Bob will use Banana instead, Carol will go with Cherry, and so on.
-If users start shouting their connection words _all_ at once the antenna will not understand
-anything but fruity gibberish,
-but if only _some_ users do, it may manage to tell apples from pears.
+If users start shouting their connection words _all at once_ the antenna will not understand
+anything but fruity gibberish, as this indeed exceeds the available resources.
+On the other hand, if only _some_ users do, it may manage to understand
+the words clearly and tell apples from pears.
 
 This is what I mean by compressed information. The only thing the antenna receives
 is a tiny and juicy fruit mix that will hopefully tell which users are active and
@@ -66,22 +78,19 @@ the corresponding connection word. On the other hand, white regions are groups o
 On top of that, every picture contains two columns, left for the original information and right
 for the reconstruction.
 
----
----
-
-## Phone waves, complex numbers and colors
+## <i class="fas fa-laptop-code"></i> Mobile radio waves, complex numbers and colors
 
 You may think I chose such an eye-catching palette as a frivolous excess, just to have something
 to write about. I cannot deny I lent wings to my creativity,
 but this rainbow color mapping was also required by the way we encode user activity.
 
 In order to communicate, mobile phones transmit electromagnetic waves.
-These transmitted waves traverse space and time until reaching the receiver
-and their physical properties get transformed along the path. More specifically,
+These transmitted waves traverse space and time until the antenna receives them,
+while their physical properties get transformed along the path. More specifically,
 their **amplitude** attenuates (they become _more quiet_) and their **phase** shifts
 (they arrive at a _delayed_ point in time). What we encode as user activity is a compact
-representation of the amplitude and phase of the incoming "connection words"
-using [complex numbers].
+representation of the amplitude and phase of the received "connection words"
+using [complex numbers], which is technically known as **fading**. 
 
 <i class="fas fa-graduation-cap"></i>
 If you studied **complex numbers** in high school you may have wondered
@@ -93,16 +102,18 @@ their brains with imaginary figures to solve real problems.
 ### Complex numbers
 
 Complex numbers are composed of two values known as **real** and **imaginary** parts.
-This means that, unlike real numbers,
-we cannot place them on a line.
-We need a two-coordinate system instead, the so-called complex plane:
+This means that we can plot them
+onto a two-coordinate system, the so-called complex plane:
 
 {% include figure image_path="assets/images/phasor.svg" alt="Number in the complex plane" caption="Number in the complex plane. Adapted from Wikipedia" %}
 
-Here the amplitude, marked as $$r$$, is represented as the vector length,
+The complex number is shown using its real and imaginary parts as coordinates and
+drawing a line (vector) between these coordinates and the origin, the $$0$$ value.
+This allows to represent amplitude and phase very concisely:
+the amplitude, marked as $$r$$, is represented by the vector length,
 while the phase  $$\varphi$$ is just the angle between the horizontal axis and the vector.
 
-Now, if we have a bunch of real numbers we want to assign colors to,
+Now, if we have a bunch of "normal" real numbers we want to assign colors to,
 the task is relatively easy: Check the minimum and maximum numbers to map, assign black and white color
 to them respectively and give any number in between an intermediate level of gray depending on its distance
 to the extremes. However, we cannot order complex numbers like that. A grayscale is not enough, we need a
@@ -121,7 +132,8 @@ there are a handful of different possibilities: RGB, CMY, YCbCr... but the
 most convenient ones here
 are **hue**, **saturation** and **brightness** (HSB).
 
-The color wheel above displays combinations of hue and saturation for full brightness.
+The color wheel above displays combinations of hue and saturation values
+for full brightness.
 Colors at the edge are fully saturated and
 the saturation gradually decreases the closer colors get to the wheel center.
 The hue is given by the angular sector or _piece of pie_ we slice out of the
@@ -142,7 +154,7 @@ by placing it side by side with the original information.
 This also explains why inactive users are given a white color. Their user activity equals zero,
 as they remain quiet without issuing any message.
 Now pay attention which color the zero value is assigned by our color mapping.
-_Blanco y en botella_[^1].
+_Blanco y en botella_[^2].
 
 
 **Note** So far, this color mapping assumes that color brightness is fixed.
@@ -162,19 +174,20 @@ if you try to write the equations down.
 
 In our project, we used a technique called **compressive sensing** (CS)
 that has been around since the late 2000s. Its applications extend far beyond
-mobile communications as they are mostly related to the acquisition of a signal from
+mobile communications, as they are mostly related to the acquisition of a signal from
 a reduced set of measurements. To have a feeling of how powerful this technique can be,
 I really encourage you to have a look at this magnificent
 [Wired article][wired] of 2010,
-which explains how the algorithm works and how it 
+which provides the reader with a non-technical overview and how CS 
 was applied to magnetic resonance imaging to
 save a 2-year-old toddler's life back in 2009.
 
 Compressive sensing is an exciting research area, with hundreds of top-level scientists devoted to
 push its boundaries day by day. In our implementation, we took as a reference a
 [2017 paper](http://ieeexplore.ieee.org/document/7934066/) by
-Mark Borgerding, Philip Schniter and Sundeep Rangan which enhances CS algorithms by borrowing
-ideas from neural networks and artificial intelligence.
+Mark Borgerding, Philip Schniter and Sundeep Rangan which enhances an algorithm
+called **approximate message passing** by borrowing
+ideas from **neural networks** and **artificial intelligence**.
 
 ## Further references
 
@@ -187,7 +200,8 @@ ideas from neural networks and artificial intelligence.
 [“Random Access in C-RAN for User Activity Detection With Limited-Capacity Fronthaul,”](http://ieeexplore.ieee.org/document/7762775/)
 IEEE Signal Processing Letters, vol. 24, no. 1, pp. 17–21, Jan. 2017, doi: 10.1109/LSP.2016.2633962.
 
-[^1]: Spanish for "White and bottled". This is actually a saying to point out something obvious, like the fact that if someone is talking about a white and bottled substance they probably refer to milk.
+[^1]: Quote by [Pablo Picasso](https://www.brainyquote.com/quotes/pablo_picasso_378943)
+[^2]: Spanish for "White and bottled". This is actually a saying to point out something obvious, like the fact that if someone is talking about a white and bottled substance they probably refer to milk.
 
 [wired]: https://www.wired.com/2010/02/ff_algorithm/
 [complex numbers]: https://en.wikipedia.org/wiki/Complex_number

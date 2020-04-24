@@ -36,9 +36,11 @@ and the like. This is in deep conflict with many of my personal interests (read 
 in general), which according to don Torcuato are not only useless, but they can only become
 greater the more useless they are.
 
-On the other hand, I also enjoy maths and coding. And through maths and code one can model, generate, render, manipulate, process
-futile streams of audio samples, pixels, bits of uselessness so rigorously analyzed that
-they become incredibly useful.
+On the other hand, I also enjoy maths and coding.
+And through maths and code one can model, generate, render, manipulate, process
+futile streams of audio samples, or pixels; bits and bits of uselessness
+so rigorously analyzed that
+it becomes incredibly useful again.
 
 Therefore, you may not wonder that most of my projects here,
 while heavily focused on

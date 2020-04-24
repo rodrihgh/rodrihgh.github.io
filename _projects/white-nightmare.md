@@ -17,7 +17,7 @@ Now I have recreated it with code.
 
 <!--more-->
 
-## The story
+## <i class="fas fa-palette"></i> The story
 
 **Note** _This is the translation of the original story I wrote in Spanish.
 You can find the Spanish version [here](../../pesadilla-blanca)._
@@ -63,10 +63,7 @@ The deafening white noise starts to settle down,
 like venomous sea foam that retires from the skin without moistening it.
 It will still take one or two minutes to untie the knot in my stomach.
 
----
----
-
-## The math
+## <i class="fas fa-laptop-code"></i> The math
 
 The nature of the nightmare, based on this concept of a maze emerging out of white noise, lends itself to a
 quite clean mathematical model. I just needed a couple of ingredients to put it together nicely:

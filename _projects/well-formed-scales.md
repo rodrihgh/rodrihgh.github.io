@@ -19,7 +19,7 @@ My next project will deal with a mathematical theory for music scales.
 ## <i class="fas fa-palette"></i> Art
 
 My idea is to write interactive code
-([link to technique](technique)) to play around with the concepts that are explained in the following videos...
+([jump to technique](#-technique)) to play around with the concepts that are explained in the following videos:
 
 {% include video id="1Hqm0dYKUx4" provider="youtube" %}
 {% include video id="cyW5z-M2yzw" provider="youtube" %}
@@ -27,7 +27,7 @@ My idea is to write interactive code
 
 ## <i class="fas fa-laptop-code"></i> Technique
 
-... and papers:
+I will also try to cover the basics of these papers:
 
 - [[1]](https://academic.oup.com/mts/article-abstract/11/2/187/1088094)
 N. Carey and D. Clampitt, “Aspects of Well-Formed Scales,” Music Theory Spectr, vol. 11, no. 2, pp. 187–206, Oct. 1989, doi: 10.2307/745935.
