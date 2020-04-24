@@ -1,6 +1,6 @@
 ---
 order: 2
-title: "Mobile user activity detection"
+title: "User activity"
 excerpt_separator: "<!--more-->"
 header:
     image: /assets/images/sparse-complex-vector.png

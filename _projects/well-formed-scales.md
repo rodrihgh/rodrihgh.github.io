@@ -16,11 +16,16 @@ My next project will deal with a mathematical theory for music scales.
 **Warning** <i class="fas fa-exclamation-triangle"></i> Project under construction.
 {: .notice--warning}
 
-My idea is to write interactive code to play around with the concepts that are explained in the following videos...
+## <i class="fas fa-palette"></i> Art
+
+My idea is to write interactive code
+([link to technique](technique)) to play around with the concepts that are explained in the following videos...
 
 {% include video id="1Hqm0dYKUx4" provider="youtube" %}
 {% include video id="cyW5z-M2yzw" provider="youtube" %}
 {% include video id="P7iC-fbdKmQ" provider="youtube" %}
+
+## <i class="fas fa-laptop-code"></i> Technique
 
 ... and papers:
 
