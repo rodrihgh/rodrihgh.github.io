@@ -17,6 +17,7 @@ excerpt: "Recreación de una inquietante pesadilla que solía tener de niño."
 **Info** To read the English version along with some technical details, please visit my project [White Nightmare](../projects/white-nightmare).
 {: .notice--info}
 
+## <i class="fas fa-palette"></i>
 
 Hace mucho que no recuerdo mis propios sueños. Me despierto con sus últimos jirones enredados en la almohada, y mientras me desperezo paladeo el regusto que han dejado (dulce, amargo... según cada cual), hasta que se desvanece por completo. La cosa es que hay sueños recurrentes de mi infancia de los que aún conservo una viva imagen.
 
