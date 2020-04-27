@@ -1,6 +1,7 @@
 ---
 order: 2
 title: "User activity"
+repository: "uad-lamp"
 excerpt_separator: "<!--more-->"
 header:
     image: /assets/images/sparse-complex-vector.png
