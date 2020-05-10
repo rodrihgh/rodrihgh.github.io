@@ -55,7 +55,7 @@ than the resources technically permit.
 
 The reason why this is possible is because not
 all users want to communicate at the same time.
-Imagine a 5G antenna can exchange information with 100 users at the same time.
+Imagine a 5G antenna can exchange information simultaneously with 100 users.
 If the antenna knows that only 1 out of 10 users are indeed active at any given point in time,
 then it can promise coverage to up to 1000 users as long as the activity rate
 does not exceed that threshold.
@@ -66,7 +66,7 @@ Alice will get the word Apple,
 Bob will use Banana instead, Carol will go with Cherry, and so on.
 If users start shouting their connection words _all at once_ the antenna will not understand
 anything but fruity gibberish, as this indeed exceeds the available resources.
-On the other hand, if only _some_ users do, it may manage to understand
+On the other hand, if only _some_ users do, it may manage to get
 the words clearly and tell apples from pears.
 
 This is what I mean by compressed information. The only thing the antenna receives

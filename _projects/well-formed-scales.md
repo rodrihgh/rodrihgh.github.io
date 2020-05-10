@@ -6,7 +6,11 @@ header:
     image: /assets/images/well-formed-scales.png
     teaser: /assets/images/well-formed-scales.png
     caption: "Image source: [**Castrillón & Domínguez, 2013**](http://gaceta.rsme.es/abrir.php?id=1130)"
-    toc: false
+
+repository: "music-scales-playground"
+colab:
+  enabled: true
+  path: "music-scales.ipynb"
 ---
 
 My next project will deal with a mathematical theory for music scales.
@@ -18,12 +22,15 @@ My next project will deal with a mathematical theory for music scales.
 
 ## <i class="fas fa-palette"></i> Art
 
-My idea is to write interactive code
-([jump to technique](#-technique)) to play around with the concepts that are explained in the following videos:
+My idea is to write interactive code to play around with the concepts that are explained in the following videos:
 
 {% include video id="1Hqm0dYKUx4" provider="youtube" %}
 {% include video id="cyW5z-M2yzw" provider="youtube" %}
 {% include video id="P7iC-fbdKmQ" provider="youtube" %}
+
+A first version of the widget looks like this:
+
+<iframe src="assets/widgets/music-scales.html" frameborder="0"></iframe>
 
 ## <i class="fas fa-laptop-code"></i> Technique
 
