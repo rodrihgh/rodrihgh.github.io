@@ -13138,10 +13138,11 @@ div#notebook {
             display: none;
         }
     </style></head>
-<body>
+<body style="background-color: transparent;">
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container">
 
+  
 
   <div class="
       cell border-box-sizing code_cell rendered" style="display: none">
@@ -13210,8 +13211,6 @@ div#notebook {
 
   </div>
 
-
-
   <div class="
       cell border-box-sizing code_cell rendered" style="display: none">
     <div class="input">
@@ -13227,22 +13226,22 @@ div#notebook {
 
 
 <span class="c1"># Function to convert decimal to Roman Numerals </span>
-<span class="k">def</span> <span class="nf">roman</span><span class="p">(</span><span class="n">number</span><span class="p">):</span>
-    <span class="n">num</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span>
-           <span class="mi">100</span><span class="p">,</span> <span class="mi">400</span><span class="p">,</span> <span class="mi">500</span><span class="p">,</span> <span class="mi">900</span><span class="p">,</span> <span class="mi">1000</span><span class="p">]</span>
-    <span class="n">sym</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;I&quot;</span><span class="p">,</span> <span class="s2">&quot;IV&quot;</span><span class="p">,</span> <span class="s2">&quot;V&quot;</span><span class="p">,</span> <span class="s2">&quot;IX&quot;</span><span class="p">,</span> <span class="s2">&quot;X&quot;</span><span class="p">,</span> <span class="s2">&quot;XL&quot;</span><span class="p">,</span>
-           <span class="s2">&quot;L&quot;</span><span class="p">,</span> <span class="s2">&quot;XC&quot;</span><span class="p">,</span> <span class="s2">&quot;C&quot;</span><span class="p">,</span> <span class="s2">&quot;CD&quot;</span><span class="p">,</span> <span class="s2">&quot;D&quot;</span><span class="p">,</span> <span class="s2">&quot;CM&quot;</span><span class="p">,</span> <span class="s2">&quot;M&quot;</span><span class="p">]</span>
+<span class="k">def</span> <span class="nf">roman</span><span class="p">(</span><span class="n">number</span><span class="p">):</span> 
+    <span class="n">num</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span>  
+           <span class="mi">100</span><span class="p">,</span> <span class="mi">400</span><span class="p">,</span> <span class="mi">500</span><span class="p">,</span> <span class="mi">900</span><span class="p">,</span> <span class="mi">1000</span><span class="p">]</span> 
+    <span class="n">sym</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;I&quot;</span><span class="p">,</span> <span class="s2">&quot;IV&quot;</span><span class="p">,</span> <span class="s2">&quot;V&quot;</span><span class="p">,</span> <span class="s2">&quot;IX&quot;</span><span class="p">,</span> <span class="s2">&quot;X&quot;</span><span class="p">,</span> <span class="s2">&quot;XL&quot;</span><span class="p">,</span>  
+           <span class="s2">&quot;L&quot;</span><span class="p">,</span> <span class="s2">&quot;XC&quot;</span><span class="p">,</span> <span class="s2">&quot;C&quot;</span><span class="p">,</span> <span class="s2">&quot;CD&quot;</span><span class="p">,</span> <span class="s2">&quot;D&quot;</span><span class="p">,</span> <span class="s2">&quot;CM&quot;</span><span class="p">,</span> <span class="s2">&quot;M&quot;</span><span class="p">]</span> 
     <span class="n">i</span> <span class="o">=</span> <span class="mi">12</span>
     <span class="n">rom</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
-    <span class="k">while</span> <span class="n">number</span><span class="p">:</span>
-        <span class="n">div</span> <span class="o">=</span> <span class="n">number</span> <span class="o">//</span> <span class="n">num</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-        <span class="n">number</span> <span class="o">%=</span> <span class="n">num</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-
-        <span class="k">while</span> <span class="n">div</span><span class="p">:</span>
+    <span class="k">while</span> <span class="n">number</span><span class="p">:</span> 
+        <span class="n">div</span> <span class="o">=</span> <span class="n">number</span> <span class="o">//</span> <span class="n">num</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> 
+        <span class="n">number</span> <span class="o">%=</span> <span class="n">num</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> 
+  
+        <span class="k">while</span> <span class="n">div</span><span class="p">:</span> 
             <span class="n">rom</span> <span class="o">+=</span> <span class="n">sym</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
             <span class="n">div</span> <span class="o">-=</span> <span class="mi">1</span>
         <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
-
+        
     <span class="k">return</span> <span class="n">rom</span>
 
 <span class="c1"># roman_nums = [&#39;I&#39;, &#39;II&#39;, &#39;III&#39;, &#39;IV&#39;, &#39;V&#39;, &#39;VI&#39;,</span>
@@ -13272,16 +13271,16 @@ div#notebook {
 
 
 <span class="k">def</span> <span class="nf">stacked_fifths</span><span class="p">(</span><span class="n">num_notes</span><span class="p">,</span> <span class="n">fifth_val</span><span class="p">,</span> <span class="n">root</span><span class="p">):</span>
-
+    
     <span class="n">note_cents</span> <span class="o">=</span> <span class="p">[</span><span class="n">octave_fit</span><span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="n">fifth_val</span><span class="p">)</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_notes</span><span class="p">)]</span>
 
     <span class="n">ref_cents</span> <span class="o">=</span> <span class="n">note_cents</span><span class="p">[</span><span class="n">root</span><span class="p">]</span>
     <span class="n">note_cents</span> <span class="o">=</span> <span class="p">[</span><span class="nb">round</span><span class="p">(</span><span class="n">octave_fit</span><span class="p">(</span><span class="n">cents</span> <span class="o">-</span> <span class="n">ref_cents</span><span class="p">))</span> <span class="k">for</span> <span class="n">cents</span> <span class="ow">in</span> <span class="n">note_cents</span><span class="p">]</span>
 
     <span class="n">note_cents</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
-
+    
     <span class="k">return</span> <span class="n">note_cents</span>
-
+    
 
 <span class="n">fifth_cents</span> <span class="o">=</span> <span class="n">ratio2cents</span><span class="p">(</span><span class="mi">3</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span>    <span class="c1"># Pure fifth</span>
 <span class="n">majthird_cents</span> <span class="o">=</span> <span class="n">ratio2cents</span><span class="p">(</span><span class="mi">5</span> <span class="o">/</span> <span class="mi">4</span><span class="p">)</span> <span class="c1"># Pure major third</span>
@@ -13300,15 +13299,15 @@ div#notebook {
 
 
 <span class="k">def</span> <span class="nf">pythagoras</span><span class="p">(</span><span class="n">num_notes</span><span class="o">=</span><span class="n">num_halftones</span><span class="p">):</span>
-
+    
     <span class="k">return</span> <span class="n">stacked_fifths</span><span class="p">(</span><span class="n">num_notes</span><span class="p">,</span> <span class="n">fifth_cents</span><span class="p">,</span> <span class="n">root</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-
+    
 
 <span class="k">def</span> <span class="nf">five_limit_just</span><span class="p">():</span>
     <span class="n">ratios</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">16</span><span class="o">/</span><span class="mi">15</span><span class="p">,</span> <span class="mi">9</span><span class="o">/</span><span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="o">/</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="o">/</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span>
               <span class="mi">45</span><span class="o">/</span><span class="mi">32</span><span class="p">,</span> <span class="mi">3</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="mi">8</span><span class="o">/</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span> <span class="mi">9</span><span class="o">/</span><span class="mi">5</span><span class="p">,</span> <span class="mi">15</span><span class="o">/</span><span class="mi">8</span><span class="p">]</span>
     <span class="n">note_cents</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">ratio2cents</span><span class="p">(</span><span class="n">ratios</span><span class="p">))</span>
-
+    
     <span class="k">return</span> <span class="n">note_cents</span>
 
 
@@ -13316,7 +13315,7 @@ div#notebook {
     <span class="n">ratios</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">16</span><span class="o">/</span><span class="mi">15</span><span class="p">,</span> <span class="mi">9</span><span class="o">/</span><span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="o">/</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="o">/</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span>
               <span class="mi">7</span><span class="o">/</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="mi">8</span><span class="o">/</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="o">/</span><span class="mi">3</span><span class="p">,</span> <span class="mi">7</span><span class="o">/</span><span class="mi">4</span><span class="p">,</span> <span class="mi">15</span><span class="o">/</span><span class="mi">8</span><span class="p">]</span>
     <span class="n">note_cents</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">ratio2cents</span><span class="p">(</span><span class="n">ratios</span><span class="p">))</span>
-
+    
     <span class="k">return</span> <span class="n">note_cents</span>
 
 
@@ -13338,10 +13337,10 @@ div#notebook {
 
 
 <span class="k">def</span> <span class="nf">get_note_name</span><span class="p">(</span><span class="n">cents</span><span class="p">,</span> <span class="n">ref</span><span class="p">):</span>
-
+    
     <span class="n">c_cents</span> <span class="o">=</span> <span class="n">octave_fit</span><span class="p">(</span><span class="n">cents</span> <span class="o">+</span> <span class="n">ref</span><span class="p">)</span>
     <span class="n">c_index</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">c_cents</span> <span class="o">/</span> <span class="n">halftone_cents</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">int</span><span class="p">)</span>
-
+    
     <span class="k">return</span> <span class="n">note_names</span><span class="p">[</span><span class="n">c_index</span> <span class="o">%</span> <span class="n">num_halftones</span><span class="p">]</span>
 
 
@@ -13354,8 +13353,6 @@ div#notebook {
 </div>
 
   </div>
-
-
 
   <div class="
       cell border-box-sizing code_cell rendered" style="display: none">
@@ -13418,7 +13415,7 @@ div#notebook {
              <span class="n">Scale</span><span class="p">(</span><span class="s2">&quot;Lydian mode&quot;</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">11</span><span class="p">),</span> <span class="mi">0</span><span class="p">),</span>
              <span class="n">Scale</span><span class="p">(</span><span class="s2">&quot;Mixolyidian mode&quot;</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span> <span class="mi">0</span><span class="p">),</span>
              <span class="n">Scale</span><span class="p">(</span><span class="s2">&quot;Dorian mode&quot;</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span> <span class="mi">0</span><span class="p">),</span>
-             <span class="n">Scale</span><span class="p">(</span><span class="s2">&quot;Phryigian mode&quot;</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span> <span class="mi">0</span><span class="p">),</span>
+             <span class="n">Scale</span><span class="p">(</span><span class="s2">&quot;Phryigian mode&quot;</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span> <span class="mi">0</span><span class="p">),</span>             
              <span class="n">Scale</span><span class="p">(</span><span class="s2">&quot;Locrian mode&quot;</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span> <span class="mi">0</span><span class="p">))</span>
 
 <span class="n">scales</span><span class="p">[</span><span class="mi">12</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">Scale</span><span class="p">(</span><span class="s2">&quot;Chromatic&quot;</span><span class="p">,</span> <span class="nb">tuple</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">num_halftones</span><span class="p">)),</span> <span class="mi">0</span><span class="p">),)</span>
@@ -13428,7 +13425,7 @@ div#notebook {
 <span class="n">scales</span><span class="p">[</span><span class="mi">31</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">Scale</span><span class="p">(</span><span class="s2">&quot;-&quot;</span><span class="p">,</span> <span class="mi">31</span><span class="p">,</span> <span class="mi">0</span><span class="p">),)</span>
 <span class="n">scales</span><span class="p">[</span><span class="mi">53</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">Scale</span><span class="p">(</span><span class="s2">&quot;-&quot;</span><span class="p">,</span> <span class="mi">53</span><span class="p">,</span> <span class="mi">0</span><span class="p">),)</span>
 
-<span class="n">scale_cols</span><span class="o">=</span> <span class="p">{</span><span class="mi">2</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+<span class="n">scale_cols</span><span class="o">=</span> <span class="p">{</span><span class="mi">2</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> 
              <span class="mi">7</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">12</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">17</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span>
              <span class="mi">24</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">31</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">53</span><span class="p">:</span> <span class="mi">6</span><span class="p">}</span>
 
@@ -13439,30 +13436,30 @@ div#notebook {
 
 
 <span class="k">def</span> <span class="nf">get_notes</span><span class="p">(</span><span class="n">temperament</span><span class="p">,</span> <span class="n">notes</span><span class="p">,</span> <span class="n">root</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
-
+    
     <span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">notes</span><span class="p">)</span> <span class="ow">is</span> <span class="nb">int</span><span class="p">:</span>
         <span class="n">tempered_notes</span> <span class="o">=</span> <span class="n">temperament</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">notes</span><span class="p">)</span>
-
+        
         <span class="n">f_ref</span> <span class="o">=</span> <span class="n">note_freq_hz</span><span class="p">[</span><span class="n">root</span><span class="p">]</span>
-
+        
         <span class="n">note_tuple</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">Note</span><span class="p">(</span><span class="n">roman</span><span class="p">(</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">),</span> <span class="n">tempered_notes</span><span class="p">[</span><span class="n">n</span><span class="p">])</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">notes</span><span class="p">))</span>
-
+      
     <span class="k">elif</span> <span class="nb">type</span><span class="p">(</span><span class="n">notes</span><span class="p">)</span> <span class="ow">is</span> <span class="nb">tuple</span><span class="p">:</span>
         <span class="n">tempered_notes</span> <span class="o">=</span> <span class="n">temperament</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
-
+        
         <span class="n">shifted_notes</span> <span class="o">=</span> <span class="p">[(</span><span class="n">n</span> <span class="o">+</span> <span class="n">root</span><span class="p">)</span> <span class="o">%</span> <span class="n">num_halftones</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">notes</span><span class="p">]</span>
 
         <span class="n">f_ref</span> <span class="o">=</span> <span class="n">note_freq_hz</span><span class="p">[</span><span class="n">root</span><span class="p">]</span>
         <span class="n">cent_ref</span> <span class="o">=</span> <span class="n">tempered_notes</span><span class="p">[</span><span class="n">root</span><span class="p">]</span>
-
+        
         <span class="n">note_tuple</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">Note</span><span class="p">(</span><span class="n">note_names</span><span class="p">[</span><span class="n">n</span><span class="p">],</span>
                                 <span class="n">octave_fit</span><span class="p">(</span><span class="n">tempered_notes</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">-</span> <span class="n">cent_ref</span><span class="p">))</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">shifted_notes</span><span class="p">)</span>
 
     <span class="k">else</span><span class="p">:</span>
         <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;notes must be an integer or a tuple of integers.&quot;</span><span class="p">)</span>
-
+        
     <span class="k">return</span> <span class="n">note_tuple</span><span class="p">,</span> <span class="n">f_ref</span>
-
+    
 </pre></div>
 
     </div>
@@ -13470,8 +13467,6 @@ div#notebook {
 </div>
 
   </div>
-
-
 
   <div class="
       cell border-box-sizing code_cell rendered" style="display: none">
@@ -13523,13 +13518,13 @@ div#notebook {
     <span class="n">n_attack</span><span class="p">,</span> <span class="n">n_decay</span><span class="p">,</span> <span class="n">n_sustain</span><span class="p">,</span> <span class="n">n_release</span> <span class="o">=</span> <span class="n">adsr_durations</span>
 
     <span class="n">keystroke_duration</span> <span class="o">=</span> <span class="n">n_attack</span> <span class="o">+</span> <span class="n">n_decay</span> <span class="o">+</span> <span class="n">n_sustain</span> <span class="o">+</span> <span class="n">n_release</span>
-
+    
     <span class="n">db_floor</span><span class="p">,</span> <span class="n">db_peak</span><span class="p">,</span> <span class="n">db_sustain</span><span class="p">,</span> <span class="n">db_release</span> <span class="o">=</span> <span class="n">adsr_levels</span>
 
     <span class="k">if</span> <span class="n">total_duration</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
       <span class="k">if</span> <span class="n">total_duration</span> <span class="o">&lt;</span> <span class="n">keystroke_duration</span><span class="p">:</span>
         <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Total duration must be greater or equal than the overall keystroke duration&quot;</span><span class="p">)</span>
-
+        
       <span class="n">fadeout</span> <span class="o">=</span> <span class="n">total_duration</span> <span class="o">-</span> <span class="n">keystroke_duration</span>
 
       <span class="n">db_slope</span> <span class="o">=</span> <span class="p">(</span><span class="n">db_floor</span> <span class="o">-</span> <span class="n">db_sustain</span><span class="p">)</span> <span class="o">/</span> <span class="n">n_release</span>
@@ -13539,7 +13534,7 @@ div#notebook {
 
     <span class="k">if</span> <span class="nb">max</span><span class="p">(</span><span class="n">adsr_levels</span><span class="p">)</span> <span class="o">&gt;</span> <span class="o">-</span><span class="mf">6.0</span><span class="p">:</span>
         <span class="k">raise</span> <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Your dB levels are </span><span class="si">{adsr_levels}</span><span class="s2">. Levels greater than -6 dB may saturate.&quot;</span><span class="p">,</span> <span class="ne">UserWarning</span><span class="p">)</span>
-
+    
 
     <span class="c1">#################################################################</span>
     <span class="c1">#                                                               #</span>
@@ -13559,9 +13554,9 @@ div#notebook {
     <span class="c1">#          |-----|------------|---------|-------|-------|       #</span>
     <span class="c1">#           Attack  Decay      Sustain   Release Fadeout        #</span>
     <span class="c1">#################################################################</span>
-
+    
     <span class="k">if</span> <span class="n">smooth_factor</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
-
+        
         <span class="n">n_attack</span> <span class="o">//=</span> <span class="n">smooth_factor</span>
         <span class="n">n_decay</span> <span class="o">//=</span> <span class="n">smooth_factor</span>
         <span class="n">n_sustain</span> <span class="o">//=</span> <span class="n">smooth_factor</span>
@@ -13570,10 +13565,10 @@ div#notebook {
     <span class="n">adsr_curve</span> <span class="o">=</span> <span class="n">piecewiselin</span><span class="p">((</span><span class="n">n_attack</span><span class="p">,</span> <span class="n">n_decay</span><span class="p">,</span> <span class="n">n_sustain</span><span class="p">,</span> <span class="n">n_release</span><span class="p">),</span>
                               <span class="p">(</span><span class="n">db_floor</span><span class="p">,</span> <span class="n">db_peak</span><span class="p">,</span> <span class="n">db_sustain</span><span class="p">,</span>
                                <span class="n">db_sustain</span> <span class="o">-</span> <span class="n">sustain_fade</span><span class="p">,</span> <span class="n">db_release</span><span class="p">))</span>
-
+    
     <span class="k">if</span> <span class="n">smooth_factor</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
         <span class="n">adsr_curve</span> <span class="o">=</span> <span class="n">signal</span><span class="o">.</span><span class="n">resample</span><span class="p">(</span><span class="n">adsr_curve</span><span class="p">,</span> <span class="n">total_duration</span><span class="p">,</span> <span class="n">window</span><span class="o">=</span><span class="s2">&quot;hamming&quot;</span><span class="p">)</span>
-
+    
     <span class="n">magnitudes</span> <span class="o">=</span> <span class="n">db2mag</span><span class="p">(</span><span class="n">adsr_curve</span><span class="p">)</span>
 
     <span class="k">return</span> <span class="n">magnitudes</span>
@@ -13593,7 +13588,7 @@ div#notebook {
   <span class="n">y</span> <span class="o">=</span> <span class="n">signal</span><span class="o">.</span><span class="n">lfilter</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
 
   <span class="k">return</span> <span class="n">y</span>
-
+  
 
 <span class="k">def</span> <span class="nf">sawtooth_harmonics</span><span class="p">(</span><span class="n">f0</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">n_harmonics</span><span class="o">=</span><span class="mi">6</span><span class="p">,</span> <span class="n">power</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">random_phase</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
 
@@ -13612,9 +13607,9 @@ div#notebook {
                <span class="n">attack</span><span class="o">=.</span><span class="mi">1</span><span class="p">,</span> <span class="n">decay</span><span class="o">=.</span><span class="mi">1</span><span class="p">,</span> <span class="n">sustain</span><span class="o">=-</span><span class="mi">15</span><span class="p">,</span> <span class="n">release</span><span class="o">=.</span><span class="mi">7</span><span class="p">,</span> <span class="n">sus_time</span><span class="o">=.</span><span class="mi">4</span><span class="p">,</span>
                <span class="n">floor</span><span class="o">=-</span><span class="mi">90</span><span class="p">,</span> <span class="n">peak</span><span class="o">=-</span><span class="mi">12</span><span class="p">,</span> <span class="n">rel_level</span><span class="o">=-</span><span class="mi">90</span><span class="p">,</span> <span class="n">spacing</span><span class="o">=.</span><span class="mi">6</span><span class="p">,</span> <span class="n">chord_notes</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span>
                <span class="n">progress</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-
+  
   <span class="n">n_freqs</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">note_frequencies</span><span class="p">)</span>
-
+    
   <span class="n">chord</span> <span class="o">=</span> <span class="n">n_freqs</span> <span class="o">&lt;=</span> <span class="n">chord_notes</span> <span class="o">+</span> <span class="mi">1</span>
 
   <span class="n">attack_samples</span> <span class="o">=</span> <span class="n">time2samples</span><span class="p">(</span><span class="n">attack</span><span class="p">,</span> <span class="n">fs</span><span class="p">)</span>
@@ -13624,26 +13619,26 @@ div#notebook {
   <span class="n">fadeout_samples</span> <span class="o">=</span> <span class="n">time2samples</span><span class="p">(</span><span class="n">fadeout</span><span class="p">,</span> <span class="n">fs</span><span class="p">)</span>
 
   <span class="n">sample_spacing</span> <span class="o">=</span> <span class="n">time2samples</span><span class="p">(</span><span class="n">spacing</span><span class="p">,</span> <span class="n">fs</span><span class="p">)</span>
-
-  <span class="n">chord_length</span> <span class="o">=</span> <span class="n">sample_spacing</span> <span class="o">+</span> <span class="n">fadeout_samples</span> <span class="o">*</span> <span class="mi">2</span> <span class="k">if</span> <span class="n">chord</span> <span class="k">else</span> <span class="mi">0</span>
+    
+  <span class="n">chord_length</span> <span class="o">=</span> <span class="n">sample_spacing</span> <span class="o">+</span> <span class="n">fadeout_samples</span> <span class="o">*</span> <span class="mi">2</span> <span class="k">if</span> <span class="n">chord</span> <span class="k">else</span> <span class="mi">0</span>  
 
   <span class="n">total_samples</span> <span class="o">=</span> <span class="n">sample_spacing</span> <span class="o">*</span> <span class="n">n_freqs</span>  <span class="o">+</span> <span class="n">fadeout_samples</span> <span class="o">+</span> <span class="n">chord_length</span>
 
   <span class="n">adsr_samples</span> <span class="o">=</span> <span class="p">(</span><span class="n">attack_samples</span><span class="p">,</span> <span class="n">decay_samples</span><span class="p">,</span>
                   <span class="n">sustain_samples</span><span class="p">,</span> <span class="n">release_samples</span><span class="p">)</span>
   <span class="n">adsr_levels</span> <span class="o">=</span> <span class="p">(</span><span class="n">floor</span><span class="p">,</span> <span class="n">peak</span><span class="p">,</span> <span class="n">sustain</span><span class="p">,</span> <span class="n">rel_level</span><span class="p">)</span>
-
+    
   <span class="n">chord_adsr_ivals</span> <span class="o">=</span> <span class="p">(</span><span class="n">attack_samples</span><span class="p">,</span> <span class="n">decay_samples</span><span class="p">,</span>
                       <span class="mi">2</span> <span class="o">*</span> <span class="n">sustain_samples</span><span class="p">,</span> <span class="n">release_samples</span><span class="p">)</span>
-
+    
   <span class="n">adsr_curve</span> <span class="o">=</span> <span class="n">adsr</span><span class="p">(</span><span class="n">adsr_samples</span><span class="p">,</span> <span class="n">adsr_levels</span><span class="p">)</span>
   <span class="n">adsr_chord</span> <span class="o">=</span> <span class="n">adsr</span><span class="p">(</span><span class="n">chord_adsr_ivals</span><span class="p">,</span> <span class="n">adsr_levels</span><span class="p">,</span> <span class="n">total_duration</span><span class="o">=</span><span class="n">chord_length</span><span class="p">)</span> <span class="k">if</span> <span class="n">chord</span> <span class="k">else</span> <span class="mi">0</span>
-
+    
   <span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">total_samples</span><span class="p">)</span>
 
   <span class="n">t_length</span> <span class="o">=</span> <span class="n">adsr_curve</span><span class="o">.</span><span class="n">size</span>
-
-  <span class="n">max_length</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">((</span><span class="n">chord_length</span><span class="p">,</span> <span class="n">t_length</span><span class="p">))</span>
+    
+  <span class="n">max_length</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">((</span><span class="n">chord_length</span><span class="p">,</span> <span class="n">t_length</span><span class="p">))</span>  
 
   <span class="n">t</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">max_length</span><span class="p">)</span> <span class="o">/</span> <span class="n">fs</span>
 
@@ -13653,33 +13648,33 @@ div#notebook {
       <span class="n">t_end</span> <span class="o">=</span> <span class="n">t_offset</span> <span class="o">+</span> <span class="n">t_length</span>
 
       <span class="n">f_hz</span> <span class="o">=</span> <span class="n">fref</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">power</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">f_cent</span> <span class="o">/</span> <span class="n">octave_cents</span><span class="p">)</span>
-
+      
       <span class="n">waveform</span> <span class="o">=</span> <span class="n">sawtooth_harmonics</span><span class="p">(</span><span class="n">f_hz</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">power</span><span class="o">=</span><span class="mf">1.5</span><span class="p">)</span>
       <span class="n">wave</span> <span class="o">=</span> <span class="n">waveform</span><span class="p">[:</span><span class="n">t_length</span><span class="p">]</span> <span class="o">*</span> <span class="n">adsr_curve</span>
 
       <span class="n">data</span><span class="p">[</span><span class="n">t_offset</span><span class="p">:</span><span class="n">t_end</span><span class="p">]</span> <span class="o">+=</span> <span class="n">wave</span>
-
+    
       <span class="k">if</span> <span class="n">chord</span> <span class="ow">and</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="n">chord_notes</span><span class="p">:</span>
          <span class="n">wave</span> <span class="o">=</span> <span class="n">waveform</span><span class="p">[:</span><span class="n">chord_length</span><span class="p">]</span> <span class="o">*</span> <span class="n">adsr_chord</span>
          <span class="n">data</span><span class="p">[</span><span class="o">-</span><span class="n">chord_length</span><span class="p">:]</span> <span class="o">+=</span> <span class="n">wave</span>
-
+            
       <span class="k">if</span> <span class="n">progress</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
         <span class="n">progress</span><span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-
+        
   <span class="n">audio</span> <span class="o">=</span> <span class="n">lowpass_filter</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">fc</span><span class="o">=</span><span class="n">fc</span><span class="p">)</span>
 
   <span class="k">return</span> <span class="n">audio</span>
 
 
 <span class="k">def</span> <span class="nf">compress</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
-
+    
     <span class="n">peak</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
-
+    
     <span class="k">if</span> <span class="n">peak</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">x</span> <span class="o">/</span> <span class="n">peak</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">x</span>
-
+    
 </pre></div>
 
     </div>
@@ -13687,8 +13682,6 @@ div#notebook {
 </div>
 
   </div>
-
-  
 
   <div class="
       cell border-box-sizing code_cell rendered">
@@ -13717,7 +13710,7 @@ div#notebook {
 <span class="n">output_layout</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;align_items&#39;</span><span class="p">:</span> <span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="s1">&#39;align_content&#39;</span><span class="p">:</span> <span class="s1">&#39;center&#39;</span><span class="p">}</span>
 <span class="n">style</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="n">f</span><span class="s1">&#39;{100 - btn_width}%&#39;</span><span class="p">}</span>
 
-<span class="n">tuner_box</span> <span class="o">=</span> <span class="n">VBox</span><span class="p">([],</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">))</span>
+<span class="n">tuner_box</span> <span class="o">=</span> <span class="n">VBox</span><span class="p">([],</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s1">&#39;100%&#39;</span><span class="p">))</span>
 
 <span class="n">cent_margin</span> <span class="o">=</span> <span class="mi">5</span>
             
@@ -13795,7 +13788,9 @@ div#notebook {
     <span class="k">return</span> <span class="n">theta</span>
 
 
-<span class="n">plot_out</span> <span class="o">=</span> <span class="n">Output</span><span class="p">(</span><span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="o">**</span><span class="n">output_layout</span><span class="p">))</span>
+<span class="n">plot_out</span> <span class="o">=</span> <span class="n">Output</span><span class="p">(</span><span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">align_content</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">align_items</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span>
+                                <span class="n">justify_content</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">min_height</span><span class="o">=</span><span class="s2">&quot;0px&quot;</span><span class="p">,</span>
+                                <span class="n">justify_items</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">))</span>
 
 
 <span class="k">def</span> <span class="nf">init_plot</span><span class="p">():</span>
@@ -13806,7 +13801,7 @@ div#notebook {
         <span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
         <span class="n">fig</span><span class="o">.</span><span class="n">canvas</span><span class="o">.</span><span class="n">header_visible</span> <span class="o">=</span> <span class="kc">False</span>
 
-        <span class="n">axis</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">projection</span><span class="o">=</span><span class="s1">&#39;polar&#39;</span><span class="p">)</span>
+        <span class="n">axis</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">frameon</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">projection</span><span class="o">=</span><span class="s1">&#39;polar&#39;</span><span class="p">)</span>
 
         <span class="n">axis</span><span class="o">.</span><span class="n">set_theta_direction</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
         <span class="n">axis</span><span class="o">.</span><span class="n">set_theta_zero_location</span><span class="p">(</span><span class="s1">&#39;N&#39;</span><span class="p">)</span>
@@ -13834,10 +13829,13 @@ div#notebook {
 
 <span class="n">audio_bar</span> <span class="o">=</span> <span class="n">IntProgress</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s2">&quot;Generating notes&quot;</span><span class="p">,</span>
                         <span class="nb">min</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="n">default_num_notes</span><span class="p">,</span>
-                        <span class="n">value</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s2">&quot;100%&quot;</span><span class="p">),</span>
+                        <span class="n">value</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
                         <span class="n">style</span><span class="o">=</span><span class="n">style</span><span class="p">)</span>
     
-<span class="n">audio_out</span> <span class="o">=</span> <span class="n">Output</span><span class="p">(</span><span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="o">**</span><span class="n">output_layout</span><span class="p">))</span>
+<span class="n">audio_out</span> <span class="o">=</span> <span class="n">Output</span><span class="p">(</span><span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">align_content</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">align_items</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span>
+                                 <span class="n">justify_content</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">min_height</span><span class="o">=</span><span class="s2">&quot;0px&quot;</span><span class="p">,</span>
+                                 <span class="n">height</span><span class="o">=</span><span class="s1">&#39;50px&#39;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">,</span> <span class="n">min_width</span><span class="o">=</span><span class="s1">&#39;0px&#39;</span><span class="p">,</span>
+                                 <span class="n">justify_items</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">))</span>
 <span class="n">audio_out</span><span class="o">.</span><span class="n">f_root</span> <span class="o">=</span> <span class="n">a3_hz</span>
 <span class="n">audio_out</span><span class="o">.</span><span class="n">fs</span> <span class="o">=</span> <span class="n">sampling_rate</span>
 <span class="n">audio_out</span><span class="o">.</span><span class="n">player</span> <span class="o">=</span> <span class="kc">None</span>
@@ -14062,7 +14060,7 @@ div#notebook {
 <span class="n">btn_temperament</span><span class="o">.</span><span class="n">temperament</span> <span class="o">=</span> <span class="n">temp_chromatic</span>
 
 <span class="n">btn_scale</span> <span class="o">=</span> <span class="n">Dropdown</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">parse_options</span><span class="p">(</span><span class="n">scales</span><span class="p">[</span><span class="n">default_num_notes</span><span class="p">]),</span>
-                     <span class="n">value</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Scale/Mode/Chord&quot;</span><span class="p">,</span>
+                     <span class="n">value</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Scale/Chord&quot;</span><span class="p">,</span>
                      <span class="n">style</span><span class="o">=</span><span class="n">style</span><span class="p">,</span>
                      <span class="n">disabled</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="o">**</span><span class="n">head_layout</span><span class="p">))</span>
 
@@ -14076,34 +14074,38 @@ div#notebook {
 <span class="n">btn_scale</span><span class="o">.</span><span class="n">observe</span><span class="p">(</span><span class="n">tune</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">)</span>
 <span class="n">btn_reset</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">tune</span><span class="p">)</span>
 
-<span class="n">right_box</span> <span class="o">=</span> <span class="n">HBox</span><span class="p">(</span><span class="n">children</span><span class="o">=</span><span class="p">[</span><span class="n">btn_reset</span><span class="p">,</span> <span class="n">audio_out</span><span class="p">],</span>
+<span class="n">right_box</span> <span class="o">=</span> <span class="n">HBox</span><span class="p">(</span><span class="n">children</span><span class="o">=</span><span class="p">[</span><span class="n">btn_reset</span><span class="p">],</span>
                <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">display</span><span class="o">=</span><span class="s1">&#39;flex&#39;</span><span class="p">,</span>
                              <span class="n">flex_flow</span><span class="o">=</span><span class="s1">&#39;column&#39;</span><span class="p">,</span>
                              <span class="n">align_items</span><span class="o">=</span><span class="s1">&#39;flex-end&#39;</span><span class="p">))</span>
 
-<span class="n">right_box</span><span class="o">.</span><span class="n">loading</span> <span class="o">=</span> <span class="kc">False</span>
-
-
-<span class="k">def</span> <span class="nf">loading_audio</span><span class="p">():</span>
-    <span class="k">if</span> <span class="ow">not</span> <span class="n">right_box</span><span class="o">.</span><span class="n">loading</span><span class="p">:</span>
-        <span class="n">audio_bar</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="mi">0</span>
-        <span class="n">right_box</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="p">(</span><span class="n">btn_reset</span><span class="p">,</span> <span class="n">audio_bar</span><span class="p">)</span>
-        <span class="n">right_box</span><span class="o">.</span><span class="n">loading</span> <span class="o">=</span> <span class="kc">True</span>
-        
-        
-<span class="k">def</span> <span class="nf">audio_ready</span><span class="p">():</span>
-    <span class="k">if</span> <span class="n">right_box</span><span class="o">.</span><span class="n">loading</span><span class="p">:</span>
-        <span class="n">right_box</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="p">(</span><span class="n">btn_reset</span><span class="p">,</span> <span class="n">audio_out</span><span class="p">)</span>
-        <span class="n">right_box</span><span class="o">.</span><span class="n">loading</span> <span class="o">=</span> <span class="kc">False</span>
-
-<span class="n">ui</span> <span class="o">=</span> <span class="n">AppLayout</span><span class="p">(</span><span class="n">pane_widths</span><span class="o">=</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>
+<span class="n">ui</span> <span class="o">=</span> <span class="n">AppLayout</span><span class="p">(</span><span class="n">pane_widths</span><span class="o">=</span><span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span> <span class="n">grid_gap</span><span class="o">=</span><span class="s2">&quot;0px&quot;</span><span class="p">,</span>
+               <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">justify_items</span><span class="o">=</span><span class="s2">&quot;center&quot;</span><span class="p">))</span>
 <span class="n">ui</span><span class="o">.</span><span class="n">right_sidebar</span> <span class="o">=</span> <span class="n">tuner_box</span>
 <span class="n">ui</span><span class="o">.</span><span class="n">left_sidebar</span> <span class="o">=</span> <span class="n">VBox</span><span class="p">([</span><span class="n">btn_notes</span><span class="p">,</span> <span class="n">btn_root</span><span class="p">,</span>
                         <span class="n">btn_temperament</span><span class="p">,</span><span class="n">btn_scale</span><span class="p">,</span> <span class="n">right_box</span><span class="p">],</span>
-                        <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">justify_content</span><span class="o">=</span><span class="s1">&#39;flex-start&#39;</span><span class="p">))</span>
+                        <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s2">&quot;100%&quot;</span><span class="p">,</span> <span class="n">justify_content</span><span class="o">=</span><span class="s1">&#39;flex-start&#39;</span><span class="p">))</span>
+
+<span class="n">ui</span><span class="o">.</span><span class="n">footer</span> <span class="o">=</span> <span class="n">HBox</span><span class="p">([</span><span class="n">audio_out</span><span class="p">],</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">align_content</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">align_items</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span>
+                                            <span class="n">justify_content</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span>
+                                            <span class="n">justify_items</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">))</span>
+
 
 <span class="n">ui</span><span class="o">.</span><span class="n">visible_tuner</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">ui</span><span class="o">.</span><span class="n">loading</span> <span class="o">=</span> <span class="kc">False</span>
 
+
+<span class="k">def</span> <span class="nf">loading_audio</span><span class="p">():</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">ui</span><span class="o">.</span><span class="n">loading</span><span class="p">:</span>
+        <span class="n">audio_bar</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">ui</span><span class="o">.</span><span class="n">footer</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="n">audio_bar</span><span class="p">,</span>
+        <span class="n">ui</span><span class="o">.</span><span class="n">loading</span> <span class="o">=</span> <span class="kc">True</span>
+        
+        
+<span class="k">def</span> <span class="nf">audio_ready</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">ui</span><span class="o">.</span><span class="n">loading</span><span class="p">:</span>
+        <span class="n">ui</span><span class="o">.</span><span class="n">footer</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="n">audio_out</span><span class="p">,</span>
+        <span class="n">ui</span><span class="o">.</span><span class="n">loading</span> <span class="o">=</span> <span class="kc">False</span>
 
 <span class="k">def</span> <span class="nf">hide_tuner</span><span class="p">():</span>
     <span class="k">if</span> <span class="n">ui</span><span class="o">.</span><span class="n">visible_tuner</span><span class="p">:</span>
@@ -14127,11 +14129,13 @@ div#notebook {
         <span class="n">ui</span><span class="o">.</span><span class="n">right_sidebar</span><span class="o">=</span> <span class="n">grid</span>
     <span class="n">ui</span><span class="o">.</span><span class="n">visible_tuner</span> <span class="o">=</span> <span class="kc">True</span>
         
-
+<span class="n">plot_box</span> <span class="o">=</span> <span class="n">HBox</span><span class="p">([</span><span class="n">plot_out</span><span class="p">],</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">align_content</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">align_items</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span>
+                                <span class="n">justify_content</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span>
+                                <span class="n">justify_items</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">))</span>
 
 <span class="n">select_n_notes</span><span class="p">({</span><span class="s2">&quot;old&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;new&quot;</span><span class="p">:</span> <span class="n">default_num_notes</span><span class="p">})</span>
 
-<span class="n">display</span><span class="p">(</span><span class="n">ui</span><span class="p">,</span> <span class="n">plot_out</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">ui</span><span class="p">,</span> <span class="n">plot_box</span><span class="p">)</span>
 </pre></div>
 
     </div>
