@@ -30,6 +30,10 @@ KI-gestützte Mobilfunksysteme für Mobilität in Industrie und Verkehr
 
 ### Publications
 
-* R. Hernangómez and A. Santra and S. Stanczak (2019). Human Activity Classification with Frequency Modulated Continuous Wave Radar Using Deep Convolutional Neural Networks.
-[RADAR 2019 International Conference](https://www.radar2019.org/), 23-27 Sept. 2019, Toulon, France
+* R. Hernangómez, A. Santra, and S. Stańczak,
+“Human Activity Classification with Frequency Modulated Continuous Wave Radar
+Using Deep Convolutional Neural Networks,”
+in 2019 International Radar Conference (RADAR),
+Sep. 2019, pp. 1–6,
+doi: [10.1109/RADAR41533.2019.171243](https://doi.org/10.1109/RADAR41533.2019.171243).
 

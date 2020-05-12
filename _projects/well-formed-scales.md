@@ -30,7 +30,7 @@ My idea is to write interactive code to play around with the concepts that are e
 
 A first version of the widget looks like this:
 
-<iframe src="/assets/widgets/music-scales.html" scrolling="no" width="100%" height="800" frameborder="0" allowtransparency="true">
+<iframe src="/assets/widgets/music-scales.html" scrolling="no" width="100%" height="750" frameborder="0" allowtransparency="true">
 </iframe>
 
 ## <i class="fas fa-laptop-code"></i> Technique
