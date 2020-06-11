@@ -13,15 +13,12 @@ colab:
   path: "music-scales.ipynb"
 ---
 
-Musical notes, scales and chords are ruled by mathematical laws.
-You can of course stare at the cold numbers to get a sense for this,
-but it is actually much more fun to play around and listen to them.
+Musical is ruled by mathematical laws.
+Staring at the numbers was not enough for me though, so I have
+coded a tool to actually listen to it.
 
 
 <!--more-->
-
-**Warning** <i class="fas fa-exclamation-triangle"></i> Project under construction.
-{: .notice--warning}
 
 ## <i class="fas fa-palette"></i> Music theory goes interactive
 
@@ -73,7 +70,7 @@ Needless to say, there are much better resources out there, so if you can spare 
 I really encourage you to check some of the
 [videos](#youtube) I have used as a reference.
 
-##<i class="fas fa-laptop-code"></i> What makes sound harmonious?
+## <i class="fas fa-laptop-code"></i> What makes sound harmonious?
 
 Humans find two notes pleasant or **consonant** when their pitches
 form a simple ratio. Here is a list of the most common examples of harmonious intervals
@@ -88,7 +85,7 @@ and their frequency ratios:
 | Minor third   | A-C   |   5:6 |
 
 On the other hand, irrational relations such as $$1:\sqrt{2}$$
-(whose simplest _good_ rational approximation is 32:45)
+(whose simplest _good_ rational approximation is $$32:45$$)
 sound cacophonous or **dissonant** to our ears.
 In the case of $$1:\sqrt{2}$$,
 by the way,
@@ -151,7 +148,7 @@ and if we for instance traverse
 one octave and a half on the graph we will
 end up only half an octave away from the starting point.
 
-Once that we have ruled out the octave, the next simplest interval is the fifth at 2:3.
+Once that we have ruled out the octave, the next simplest interval is the fifth at $$2:3$$.
 With that we can already find new notes, e.g. if we start with a frequency of 100 Hz
 and we focus on pitches between 100 and 200 Hz:
 
@@ -159,7 +156,7 @@ $$\begin{aligned} f_1 &= 100\textrm{ Hz} \\ f_2 &= \frac{3}{2}\cdot 100 = 150\te
 
 Then we can also find the fifth of the fifth:
 
-$$f_3 = \frac{3}{2}\cdot 150 \cdot\frac{1}{2} = 225 \cdot\frac{1}{2} = 112.5\textrm{ Hz}
+$$f_3 = \frac{3}{2}\cdot 150 \cdot\frac{1}{2} = 225 \cdot\frac{1}{2} = 112.5\textrm{ Hz}$$
 
 225 Hz is already greater than 200 Hz, hence the division by two to find the note in
 a lower octave as 112.5 Hz. If we keep multiplying by
@@ -226,8 +223,7 @@ other intervals today considered as consonant deviate significantly
 from their ideal ratio. Major thirds, for instance, are the next consonant interval
 with a ratio of $$\frac{5}{4}=1.25$$. Nevertheless, Pythagorean tuning assigns
 $$\frac{81}{64}=1.265625$$ to them, which constitutes a difference of 21.51 cents
-or an audible relative pitch error of 1.25%.
-(Note: Greeks actually deemed thirds dissonant for this reason).
+or an audible relative pitch error of 1.25%[^3].
 - When stacking fifths up to the 12-note chromatic scale,
 the last added note does not form a perfect fifth with the initial note
 (A# to F in the animation above), but a narrowed version with
@@ -331,7 +327,7 @@ until we get
 Cents have also allowed scientists and musicians to
 investigate and measure the limits of human music
 perception. It may be useful just to drop a couple of
-illustrative figures, as cents are extensively
+illustrative figures[^4], as cents are extensively
 discussed [above](#how-do-we-tune-our-scales):
 
 | Pitch ratio in cents |  Relative difference in linear frequency | Human perception |
@@ -346,11 +342,6 @@ Fascinating enough, this reveals that our ability to discriminate
 pitch goes below a relative error of 0.6%, and that
 a semitone interval, with all its prevalence in Western music,
 accounts for less than 6% increase in frequency.
-
-**Disclaimer** Although one might extract a linear relation between cents
-and frequency relative error from the table, this is just a linear approximation
-for small quantities.
-{: .notice--info}
 
 ## References
 
@@ -379,3 +370,5 @@ video does a superb job summarizing everything else in less than 5 minutes.
 
 [^1]: I have actually coded the note generation process from scratch, as I wanted to have harmonic-rich synth-like sounds that I can arbitrarily fix to any frequency. 
 [^2]: The stacking fifth method is used to build all modal, major or minor scales. In other cases (blues scale, harmonic minor, intervals and chords) the purple lines just involve some abuse of notation. Sorry not sorry.
+[^3]: Greeks actually deemed thirds dissonant for this reason.
+[^4]: Although one might extract a linear relation between cents and frequency relative error from the table, this is just a linear approximation for small quantities.

@@ -18,8 +18,8 @@ gal_scv:
     alt: "Sparse complex vector reconstruction. Normalized error around -35 dB"
 ---
 
-Engineering problems are often too abstract to catch the eyes of laymen.
-A right representation can, however, unveil the hidden
+Engineering problems are often too abstract to catch the eyes of laymen,
+but a right representation can unveil the hidden
 beauty of the underlying arithmetic.
 
 <!--more-->
