@@ -20,7 +20,7 @@ gal_scv:
 
 Engineering problems are often too abstract to catch the eyes of laymen.
 A right representation can, however, unveil the hidden
-beauty of the underlying math.
+beauty of the underlying arithmetic.
 
 <!--more-->
 
@@ -199,17 +199,21 @@ ideas from **neural networks** and **artificial intelligence**.
 
 ## Further references
 
-- [Complex numbers]
-- [HSB color system](https://en.wikipedia.org/wiki/HSL_and_HSV)
-- [Fill in the Blanks: Using Math to Turn Lo-Res Datasets Into Hi-Res Samples][wired]
+- Complex numbers - [Wikipedia][Complex numbers]
+- HSB color system - [Wikipedia](https://en.wikipedia.org/wiki/HSL_and_HSV)
+- Fill in the Blanks: Using Math to Turn Lo-Res Datasets Into Hi-Res Samples -
+[Wired]
 - M. Borgerding, P. Schniter, and S. Rangan,
-[“AMP-Inspired Deep Networks for Sparse Linear Inverse Problems,”][lamp] IEEE Transactions on Signal Processing, vol. 65, no. 16, pp. 4293–4308, Aug. 2017, doi: 10.1109/TSP.2017.2708040.
+“AMP-Inspired Deep Networks for Sparse Linear Inverse Problems,”
+IEEE Transactions on Signal Processing, vol. 65, no. 16, pp. 4293–4308, Aug. 2017,
+doi: [10.1109/TSP.2017.2708040][lamp].
 - Z. Utkovski, O. Simeone, T. Dimitrova, and P. Popovski,
-[“Random Access in C-RAN for User Activity Detection With Limited-Capacity Fronthaul,”](http://ieeexplore.ieee.org/document/7762775/)
-IEEE Signal Processing Letters, vol. 24, no. 1, pp. 17–21, Jan. 2017, doi: 10.1109/LSP.2016.2633962.
+“Random Access in C-RAN for User Activity Detection With Limited-Capacity Fronthaul,”
+IEEE Signal Processing Letters, vol. 24, no. 1, pp. 17–21, Jan. 2017,
+doi: [10.1109/LSP.2016.2633962](https://doi.org/10.1109/LSP.2016.2633962).
 
 [^1]: Spanish for "White and bottled". This is actually a saying to point out something obvious, like the fact that if someone is talking about a white and bottled substance they probably refer to milk.
 
 [wired]: https://www.wired.com/2010/02/ff_algorithm/
 [complex numbers]: https://en.wikipedia.org/wiki/Complex_number
-[lamp]: http://ieeexplore.ieee.org/document/7934066/
+[lamp]: https://doi.org/10.1109/TSP.2017.2708040

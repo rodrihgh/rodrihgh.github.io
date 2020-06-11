@@ -233,10 +233,12 @@ engineering students, including myself.
 
 ## Further references
 
-- [Maze generation algorithms](https://en.wikipedia.org/wiki/Maze_generation_algorithm)
-- [Mike Bostock's Blocks][mike-bostock]---
+- Maze generation algorithms ---
+[Wikipedia](https://en.wikipedia.org/wiki/Maze_generation_algorithm)
+- Mike Bostock's [Blocks][mike-bostock]---
 Cool animations showing how Wilson's algorithm generates mazes.
-- [Time Series Analysis for Financial Data II — Auto-Regressive Models](https://medium.com/auquan/time-series-analysis-ii-auto-regressive-models-d0cb1a8a7c43) ---
-Post from a miniseries on the topic by Auquan on medium.com.
+- Time Series Analysis for Financial Data II — Auto-Regressive Models ---
+Post from a miniseries on the topic by Auquan on
+[Medium](https://medium.com/auquan/time-series-analysis-ii-auto-regressive-models-d0cb1a8a7c43).
 
 [mike-bostock]: https://bl.ocks.org/mbostock/11357811
