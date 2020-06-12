@@ -364,7 +364,7 @@ video does a superb job summarizing everything else in less than 5 minutes.
 ### Papers
 
 1. N. Carey and D. Clampitt, “Aspects of Well-Formed Scales,” Music Theory Spectr, vol. 11, no. 2, pp. 187–206, Oct. 1989,
-[doi: 10.2307/745935]((https://academic.oup.com/mts/article-abstract/11/2/187/1088094)).
+[doi: 10.2307/745935](https://academic.oup.com/mts/article-abstract/11/2/187/1088094).
 2. M. Castrillón and M. Domínguez, “Un encuentro entre las matemáticas y la teoría de escalas musicales: Escalas bien formadas,”
 [La Gaceta de la RSME, vol. 16, no. 1, pp. 87–106](http://gaceta.rsme.es/abrir.php?id=1130), 2013.
 
