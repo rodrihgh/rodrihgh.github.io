@@ -23,7 +23,7 @@ coded a tool to actually listen to it.
 ## <i class="fas fa-palette"></i> Music theory goes interactive
 
 
-<iframe src="/assets/widgets/music-scales.html" scrolling="no" width="100%" height="700" frameborder="0" allowtransparency="true">
+<iframe src="/assets/widgets/music-scales.html" scrolling="no" width="100%" height="720" frameborder="0" allowtransparency="true">
 </iframe>
 
 The widget can take up to one minute to load, so in the meantime
@@ -246,7 +246,7 @@ I have considered in the
 | -------- | :----------- | :----: | :----  |
 | **Pythagorean** | $$\frac{3}{2}=1.5$$ | 702   | This is the temperament I just explained [above](#how-do-we-build-a-scale), which generates pure fifths and fourths. |
 | **(1/4-comma) Meantone** | $$\sqrt[4]{5}=1.4953\ldots$$ | 697   | Most prominently used in the Renaissance and Baroque periods, this temperament narrows the fifth to achieve pure major thirds and minor sixths at $$\frac{5}{4}$$ and $$\frac{8}{5}$$, respectively. | 
-| **Equal temperament** | $$2^{\frac{7}{12}}=1.4983\ldots$$ | 700  | 12-tone equal temperament exhibits a slightly narrow fifth to generate equally spaced notes in the chromatic scale, eliminating wolf intervals. |  
+| **Equal temperament** | $$2^{\frac{7}{12}}=1.4983\ldots$$ | 700  | 12-tone equal temperament is the tuning system used by most music pieces nowadays. It exhibits a slightly narrow fifth to generate equally spaced notes in the chromatic scale, eliminating wolf intervals. |  
 
 Same as for the 12-tone equal temperament, one could adjust the fifth interval to
 achieve regularly spaced notes for any arbitrary number of notes.
@@ -337,6 +337,7 @@ discussed [above](#how-do-we-tune-our-scales):
 | 5 cents     | $$<0.3\%$$ | Just noticeable for trained ears. |
 | 10 cents     | $$<0.6\%$$ | Generally noticeable when two notes played together. |
 | 20 cents     | $$<1.2\%$$ | Generally noticeable when two notes played successively. |
+| 50 cents     | $$<3\%$$ | Quarter tone interval. Rarely used in Western music, highly importar in Middle Eastern music. |
 | 100 cents     | $$<6\%$$ | Semitone interval. Definitely noticeable if familiar with Western music. |
 
 Fascinating enough, this reveals that our ability to discriminate
