@@ -13,7 +13,7 @@ colab:
   path: "music-scales.ipynb"
 ---
 
-Musical is ruled by mathematical laws.
+Music is ruled by mathematical laws.
 Staring at the numbers was not enough for me though, so I have
 coded a tool to actually listen to it.
 
@@ -23,7 +23,7 @@ coded a tool to actually listen to it.
 ## <i class="fas fa-palette"></i> Music theory goes interactive
 
 
-<iframe src="/assets/widgets/music-scales.html" scrolling="no" width="100%" height="750" frameborder="0" allowtransparency="true">
+<iframe src="/assets/widgets/music-scales.html" scrolling="no" width="100%" height="700" frameborder="0" allowtransparency="true">
 </iframe>
 
 The widget can take up to one minute to load, so in the meantime
@@ -56,7 +56,8 @@ The different tuning options are explained [below](#how-do-we-tune-our-scales).
 The resulting encircled starry diagram shows [how notes in the scale are distributed
 and where they come from](#how-do-we-build-a-scale).
 For further customization you can just modify the interval of the individual notes
-with respect to the root. The number of the right will show the modified
+with respect to the root. The number right to the corresponding slider
+will show the modified
 pitch in [cents](#cents-or-the-human-perception-of-music).
 
 Once you have pimped up your scale you can listen to the result[^1].
@@ -143,7 +144,7 @@ in a different octave.
 This leads to a periodic structure that repeats over and over again
 every time we jump into the next octave. In the [widget graph][widget],
 this periodicty is represented by the circle.
-One turn around it represents one octave,
+One turn around it equals one octave,
 and if we for instance traverse
 one octave and a half on the graph we will
 end up only half an octave away from the starting point.
@@ -154,7 +155,7 @@ and we focus on pitches between 100 and 200 Hz:
 
 $$\begin{aligned} f_1 &= 100\textrm{ Hz} \\ f_2 &= \frac{3}{2}\cdot 100 = 150\textrm{ Hz} \end{aligned}$$
 
-Then we can also find the fifth of the fifth:
+Here $$f_2$$ is the fifth of $$f_1$$. We can further calculate the fifth of $$f_2$$:
 
 $$f_3 = \frac{3}{2}\cdot 150 \cdot\frac{1}{2} = 225 \cdot\frac{1}{2} = 112.5\textrm{ Hz}$$
 
@@ -232,7 +233,7 @@ This interval is perceptively dissonant and it is known as the **wolf fifth**
 because of its howling sound.
 
 We can try to change our fundamental intervals to compensate for that.
-The octave ratio of 1:2 is rarely altered though,
+The octave ratio of $$1:2$$ is rarely altered though,
 as it constitutes a universal pillar of music perception,
 so we will have to tweak or **temper** our fifth
 to slightly different values.
