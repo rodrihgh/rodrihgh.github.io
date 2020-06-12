@@ -337,7 +337,7 @@ discussed [above](#how-do-we-tune-our-scales):
 | 5 cents     | $$<0.3\%$$ | Just noticeable for trained ears. |
 | 10 cents     | $$<0.6\%$$ | Generally noticeable when two notes played together. |
 | 20 cents     | $$<1.2\%$$ | Generally noticeable when two notes played successively. |
-| 50 cents     | $$<3\%$$ | Quarter tone interval. Rarely used in Western music, highly importar in Middle Eastern music. |
+| 50 cents     | $$<3\%$$ | Quarter tone interval. Rarely used in Western music, highly important in Middle Eastern music. |
 | 100 cents     | $$<6\%$$ | Semitone interval. Definitely noticeable if familiar with Western music. |
 
 Fascinating enough, this reveals that our ability to discriminate
