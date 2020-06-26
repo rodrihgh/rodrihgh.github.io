@@ -29,7 +29,7 @@ AI-aided Wireless Systems for Mobility in Industry and Traffic.
 
 ### Publications
 
-* R. Hernangómez, A. Santra, and S. Stanczak,
+* R. Hernangómez, A. Santra, and S. Stańczak,
 “A Study on Feature Processing Schemes for Deep-Learning-Based
 Human Activity Classification Using Frequency-Modulated Continuous-Wave Radar,”
 IET Radar, Sonar & Navigation, Jun. 2020,
