@@ -34,13 +34,15 @@ I finished my Master's during an Erasmus exchange year at
 I received my Bachelor and Master Degrees for Telecommunication Engineering from
 [UPM](http://www.upm.es/internacional) in 2015 and 2017, respectively.
 During the last years of the Bachelor and the first year of the Master I also collaborated with
-the [Departamento de Ingeniería Electrónica](http://www.die.upm.es/en), either within the
+the [Department of Electronic Engineering](http://www.die.upm.es/en), either within the
 [BQ Chair](https://www.bq.com/es/catedra-universidad-politecnica) (Link in Spanish) or at the
 [B105 Electronic Systems Lab](http://elb105.com/).
 
 ## Student Projects
 
-More detailed info following soon... Meanwhile you can check some links:
+Along with my regular courses, I already had the chance to get
+hands-on experience during my graduate and undergraduate times
+with different projects and theses:
 
 - [**Requirements and Partitioning of Otoacoustic Emission Measurement Algorithms**][tfm].
 During my exchange year at TU Munich, I was lucky enough to work on Otoacoustic Emission (OAE)
