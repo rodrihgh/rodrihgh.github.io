@@ -42,7 +42,7 @@ the [Department of Electronic Engineering](http://www.die.upm.es/en), either wit
 
 Along with my regular courses, I already had the chance to get
 hands-on experience during my graduate and undergraduate times
-with different projects and theses:
+thanks to different projects and theses:
 
 - [**Requirements and Partitioning of Otoacoustic Emission Measurement Algorithms**][tfm].
 During my exchange year at TU Munich, I was lucky enough to work on Otoacoustic Emission (OAE)
@@ -61,7 +61,7 @@ at their University-Industry Chair at UPM as part of my Bachelor's thesis.
 There I developed a proof of concept of a wireless interactive monitoring system.
 The linked video (in Spanish) showcases the student projects my classmates in the chair
 and I were working in at that time.
-- [**Pi Matching. Rasperry-Pi-based Speech recognition system**](https://pimatching.wordpress.com/)
+- [**Pi Matching. Rasperry-Pi-based Speech recognition system**](https://pimatching.wordpress.com/).
 Together with my dear classmate [Guillermo Ortiz Jiménez](https://gortizji.github.io/),
 I worked in a special project on embedded speech recognition
 for a lab course on digital systems during our undergraduate studies.
