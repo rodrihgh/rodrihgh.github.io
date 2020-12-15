@@ -283,7 +283,7 @@ noticed by most people (you can read more about
 | F#    | Tritone           | 32:45 | +10 cents<br>(+0.58%) | +22 cents<br>(+1.28%)  | -11 cents<br>(-0.64%) |
 | G     | Perfect fifth     | 2:3   | -2 cents<br>(-0.12%) | 0 cents<br>(0.00%) | -5 cents<br>(-0.29%) |
 | G#    | Minor sixth       | 5:8   | -14 cents<br>(-0.81%) | -22 cents<br>(-1.27%) | 0 cents<br>(0.00%) |
-| A     | Major sixth       | 3:5   | +16 cents<br>(+0.93%) | +22 cents<br>(+1.28%)  | 6 cents<br>(+0.35%) |
+| A     | Major sixth       | 3:5   | +16 cents<br>(+0.93%) | +22 cents<br>(+1.28%)  | +6 cents<br>(+0.35%) |
 | A#    | Minor seventh     | 5:9   | -18 cents<br>(-1.04%) | -22 cents<br>(-1.27%)| -11 cents<br>(-0.64%) |
 | B     | Major seventh     | 8:15  | +12 cents<br>(+0.70%) | +22 cents<br>(+1.28%)  | -5 cents<br>(-0.29%) |
 | C'    | Octave            | 1:2   | 0 cents<br>(0.00%) | 0 cents<br>(0.00%) | 0 cents<br>(0.00%) |
