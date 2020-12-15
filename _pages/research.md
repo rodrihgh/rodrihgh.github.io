@@ -24,7 +24,7 @@ public and private research projects, including the following ones:
 
 * [OrtoFern3D](https://www.hhi.fraunhofer.de/en/departments/wn/projects/archive/ortofern3d.html) ---
 Precise 3D-Localization System for Wireless Controllers in District Heating Networks.
-* [AI4Mobile](https://www.forschung-it-sicherheit-kommunikationssysteme.de/projekte/ai4mobile) ---
+* [AI4Mobile](https://www.ai4mobile.org/en/) ---
 AI-aided Wireless Systems for Mobility in Industry and Traffic.
 
 ### Publications
