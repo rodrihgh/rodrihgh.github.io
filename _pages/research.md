@@ -29,12 +29,22 @@ AI-aided Wireless Systems for Mobility in Industry and Traffic.
 
 ### Publications
 
+* A. Palaios, P. Geuer, J. Fink, D. F. Külzer, F. Göttsch, M. Kasparick,
+D. Schäufele, R. Hernangómez, S. Partani, R. Sattiraju, A. Kumar,
+F. Burmeister, A. Weinand, C. L. Vielhaus, F. H. P. Fitzek, G. P. Fettweis,
+H. D. Schotten, and S. Stanczak,
+“Network under control: Multi-Vehicle E2E measurements for AI-Based QoS prediction,”
+Helsinki, Finland, Sep. 2021.
+* H. Khodabakhshandeh, T. Visentin, R. Hernangómez, and M. Pütz,
+“Domain Adaptation Across Configurations of FMCW Radar for
+Deep Learning Based Human Activity Classification,”
+in 2021 21st International Radar Symposium (IRS), Berlin, Germany, Jun. 2021, pp. 1–10.
+[doi: 10.23919/IRS51887.2021.9466179](https://doi.org/10.23919/IRS51887.2021.9466179).
 * R. Hernangómez, A. Santra, and S. Stańczak,
 “A Study on Feature Processing Schemes for Deep-Learning-Based
 Human Activity Classification Using Frequency-Modulated Continuous-Wave Radar,”
 IET Radar, Sonar & Navigation, Jun. 2020,
 [doi: 10.1049/iet-rsn.2020.0131](https://doi.org/10.1049/iet-rsn.2020.0131).
-
 * R. Hernangómez, A. Santra, and S. Stańczak,
 “Human Activity Classification with Frequency Modulated Continuous Wave Radar
 Using Deep Convolutional Neural Networks,”
