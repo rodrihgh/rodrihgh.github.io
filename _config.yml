@@ -1,139 +1,272 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+remote_theme: dieghernan/chulapa@v1.0.0-beta.1
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Find errors on this file with http://www.yamllint.com/
+
+# Chulapa docs: https://dieghernan.github.io/chulapa/docs/02-config
+
+
+# A. Site Settings /SEO options
+# Overall options for your site, would affect your site SEO
+# Default values are explained
+locale                  :     #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
 title: Science of Uselessness
 subtitle: 'A nerd approach to art <i class="fas fa-palette"></i><i class="fas fa-laptop-code"></i>'
-name: Rodrigo Hernangómez
-email: rodrigo@uselessness.science
-description: >- # this means to ignore newlines until "baseurl:"
-  Rodrigo Hernangómez's personal website focused on projects that bring together art and maths.
+title_separator         :     #default [" | "]
+description: "Rodrigo Hernangómez's approach to art"  #default [your-repository-tagline]
 url: "https://uselessness.science"
-repository: "rodrihgh/rodrihgh.github.io"
-twitter_username: rodrihgh
-github_username: rodrihgh
-minimal_mistakes_skin: dirt
-search: true
+baseurl                 :     #On Github Pages you may leave it blank. Have a look to: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
+words_per_minute        :     #default[200]
+timezone: "Europe/Berlin"
 
-reCaptcha:
-  siteKey: 6LdF5uYUAAAAALPHJAys7PkiU7BiTJi-NRPTG9wm
-
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-include:
-  - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
-  - jekyll-remote-theme
-
+# SEO
+og_image: "./assets/images/harmonics_og.png"
+twitter_site: "rodrihgh"
 author:
-  name   : "Rodrigo Hernangómez"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "PhD student in Electrical Engineering. Fascinated by the interplay between beauty and math."
-  location: Berlin, Germany
+  name: "Rodrigo Hernangómez"
+  avatar: "./assets/images/bio-photo.jpg"     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
+  location: "Berlin, Germany"
   links:
-    - label: "LinkedIn"
+    - url: "https://www.linkedin.com/in/rodrigohgh/"
       icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/rodrigohgh/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/rodrihgh"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/rodrihgh"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/rodrihgh"
+    - url: "https://twitter.com/rodrihgh"
+      icon: "fab fa-twitter"
+    - url: "https://github.com/rodrihgh/"
+      icon: "fab fa-github"
+    - url: "https://instagram.com/rodrihgh"
+      icon: "fab fa-instagram"
 
+#TODO doesnt work fa5_kit_code: uselessscience # Your FontAwesome 5 kit code. If not provided a free hosted version (slower) will be loaded:  https://fontawesome.com/
+fa_v4_support: #Bool Add FontAwesome 4 support
+# Web tracking - Google services https://analytics.google.com/analytics/web/
+# gtag_id is the preferred option, see https://developers.google.com/analytics/devguides/collection/gtagjs/migration?hl=en
+# analytics provided for backwards compatibility
+gtag_id                 :
+analytics_id            :
+
+# Search providers
+# Available free search engines:
+# - lunr https://lunrjs.com/
+# - algolia v4 https://www.algolia.com/ - needs further configuration
+# - google custom search engine https://cse.google.es/
+search:
+  provider              : algolia #Select a provider for enable search: lunr, algolia, google
+  label                 :  #default ["Search"] Text on navbar when search is enabled
+  landing_page          :  #default ["/search"] Link on navbar
+  lunr_maxwords         :  #default [30] lunr only - May slow down your site build
+  algolia_logo          :  true #Displays algolia logo. Should be set to true if you are on a community plan, otherwise false.
+
+google_cse_id: #Your cse id
+# This site uses jekyll-algolia plugin https://community.algolia.com/jekyll-algolia/
+# Recommended additional configuration provided, could be modified. Add your own parameters
+algolia:
+  application_id        : "KOIKA5PDQO"
+  index_name            : "chulapa"
+  search_only_api_key   : "7f1fe42bef3f03458cb3a911ebc7e0ac"
+  files_to_exclude:         #Optional
+    - _layouts/*.html
+    - includes/*.html
+    - docs/_pages/*
+    - docs/blog/*
+  extensions_to_index:      #Optional
+    - html
+    - md
+  searchableAttributes:     #Optional
+    - title
+    - headings
+    - unordered(content)
+    - unordered(subtitle)
+    - unordered(categories)
+    - unordered(collection)
+    - unordered(tags)
+  customRanking:            #Optional
+    - desc(include_on_search)
+    - desc(title)
+    - desc(content)
+    - desc(subtitle)
+
+comments:
+  provider:         #Enable comments via Disqus https://disqus.com/
+  disqus_shortname: #Your site id : check your address https://{{ disqus.shortname }}.disqus.com/admin/
+
+
+# B. Navigation
+# Configure your navbar and the footer of your site
+
+# Navbar:
+#   "brand" options would be set on the left side of your navbar
+#   "nav" would be set on the right side. Two-level nav links available
+navbar:
+  style: 'dual'  #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
+  expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
+  brand:
+    title:  Home
+    img: "./assets/favicon/harmonics_brand.svg"
+  nav:
+    - title: "Projects"
+      url: /projects/
+    # TODO iterate children projects?
+#      child:
+#        - title: "White Nightmare"
+#          url: /projects/white-nightmare
+    - title: "Research"
+      url: /research/
+    - title: "Education"
+      url: /education/
+    - title: "About"
+      url: /about/
+    - title: "Contact"
+      url: /contact/
+
+#Social links to be placed on your site footer
 footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/rodrigohgh/"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-twitter"
       url: "https://twitter.com/rodrihgh"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-github"
       url: "https://github.com/rodrihgh"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      icon: "fab fa-instagram"
       url: "https://instagram.com/rodrihgh"
 
+# C. Theme Settings
+# Google Fonts https://fonts.google.com/, add as many as you need
+googlefonts:
+ # - url : # 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'
+
+# Theme and colors
+chulapa-skin:
+  highlight:  "colorful"
+#  autothemer    :  # Bool: Use autotheming
+  vars          :
+    headings-font-family: "chulapa,sans-serif"
+    font-family-base: "ferpal,sans-serif"
+    input-btn-font-family: "chulapa,sans-serif"
+    btn-font-family: "chulapa,sans-serif"
+    font-weight-base: "lighter"
+    primary: "#78a6ec"
+    secondary: "#d579ec"
+    success: "#7beca8"
+    danger: "#ec7979"
+    info: "#d579ec"
+    warning: "#d5ec7c"
+    light: "#fafafa"
+    dark: "#6d6d6d"
+    body-bg: "#ffffff"
+    navbar-chulapa-bg-color: "#ec7979"
+    headings-color: "#78a6ec"
+    thead-chulapa-bg-color: "#d57aec"
+    link-color: "#7beca8"
+    footnote-chulapa-text-color: "#d5ec7c"
+
+reCaptcha:
+  siteKey: 6LdF5uYUAAAAALPHJAys7PkiU7BiTJi-NRPTG9wm
+
+# D. Jekyll Defaults and collections: see https://jekyllrb.com/
+
+# Blog pagination: on this site /blog/index.html. https://jekyllrb.com/docs/pagination/
+#paginate: 4
+#paginate_path: "/blog/page:num/"
+#paginator_maxnum: 3  #default[3] Custom: max of number to be displayed on the paginator
+
+# TODO snippet for widget and image?
+
+# TODO adapt from mmistakes
+# TODO Missing: grid view for portfolio (adapt from index? Ideally like Skin preview with overimposed text)
+# TODO Letter case matters for German and English dates!
+#layout: collection
+#collection: projects
+#entries_layout: grid
+#classes: wide
+#sort_by: order
+# Collections https://jekyllrb.com/docs/step-by-step/09-collections/
 collections:
   projects:
     output: true
-    permalink: /:collection/:path/
+    permalink: /projects/:path/
     sort_by: order
 
+
+# Defaults https://jekyllrb.com/docs/configuration/front-matter-defaults/
 defaults:
   # _projects
   - scope:
       path: ""
       type: projects
     values:
-      layout: repo
-      author_profile: true
+      header_type: splash
+      layout: default
+      show_author: true
       read_time: false
       comments: true
       share: true
       mathjax: true
-      toc: true
-      toc_sticky: true
-      colab:
-        enabled: false
-        branch: "master"
-        path: "colab.ipynb"
+      show_sociallinks: true
+      show_toc: true
+      show_bottomnavs: true
+      include_on_search: true
+#      colab:
+#        enabled: false
+#        branch: "master"
+#        path: "colab.ipynb"
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
-      layout: single
-      author_profile: true
+      layout: default
+      header_type: base
+      mathjax: false
 
-og_image: /assets/images/harmonics_og.png
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+# XX. Other settings - no need to modify
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  blanklines: true
+
+plugins:
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-include-cache
+  - jekyll-sitemap
+
+# Exclude these files from production site
+exclude:
+  - LICENSE
+  - README.md
+  - Gemfile
+  - vendor
+  - real_projects
+
+include:
+ - _pages
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  footnote_backlink: '&uarr;'
+  entity_output: as_char
+  toc_levels: 2..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style

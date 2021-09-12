@@ -1,12 +1,13 @@
 ---
 permalink: /
-layout: single
+layout: default
 
-header:
-  overlay_color: "#888888"
-  overlay_filter: "0.25"
-  overlay_image: /assets/images/harmonics.png
-excerpt: '[**"Art is the science of uselessness."**](science-of-uselessness) --- <cite>Torcuato Luca de Tena</cite>'
+header_type: splash
+header_img: /assets/images/harmonics.png
+
+title: 'Science of Uselessness'
+subtitle: '<a href="/science-of-uselessness"><b>"Art is the science of uselessness."</b></a> &mdash; <cite>Torcuato Luca de Tena</cite>'
+excerpt: "Rodrigo Hernangómez's personal website"
 
 ---
 

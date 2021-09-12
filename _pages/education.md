@@ -1,11 +1,12 @@
 ---
 permalink: /education/
 title: "Education"
+header_type: hero
 ---
 
 ## Studies
 
-### Technische Universität Berlin
+### Technische Universitaet Berlin
 
 (_2018-Now_)
 
@@ -18,7 +19,7 @@ You can find some information about my research
 or at
 [the group's site](https://www.netit.tu-berlin.de/menue/team/extern/hernangomez/).
 
-### Technische Universität München
+### Technische Universitaet München
 
 (_2016-2017_)
 

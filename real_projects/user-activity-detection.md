@@ -1,22 +1,17 @@
 ---
-order: 2
 title: "User activity"
-repository: "uad-lamp"
-excerpt_separator: "<!--more-->"
-header:
-    image: /assets/images/sparse-complex-vector.png
-    teaser: /assets/images/sparse-complex-vector-th.png
-gal_scv:
-  - url: /assets/images/scv-0dB.png
-    image_path: /assets/images/scv-0dB.png
-    alt: "Sparse complex vector reconstruction. Normalized error around 0 dB"
-  - url: /assets/images/scv-10dB.png
-    image_path: /assets/images/scv-10dB.png
-    alt: "Sparse complex vector reconstruction. Normalized error around -10 dB"
-  - url: /assets/images/scv-35dB.png
-    image_path: /assets/images/scv-35dB.png
-    alt: "Sparse complex vector reconstruction. Normalized error around -35 dB"
----
+order: 2
+header_image: /assets/images/sparse-complex-vector.png
+header_og: /assets/images/sparse-complex-vector-th.png
+project_links:
+    - url: https://github.com/rodrihgh/uad-lamp
+      icon: fab fa-github
+      label: View on Github
+- scope:
+    path: "assets/images/user-activity"
+  values:
+    image_col         : gallery
+
 
 Engineering problems are often too abstract to catch the eyes of laymen,
 but a right representation can unveil the hidden
@@ -29,8 +24,7 @@ beauty of the underlying arithmetic.
 {: .small}
 
 Take a look at the following images:
-
-{% include gallery id="gal_scv" caption="Reconstructed user activity under different error levels (about 0, -10 and -35 dB respectively). Within each picture, the left column shows a portion of the original values and the right column its reconstruction." %}
+{% include_cached snippets/masonry.html internal="gallery" caption="Reconstructed user activity under different error levels (about 0, -10 and -35 dB respectively). Within each picture, the left column shows a portion of the original values and the right column its reconstruction." %}
 
 They are actually a by-product of a real project I participated in
 at work. We were exploring some strategies to enable massive connectivity in 5G mobile networks,
@@ -100,7 +94,7 @@ If you studied **complex numbers** in high school you may have wondered
 why they are even useful, since they literally include an _imaginary_ part.
 I hope you are glad to find out there are engineers out there squeezing
 their brains with imaginary figures to solve real problems.
-{: .notice}
+{: .alert .alert-info .p-3 .mx-2}
 
 ### Complex numbers
 
@@ -108,7 +102,7 @@ Complex numbers are composed of two values known as **real** and **imaginary** p
 This means that we can plot them
 onto a two-coordinate system, the so-called complex plane:
 
-{% include figure image_path="assets/images/phasor.svg" alt="Number in the complex plane" caption="Number in the complex plane. Adapted from Wikipedia" %}
+{% include snippets/figure.md image_path="assets/images/phasor.svg" alt="Number in the complex plane" caption="Number in the complex plane. Adapted from Wikipedia" %}
 
 The complex number is shown using its real and imaginary parts as coordinates and
 drawing a line (vector) between these coordinates and the origin, the $$0$$ value.
@@ -127,7 +121,7 @@ so why not use the color wheel?
 
 ### Color wheel
 
-{% include figure image_path="assets/images/colorwheel.png" alt="Color wheel" caption="Color wheel. Source: ariya.io" %}
+{% include snippets/figure.md image_path="assets/images/colorwheel.png" alt="Color wheel" caption="Color wheel. Source: ariya.io" %}
 
 I could write a whole post about color theory, but let us restrict ourselves to the basics.
 The colors we perceive can be described by three quantities. Which ones? Well,
@@ -147,7 +141,7 @@ We can thus
 extend our color wheel as a picnic blanket on the complex plane until
 we cover all the complex values we want to represent.
 
-{% include figure image_path="assets/images/complexcolor.svg" alt="Color mapping on the complex plane" %}
+{% include snippets/figure.md image_path="assets/images/complexcolor.svg" alt="Color mapping on the complex plane" %}
 
 There we go, we have found a way to assign colors to complex numbers.
 Since numbers that lie close to each other in the complex plane also have similar
@@ -166,7 +160,7 @@ equal (and not only close) to zero. As a result, all non-white colors are a litt
 bit darker than in the displayed color wheel and
 the reconstructed values which should be zero but are _only_ close to zero
 appear as light gray stripes.
-{: .notice--info }
+{: .alert .alert-info .p-3 .mx-2}
 
 ## Reconstructing compressed information
 

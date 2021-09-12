@@ -1,27 +1,20 @@
 ---
-order: 3
 title: "Playing with the maths of music"
-excerpt_separator: "<!--more-->"
-header:
-    image: /assets/images/music-math.png
-    teaser: /assets/images/music-math.png
-    caption: "Source: Adapted from Wikipedia"
-
-repository: "music-scales-playground"
-colab:
-  enabled: true
-  path: "music-scales.ipynb"
+order: 3
+header_img: /assets/images/music-math.png
+header_caption: "Source: Adapted from Wikipedia"
+project_links:
+    - url: https://github.com/rodrihgh/music-scales-playground
+      icon: fab fa-github
+      label: View on Github
+    - url: https://colab.research.google.com/github/rodrihgh/music-scales-playground/blob/master/music-scales.ipynb
+      icon: fas fa-play-circle
+      label: Run in Colab
 ---
 
-Music is ruled by mathematical laws.
-Staring at the numbers was not enough for me though, so I have
-coded a tool to actually listen to it.
-
-
-<!--more-->
+Music is ruled by mathematical laws. Staring at the numbers was not enough for me though, so I have coded a tool to actually listen to it.
 
 ## <i class="fas fa-palette"></i> Music theory goes interactive
-
 
 <iframe src="/assets/widgets/music-scales.html" scrolling="no" width="100%" height="700" frameborder="0" allowtransparency="true">
 </iframe>
@@ -113,7 +106,11 @@ whenever the string vibrates, and
 the underlying fundamental frequency is what we perceive
 as the note's pitch.
 
-{% include figure image_path="assets/images/partials.svg" alt="String partials" caption="Partials of a string tuned to $$C3=132\textrm{ Hz}$$. You may note that it actually forms a C major chord. Adapted from Wikipedia" %}
+![String partials](/assets/images/partials.svg)
+
+Partials of a string tuned to $$C3=132\textrm{ Hz}$$. You may note that it actually forms a C major chord. Adapted from Wikipedia
+{: .figcaption}
+
 
 The simpler the relation between two notes is
 (as in the table above),
@@ -165,7 +162,10 @@ $$\frac{3}{2}$$ and fitting to the octave
 we will always encounter a new note.
 That is how many scales in the [widget] are generated[^2].
 
-{% include figure image_path="assets/images/fifth_generation.gif" alt="Fifth relations for the chromatic scale" caption="Construction of the chromatic scale from fifth intervals." %}
+![Fifth relations for the chromatic scale](/assets/images/fifth_generation.gif)
+
+Construction of the chromatic scale from fifth intervals.
+{: .figcaption}
 
 The purple connecting lines in the [widget graph][widget]
 above represent the fifth
@@ -354,12 +354,12 @@ if you understand Spanish, as it covers the basics for overtones and intervals
 **plus** the theory of well-formed scales. Unfortunately I have not found
 any good reference for the said theory in English, but _Minute Physics_
 video does a superb job summarizing everything else in less than 5 minutes.
-{: .notice--success}
+{: .alert .alert-success.p-3 .mx-2}
 
-{% include video id="P7iC-fbdKmQ" provider="youtube" %}
-{% include video id="1Hqm0dYKUx4" provider="youtube" %}
-{% include video id="Wx_kugSemfY" provider="youtube" %}
-{% include video id="cyW5z-M2yzw" provider="youtube" %}
+{% include snippets/video.html id="P7iC-fbdKmQ" provider="youtube" %}
+{% include snippets/video.html id="1Hqm0dYKUx4" provider="youtube" %}
+{% include snippets/video.html id="Wx_kugSemfY" provider="youtube" %}
+{% include snippets/video.html id="cyW5z-M2yzw" provider="youtube" %}
 
 ### Papers
 

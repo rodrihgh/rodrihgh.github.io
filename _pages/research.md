@@ -1,6 +1,7 @@
 ---
 permalink: /research/
 title: "Research"
+header_type: hero
 ---
 
 My research interests include machine and deep learning,

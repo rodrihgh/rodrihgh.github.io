@@ -1,11 +1,12 @@
 ---
 title: Projects
-layout: collection
 permalink: /projects/
-collection: projects
-entries_layout: grid
-classes: wide
-sort_by: order
+show_author: true
+layout: indexcategory
+include_collection: projects
+index_sort: order
+index_items: 1000
+header_type: hero
 ---
 
 These are some of the personal projects I have been up to. Make sure to check them out on
