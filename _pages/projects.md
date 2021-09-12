@@ -23,3 +23,8 @@ You can also find the icons
 as a guideline to establish the separation between art and technique, respectively.
 That being said, if you think you lack the background to understand the deepest details,
 feel free to jump out of the boat at any time.
+
+I have also teamed up with my brother [Diego](https://corona-atlas.de/)
+to make an interactive, multilingual map displaying Germany's risk assessment
+for international travel regarding COVID-19. Check it out at
+https://corona-atlas.de/en.
