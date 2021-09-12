@@ -24,7 +24,7 @@ as a guideline to establish the separation between art and technique, respective
 That being said, if you think you lack the background to understand the deepest details,
 feel free to jump out of the boat at any time.
 
-I have also teamed up with my brother [Diego](https://dieghernan.github.io/)
+Aside from these, I have teamed up with my brother [Diego](https://dieghernan.github.io/)
 to make an interactive, multilingual map displaying Germany's risk assessment
 for international travel regarding COVID-19. Check it out at
 [corona-atlas.de](https://corona-atlas.de/en).
