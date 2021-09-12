@@ -27,4 +27,4 @@ feel free to jump out of the boat at any time.
 I have also teamed up with my brother [Diego](https://corona-atlas.de/)
 to make an interactive, multilingual map displaying Germany's risk assessment
 for international travel regarding COVID-19. Check it out at
-https://corona-atlas.de/en.
+[corona-atlas.de](https://corona-atlas.de/en).
