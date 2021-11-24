@@ -32,4 +32,4 @@ and
 ### Why Science of Uselessness?
 
 Because, as _Torcuato Luca de Tena_ wrote,
-["Art is the science of uselessness"](science-of-uselessness).
+["Art is the science of uselessness"](../science-of-uselessness).
