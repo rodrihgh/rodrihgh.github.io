@@ -19,4 +19,4 @@ I hope you find some cool project here and
 
 Have fun!
 
-<i class="fas fa-palette"></i><i class="fas fa-laptop-code"></i>
+[<i class="fas fa-palette"></i><i class="fas fa-laptop-code"></i>](projects)
