@@ -39,7 +39,9 @@ the notes of a scale are not.
 While exploring different scales and chords you can also
 tune these additional parameters:
 
-- **Number of notes**: You may only be familiar with 7-note or 12-note scales, but
+- **Number of notes**: You may only be familiar with scales that
+have 7 notes (a.k.a the _diatonic scale_, C-D-E-F-G-A-B, Do-Re-Mi-Fa-Sol-La-Si or the white keys of the piano)
+or 12-note scales (the _chromatic scale_, if we add the black keys as well), but
 from 1 to 53 and beyond all qualify as musical scales, and you are free to
 to select
 many of them.
@@ -100,7 +102,8 @@ which is found between F and B in the diatonic scale,
 was avoided for centuries because of its spooky,
 dissonant sound.
 
-The preference for simple ratios finds its explanation in the
+The preference for simple ratios can be explained
+out of the
 physics of strings and air vibrations, which account for the way
 how most instruments (including the human voice)
 produce notes. In a nutshell, vibrating strings
@@ -131,15 +134,15 @@ In other words, which notes we should use to _build a scale_.
 For that we can start by choosing notes whose frequency ratios are as simple as possible.
 As already mentioned, the simplest ratio equals 1 to 2 and corresponds to the _octave_.
 However, that ratio is so simple that humans universally perceive it as the same note,
-just played at different pitches.
+but played at different pitches.
 
 Also because of this, we can arbitrarily pick a first note and then restrict our search
-to notes whose pitch is 1 to 2 times that of our first choice.
+to notes whose pitch is 1 to 2 times that of our first note.
 The reason for this is that any other pitch out of this range can be multiplied
-or divided by 2 as many times as needed until its relation to the original one
+or divided by 2 as many times as needed until its ratio to the first note
 falls under the interval
-$$\left(1,2\right)$$, and it will still be perceived as the same note
-in a different octave.
+$$\left(1,2\right)$$, and it will still be perceived as the same note,
+just in a different octave.
 
 This leads to a periodic structure that repeats over and over again
 every time we jump into the next octave. In the [widget graph][widget],
@@ -161,7 +164,7 @@ $$f_3 = \frac{3}{2}\cdot 150 \cdot\frac{1}{2} = 225 \cdot\frac{1}{2} = 112.5\tex
 
 225 Hz is already greater than 200 Hz, hence the division by two to find the note in
 a lower octave as 112.5 Hz. If we keep multiplying by
-$$\frac{3}{2}$$ and fitting to the octave
+$$\frac{3}{2}$$ and fitting to the octave $$\left(100,200\right)$$
 we will always encounter a new note.
 That is how many scales in the [widget] are generated[^2].
 
@@ -178,11 +181,14 @@ how did different musical cultures fix the number of notes
 they use in their scales?
 This can be broken down to more specific questions, for instance:
 
-- Why does the Western diatonic scale have 7 notes?
-- Why is the diatonic scale extended into a 12-note chromatic scale?
-- Why is the pentatonic scale so prevalent in so many cultures,
+- Why does the Western [diatonic scale](https://en.wikipedia.org/wiki/Diatonic_scale) have 7 notes?
+- Why is the diatonic scale extended into a 12-note [chromatic scale](https://en.wikipedia.org/wiki/Chromatic_scale)?
+- Why is the [pentatonic scale](https://en.wikipedia.org/wiki/Pentatonic_scale#Use_of_pentatonic_scales) so prevalent in so many cultures,
 most notably in East Asia?
-- Does the traditional Arabic 17-tone scale make sense?
+- Why did Arabic musicians latch onto the
+[17-tone scale](https://en.wikipedia.org/wiki/17_equal_temperament#History_and_use)
+before moving on to the [quarter-tone scale](https://en.wikipedia.org/wiki/Quarter_tone#Quarter-tone_scale)
+with 24 steps?
 
 All this scales can be derived from successive fifths.
 What makes numbers 5, 7, 12 or 17 special is that,
@@ -272,7 +278,7 @@ As a rule of thumb, a difference equal or greater than $$\pm 10$$ cents can be
 noticed by most people (you can read more about
 [cents and human perception](#cents-or-the-human-perception-of-music) below).
 
-| Note |  Interval from C | Just intonation ratio | Comparison with equal temperament | Comparison with Pythagorean tuning | Comparison with 1/4-comma meantone temperament |
+| Note |  Interval from C | Just intonation ratio | Deviation from equal temperament | Deviation from Pythagorean tuning | Deviation from 1/4-comma meantone temperament |
 | -------- | :----------- | :----: | :----: | :----: | :----: |
 | C     | Unison            | 1:1   | 0 cents<br>(0.00%) | 0 cents<br>(0.00%) | 0 cents<br>(0.00%) |
 | C#    | Minor second      | 15:16 | -12 cents<br>(-0.70%) | -22 cents<br>(-1.27%) | +5 cents<br>(+0.29%) |
