@@ -41,7 +41,7 @@ tune these additional parameters:
 
 - **Number of notes**: You may only be familiar with scales that
 have 7 notes (a.k.a the _diatonic scale_, C-D-E-F-G-A-B, Do-Re-Mi-Fa-Sol-La-Si or the white keys of the piano)
-or 12-note scales (the _chromatic scale_, if we add the black keys as well), but
+or 12 notes (the _chromatic scale_, if we add the black keys as well), but
 from 1 to 53 and beyond all qualify as musical scales, and you are free to
 to select
 many of them.
