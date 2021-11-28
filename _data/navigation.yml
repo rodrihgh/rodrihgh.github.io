@@ -9,7 +9,5 @@ main:
     url: /education/
   - title: "About"
     url: /about/
-  - title: "Contact"
-    url: /contact/
   #- title: "Tags"
   #  url: /tags/
