@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "About"
+recaptcha: true
 ---
 
 Hi! My name is Rodrigo Hernangómez and
@@ -21,15 +22,39 @@ dealing with digital art, music information retrieval and
 image and sound. As a matter of fact, most of the content you can find
 on this site is related to these.
 
-You can also find me on
-[TU Berlin's site](https://www.netit.tu-berlin.de/menue/team/extern/hernangomez/)
-and
-[Research Gate](https://www.researchgate.net/profile/Rodrigo_Hernangomez).
-
-**Any questions?** Do not hesitate to [contact me](../contact).
-{: .notice--info}
-
 ### Why Science of Uselessness?
 
 Because, as _Torcuato Luca de Tena_ wrote,
 ["Art is the science of uselessness"](../science-of-uselessness).
+
+## Contact
+
+You can find me on
+[social media](#footer),
+at [TU Berlin](https://www.netit.tu-berlin.de/menue/team/extern/hernangomez/)
+or at
+[Research Gate](https://www.researchgate.net/profile/Rodrigo_Hernangomez).
+
+
+<i class="fas fa-info-circle"></i> Do you have any questions, comments, suggestions... ? Please leave them here so that I can get in contact with you.
+{: .notice--primary}
+
+<form
+  action="https://formspree.io/mrgaproo"
+  method="POST"
+>
+  <fieldset>
+  <div class="g-recaptcha" data-sitekey="{{site.reCaptcha.siteKey}}">
+  </div> 
+  <legend>Contact Form</legend>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label><br>
+  <label>
+    Your message:
+    <textarea name="message" rows="5"></textarea>
+  </label><br>
+  <button type="submit" class="btn btn--primary">Send</button>
+  </fieldset>
+</form>
