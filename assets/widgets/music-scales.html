@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
@@ -648,8 +650,8 @@ audio {
 
 
 <span class="k">def</span> <span class="nf">synthesize</span><span class="p">(</span><span class="n">note_frequencies</span><span class="p">,</span> <span class="n">fref</span><span class="o">=</span><span class="mf">261.626</span><span class="p">,</span> <span class="n">fs</span><span class="o">=</span><span class="n">sampling_rate</span><span class="p">,</span> <span class="n">fadeout</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
-               <span class="n">attack</span><span class="o">=</span><span class="mf">.1</span><span class="p">,</span> <span class="n">decay</span><span class="o">=</span><span class="mf">.1</span><span class="p">,</span> <span class="n">sustain</span><span class="o">=-</span><span class="mi">15</span><span class="p">,</span> <span class="n">release</span><span class="o">=</span><span class="mf">.7</span><span class="p">,</span> <span class="n">sus_time</span><span class="o">=</span><span class="mf">.4</span><span class="p">,</span>
-               <span class="n">floor</span><span class="o">=-</span><span class="mi">90</span><span class="p">,</span> <span class="n">peak</span><span class="o">=-</span><span class="mi">12</span><span class="p">,</span> <span class="n">rel_level</span><span class="o">=-</span><span class="mi">90</span><span class="p">,</span> <span class="n">spacing</span><span class="o">=</span><span class="mf">.6</span><span class="p">,</span> <span class="n">chord_notes</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span>
+               <span class="n">attack</span><span class="o">=.</span><span class="mi">1</span><span class="p">,</span> <span class="n">decay</span><span class="o">=.</span><span class="mi">1</span><span class="p">,</span> <span class="n">sustain</span><span class="o">=-</span><span class="mi">15</span><span class="p">,</span> <span class="n">release</span><span class="o">=.</span><span class="mi">7</span><span class="p">,</span> <span class="n">sus_time</span><span class="o">=.</span><span class="mi">4</span><span class="p">,</span>
+               <span class="n">floor</span><span class="o">=-</span><span class="mi">90</span><span class="p">,</span> <span class="n">peak</span><span class="o">=-</span><span class="mi">12</span><span class="p">,</span> <span class="n">rel_level</span><span class="o">=-</span><span class="mi">90</span><span class="p">,</span> <span class="n">spacing</span><span class="o">=.</span><span class="mi">6</span><span class="p">,</span> <span class="n">chord_notes</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span>
                <span class="n">progress</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
   
 
@@ -872,6 +874,7 @@ audio {
         <span class="n">pline</span><span class="p">,</span> <span class="o">=</span> <span class="n">axis</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;tab:purple&#39;</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s2">&quot;o&quot;</span><span class="p">,</span> <span class="n">mfc</span><span class="o">=</span><span class="s2">&quot;k&quot;</span><span class="p">,</span> <span class="n">mec</span><span class="o">=</span><span class="s2">&quot;k&quot;</span><span class="p">)</span>
 
         <span class="n">pline</span><span class="o">.</span><span class="n">r</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">(</span><span class="n">pad</span><span class="o">=</span><span class="mf">0.0</span><span class="p">)</span>
     
     <span class="k">return</span> <span class="n">pline</span><span class="p">,</span> <span class="n">axis</span>
 
@@ -907,11 +910,11 @@ audio {
             
             <span class="n">set_notes</span><span class="p">(</span><span class="n">notes</span><span class="p">)</span>
             <span class="n">plot_out</span><span class="o">.</span><span class="n">clear_output</span><span class="p">(</span><span class="n">wait</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-            <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+            <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">(</span><span class="n">pad</span><span class="o">=</span><span class="mf">0.0</span><span class="p">)</span>
             <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 
 
-<span class="nd">@debounce</span><span class="p">(</span><span class="mf">.2</span><span class="p">)</span>
+<span class="nd">@debounce</span><span class="p">(</span><span class="o">.</span><span class="mi">2</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">generate_notes</span><span class="p">(</span><span class="n">change</span><span class="p">):</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">change</span><span class="p">,</span> <span class="s1">&#39;owner&#39;</span><span class="p">)</span> <span class="ow">or</span> <span class="n">change</span><span class="p">[</span><span class="s2">&quot;owner&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">react</span><span class="p">:</span>
         <span class="n">loading_audio</span><span class="p">()</span>
@@ -1143,9 +1146,9 @@ audio {
 
 <span class="n">buttons</span> <span class="o">=</span> <span class="p">(</span><span class="n">btn_notes</span><span class="p">,</span> <span class="n">btn_root</span><span class="p">,</span> <span class="n">btn_temperament</span><span class="p">,</span><span class="n">btn_scale</span><span class="p">,</span> <span class="n">right_box</span><span class="p">)</span>
 
-<span class="n">ui</span> <span class="o">=</span> <span class="n">AppLayout</span><span class="p">(</span><span class="n">pane_widths</span><span class="o">=</span><span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span> <span class="n">pane_heights</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+<span class="n">ui</span> <span class="o">=</span> <span class="n">AppLayout</span><span class="p">(</span><span class="n">pane_widths</span><span class="o">=</span><span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span> <span class="n">pane_heights</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
                <span class="n">grid_gap</span><span class="o">=</span><span class="s2">&quot;0px&quot;</span><span class="p">,</span>
-               <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">justify_items</span><span class="o">=</span><span class="s2">&quot;center&quot;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="s2">&quot;290px&quot;</span><span class="p">,</span>
+               <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">justify_items</span><span class="o">=</span><span class="s2">&quot;center&quot;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="s2">&quot;240px&quot;</span><span class="p">,</span>
                              <span class="n">align_content</span><span class="o">=</span><span class="s1">&#39;flex-start&#39;</span><span class="p">,</span> <span class="n">align_items</span><span class="o">=</span><span class="s1">&#39;flex-start&#39;</span><span class="p">))</span>
 <span class="n">ui</span><span class="o">.</span><span class="n">right_sidebar</span> <span class="o">=</span> <span class="n">tuner_box</span>
 <span class="n">ui</span><span class="o">.</span><span class="n">left_sidebar</span> <span class="o">=</span> <span class="n">VBox</span><span class="p">(</span><span class="n">buttons</span> <span class="o">+</span> <span class="p">(</span><span class="n">audio_out</span><span class="p">,),</span>
@@ -1190,8 +1193,8 @@ audio {
     <span class="n">ui</span><span class="o">.</span><span class="n">visible_tuner</span> <span class="o">=</span> <span class="kc">True</span>
         
 <span class="n">plot_box</span> <span class="o">=</span> <span class="n">HBox</span><span class="p">([</span><span class="n">plot_out</span><span class="p">],</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">align_content</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">align_items</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span>
-                                <span class="n">justify_content</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span>
-                                <span class="n">justify_items</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">))</span>
+                                          <span class="n">justify_content</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">justify_items</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span>
+                                          <span class="n">padding</span><span class="o">=</span><span class="s2">&quot;0.0&quot;</span><span class="p">))</span>
 
 <span class="n">select_n_notes</span><span class="p">({</span><span class="s2">&quot;old&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;new&quot;</span><span class="p">:</span> <span class="n">default_num_notes</span><span class="p">})</span>
 
