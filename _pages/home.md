@@ -15,7 +15,7 @@ This is a personal website I have created to give exposure to some
 [engineering-meets-art ideas](projects) I have developed in my free time.
 
 I hope you find some cool project here and
-[you reach me out](contact) for feedback, appreciation, clarification and so on.
+[you reach me out](about#contact) for feedback, appreciation, clarification and so on.
 
 Have fun!
 
