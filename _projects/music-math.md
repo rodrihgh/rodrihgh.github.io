@@ -1,6 +1,6 @@
 ---
 order: 3
-title: "Playing with the maths of music"
+title: "Maths of music"
 excerpt_separator: "<!--more-->"
 header:
     image: /assets/images/music-math.png
