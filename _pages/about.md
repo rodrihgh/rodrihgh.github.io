@@ -17,10 +17,11 @@ while working as a research associate for the
 For an overview of my research activities and projects, do not forget to check the
 [research page](../research).
 
-Apart from those, I am also deeply interested in other topics
+Apart from that, I am also deeply interested in other topics
 dealing with digital art, music information retrieval and
-image and sound. As a matter of fact, most of the content you can find
-on this site is related to these.
+image and sound. As a matter of fact, most
+[projects](../projects)
+on this site are related to these.
 
 ### Why Science of Uselessness?
 
