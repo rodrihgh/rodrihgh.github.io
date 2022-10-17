@@ -15,39 +15,42 @@ toc_sticky: true
 ---
 
 ## God's Crooked Lines
-
-I owe the title of my website to no other than **Don Torcuato Luca de Tena**.
+The website owes its title to no other than [Don Torcuato Luca de Tena](https://exploringyourmind.com/gods-crooked-lines-by-torcuato-luca-de-tena/).
 This Spanish journalist and author wrote its most acclaimed novel
 **"Los Renglones Torcidos de Dios"**
 (English: _God's Crooked Lines_) in 1979.
-It narrates the story of detective Alice Gould during her confinement in a psychiatric
-hospital, where she is allegedly investigating a mysterious crime.
+The book, which has been [adapted to film](https://en.wikipedia.org/wiki/God%27s_Crooked_Lines) in 1983 and 2022,
+narrates the story of detective Alice Gould during her confinement in a psychiatric
+hospital, where she attempts to investigate a mysterious crime.
 
-In the book, Luca de Tena expresses his particular views on art.
-In a nutshell, art is for him the _science of uselessness_, as it is detached
+{% include video id="xzd7e4PHXEk" provider="youtube" %}
+Trailer from the 2022 film (Spanish, English subtitles available){: .small}
+
+The book's main charachter holds some particular views on art.
+In a nutshell, art is for Alice the _science of uselessness_, as it is detached
 from the primary biological needs of human beings.
 This is not meant as a scorn but
 as a metric of its value; the more _elevated_ art is,
 the more _useless_ it gets with respect to our animal necessities.
 
 As an engineer, I am used to thinking along such terms as
-usefulness/uselessness, accuracy, requirement
+usefulness/uselessness, accuracy, requirements
 and the like. This is in deep conflict with many of my personal interests (read music and art
-in general), which according to don Torcuato are not only useless, but they can only become
+in general), which are not only portrayed in the book as useless, but they can only become
 greater the more useless they are.
 
-On the other hand, I also enjoy maths and coding.
-And through maths and code one can model, generate, render, manipulate, process
-futile streams of audio samples, or pixels; bits and bits of uselessness
-so rigorously analyzed that
-it becomes incredibly useful again.
+On the other hand, I also enjoy mathematics and programming.
+And through maths and code one can model, generate, render, manipulate, analyze
+futile streams of numbers, characters, audio samples or pixels; bits and bits of uselessness
+so rigorously processed that utility burst out of them again.
 
 Therefore, you may not wonder that most of my projects here,
 while heavily focused on
 mathematics and programming,
 have also some arty touch.
-Moreover, these creations are quite often _useless_ in terms of my job, so that I cannot sell them
-to any colleague or boss. This is what has pushed me to publish them on a personal website.
+Moreover, these creations are quite often _useless_ in terms of my job, so that
+no partners or colleagues will ever profit from them.
+This is what has pushed me to publish those on a personal website.
 Now that they are accessible to everyone,
 I am no longer the one that has to deem them useful or
 useless; I will let you take that role instead.
