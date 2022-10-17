@@ -24,7 +24,8 @@ narrates the story of detective Alice Gould during her confinement in a psychiat
 hospital, where she attempts to investigate a mysterious crime.
 
 {% include video id="xzd7e4PHXEk" provider="youtube" %}
-Trailer from the 2022 film (Spanish, English subtitles available){: .small}
+Trailer from the 2022 film (Spanish, English subtitles available)
+{: .small}
 
 The book's main charachter holds some particular views on art.
 In a nutshell, art is for Alice the _science of uselessness_, as it is detached
