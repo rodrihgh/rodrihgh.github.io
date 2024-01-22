@@ -35,6 +35,9 @@ Precise 3D-Localization System for Wireless Controllers in District Heating Netw
 
 ### Publications
 
+* R. Hernangomez, J. Fink, R. L. G. Cavalcante, Z. Utkovski, and S. Stanczak, “Optimized Detection with Analog Beamforming for Monostatic Integrated Sensing and Communication,” _to be presented at the 2024 IEEE International Conference on Communications (ICC)_, Denver, CO, Jun. 2024
+* P. Rosemann, S. Partani, M. Miranda, J. Mahn, M. Karrenbauer, W. Meli, R. Hernangomez, M. Lubke, J. Kochems, S. Kopsell, A. Aziz-Koch, R. Askar, J. Beuster, O. Blume, N. Franchi, R. Thoma, S. Stanczak, and H. D. Schotten, “Enabling Mobility-Oriented JCAS in 6G Networks: An Architecture Proposal,”  _to be presented at the 2024 IEEE 4th International Symposium on Joint Communications & Sensing (JC&S)_, Leuven, Belgium, Mar. 2024. Preprint available: [arXiv.2311.11623](https://doi.org/10.48550/arXiv.2311.11623).
+* R. Hernangómez, A. Palaios, C. Watermann, D. Schäufele, P. Geuer, R. Ismayilov, M. Parvini, A. Krause, M. Kasparick, T. Neugebauer, O. D. Ramos-Cantor, H. Tchouankem, J. L. Calvo, B. Chen, G. Fettweis, and S. Stańczak, “Towards an AI-enabled Connected Industry: AGV Communication and Sensor Measurement Datasets,” _To appear in IEEE Communications Magazine_, 2024, Preprint available: [arXiv.2301.03364](https://doi.org/10.48550/arXiv.2301.03364).
 * R. Hernangómez, P. Geuer, A. Palaios, D. Schäufele, C. Watermann, K. Taleb-Bouhemadi,
 M. Parvini, A. Krause, S. Partani, C. Vielhaus, M. Kasparick, D. F. Külzer,
 F. Burmeister, F. H. P. Fitzek, H. D. Schotten, G. Fettweis, and S. Stańczak,
@@ -43,7 +46,7 @@ F. Burmeister, F. H. P. Fitzek, H. D. Schotten, G. Fettweis, and S. Stańczak,
 in WSA & SCC 2023; 26th International ITG Workshop on Smart Antennas and 13th Conference on Systems, Communications, and Coding, Braunschweig, Germany, Feb. 2023, pp. 1–6. [ISBN 978-3-8007-6050-3](https://ieeexplore.ieee.org/abstract/document/10104578).
 * A. Palaios, C. L. Vielhaus, D. F. Külzer, C. Watermann, R. Hernangómez,
 S. Partani, P. Geuer, A. Krause, R. Sattiraju, M. Kasparick, G. Fettweis,
-F. H. P. Fitzek, H. D. Schotten, and S. Stańczak, “Machine Learning for QoS Prediction in Vehicular Communication: Challenges and Solution Approaches,” IEEE Access, pp. 1–1, 2023, [doi: 10.1109/ACCESS.2023.3303528](https://doi.org/10.1109/ACCESS.2023.3303528).
+F. H. P. Fitzek, H. D. Schotten, and S. Stańczak, “Machine Learning for QoS Prediction in Vehicular Communication: Challenges and Solution Approaches,” IEEE Access, vol. 11, pp. 92459-92477, 2023, [doi: 10.1109/ACCESS.2023.3303528](https://doi.org/10.1109/ACCESS.2023.3303528).
 * R. Hernangómez, A. Palaios, G. Guruvayoorappan, M. Kasparick, N. U. Ain, and S. Stańczak, “Online QoS estimation for vehicular radio environments,” in 2022 30th European Signal Processing Conference (EUSIPCO), Belgrade, Serbia, Aug. 2022, pp. 1701–1705. [doi: 10.23919/EUSIPCO55093.2022.9909612](https://doi.org/10.23919/EUSIPCO55093.2022.9909612).
 * R. Hernangómez, I. Bjelaković, L. Servadei, and S. Stańczak, “Unsupervised Domain Adaptation across FMCW Radar Configurations Using Margin Disparity Discrepancy,” in 2022 30th European Signal Processing Conference (EUSIPCO), Belgrade, Serbia, Aug. 2022, pp. 1566–1570. [doi: 10.23919/EUSIPCO55093.2022.9909618](https://doi.org/10.23919/EUSIPCO55093.2022.9909618).
 * R. Hernangómez, T. Visentin, L. Servadei, H. Khodabakhshandeh, and S. Stańczak, “Improving Radar Human Activity Classification Using Synthetic Data with Image Transformation,” Sensors, vol. 22, no. 4, Art. no. 4, Jan. 2022, [doi: 10.3390/s22041519](https://doi.org/10.3390/s22041519).
