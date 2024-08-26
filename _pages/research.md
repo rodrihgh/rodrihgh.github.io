@@ -18,10 +18,10 @@ such as **Ericsson** or **Bosch**,
 in order to carry out my research.
 From 2018 to 2021, I collaborated closely with
 [Infineon Technologies AG](https://www.infineon.com/)
-in their
+around their
 [radar sensors for IoT](https://www.infineon.com/cms/en/product/promopages/60GHz/),
-which lie at the core of **Google**'s
-[Project Soli](https://atap.google.com/soli/).
+adopted by companies like [Google](https://www.infineon.com/cms/en/careers/changemakers/blogs/googles-ripple-radar-standard/)
+for touchless human-machine interaction.
 
 ### Projects
 
@@ -61,7 +61,7 @@ and sponsored by [Huawei](https://www.huawei.com/eu/).
 {% include video id="XLmIa59BS7w" provider="youtube" %}
 Part of 2023 [AI/ML in 5G Challenge](https://aiforgood.itu.int/about-ai-for-good/aiml-in-5g-challenge/),
 an initiative by [ITU AI for Good](https://aiforgood.itu.int/).
-Watch the challenge finale [here](https://www.youtube.com/live/kvnc-hM7FaQ?si=iD2cg6QnFSX0mOFk&t=2802)
+Watch the challenge finale [here](https://www.youtube.com/live/kvnc-hM7FaQ?si=iD2cg6QnFSX0mOFk&t=2802).
 {: .small}
 
 <br>
