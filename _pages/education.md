@@ -10,7 +10,7 @@ title: "Education"
 (_2018-Now_)
 
 Currently I am pursuing my PhD at
-[TU Berlin](https://www.tu.berlin/eecs/en)
+[TU Berlin](https://www.tu.berlin/en/eecs/)
 within the 
 [Network Information Theory Group](https://www.netit.tu-berlin.de/menue/network_information_theory_group/).
 You can read about my research
