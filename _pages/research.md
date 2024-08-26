@@ -7,9 +7,8 @@ toc_icon: "signal"
 toc_sticky: true
 ---
 
-My research interests include machine and deep learning,
-Bayesian statistics, information theory and signal processing,
-specially in application to the fields of radar and
+My research interests include machine learning, signal processing and information theory,
+specially in application to radar and
 wireless communication.
 
 Ever since I started my PhD, I have been lucky enough to join forces with some
@@ -43,7 +42,7 @@ In collaboration with HHI [mm-Wave research group](https://www.hhi.fraunhofer.de
 at [IEEE MILCOM 2024](https://milcom2024.ieee-milcom.org/),
 [Berlin 6G Conference 2024](https://www.6g-plattform.de/berlin-6g-conference/),
 [EuCNC & 6G Summit 2024](https://www.eucnc.eu/2024),
-and [IEEE 6G Summit 2024](https://www.5gsummit.org/dresden-2024/) (Best demo award).
+and [IEEE 6G Summit Dresden 2024](https://www.5gsummit.org/dresden-2024/) (Best demo award).
 {: .small}
 
 <br>
