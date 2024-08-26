@@ -53,7 +53,10 @@ Part of 2023 [AI/ML in 5G Challenge](https://aiforgood.itu.int/about-ai-for-good
 an initiative by [ITU AI for Good](https://aiforgood.itu.int/).
 Watch the challenge finale [here](https://www.youtube.com/live/kvnc-hM7FaQ?si=iD2cg6QnFSX0mOFk&t=2802)
 
-{% include video id="_FzU2-G8ep8" provider="youtube" caption="Joint work with [Ericsson](https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/germany/eurolab), presented at [EUSIPCO 2022](https://2022.eusipco.org/) in Belgrade." %}
+{% include video id="_FzU2-G8ep8" provider="youtube" %}
+Joint work with [Ericsson](https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/germany/eurolab),
+presented at [EUSIPCO 2022](https://2022.eusipco.org/) in Belgrade.
+{: .align-caption}
 
 
 
