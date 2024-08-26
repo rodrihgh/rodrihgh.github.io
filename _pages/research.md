@@ -1,6 +1,9 @@
 ---
 permalink: /research/
 title: "Research"
+toc: true
+toc_label: "Research"
+toc_icon: "signal"
 ---
 
 My research interests include machine and deep learning,
@@ -56,7 +59,7 @@ Watch the challenge finale [here](https://www.youtube.com/live/kvnc-hM7FaQ?si=iD
 {% include video id="_FzU2-G8ep8" provider="youtube" %}
 Joint work with [Ericsson](https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/germany/eurolab),
 presented at [EUSIPCO 2022](https://2022.eusipco.org/) in Belgrade.
-{: .align-caption}
+{: .small}
 
 
 
