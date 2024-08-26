@@ -39,11 +39,11 @@ AI-aided Wireless Systems for Mobility in Industry and Traffic.
 ### Videos
 
 {% include video id="eXiBL_ynCsA" provider="youtube" %}
-In collaboration with HHI [mm-Wave research group](https://www.hhi.fraunhofer.de/en/departments/wn/research-groups/mm-wave.html) under the [6G-RIC](https://6g-ric.de) project. The demo has or will be showcased live
-at [IEEE MILCOM 2024](https://milcom2024.ieee-milcom.org/) in Washington,
-[Berlin 6G Conference 2024](https://www.6g-plattform.de/berlin-6g-conference/) in Berlin,
-[EuCNC & 6G Summit 2024](https://www.eucnc.eu/2024) in Antwerp,
-and [IEEE 6G Summit 2024](https://www.5gsummit.org/dresden-2024/) in Dresden (Best demo award).
+In collaboration with HHI [mm-Wave research group](https://www.hhi.fraunhofer.de/en/departments/wn/research-groups/mm-wave.html) under the [6G-RIC](https://6g-ric.de) project. The demo has been or will be showcased live
+at [IEEE MILCOM 2024](https://milcom2024.ieee-milcom.org/),
+[Berlin 6G Conference 2024](https://www.6g-plattform.de/berlin-6g-conference/),
+[EuCNC & 6G Summit 2024](https://www.eucnc.eu/2024),
+and [IEEE 6G Summit 2024](https://www.5gsummit.org/dresden-2024/) (Best demo award).
 {: .small}
 
 <br>
