@@ -22,22 +22,50 @@ which lie at the core of **Google**'s
 ### Projects
 
 As a research associate at the
-[Fraunhofer Heinrich Hertz Institute](https://www.hhi.fraunhofer.de/),
+[Fraunhofer Heinrich Hertz Institute](https://www.hhi.fraunhofer.de/en) (HHI),
 I am involved in several
 public and private research projects, including the following ones:
 
 * [6G-ICAS4Mobility](https://www.6g-icas4mobility.de/) --- Integrated Communication and Sensing for 6G Mobility.
-* [6G-RIC](https://6g-ric.de) --- Germany-wide Research and Innovation Cluster for 6G mobile technologies.
+* [6G-RIC](https://6g-ric.de) --- Germany-wide Research and Innovation Cluster for 6G Mobile Technologies.
+* [KOMSENS-6G](https://www.komsens-6g.com/) --- Perceptive 6G Communication Networks with Integrated Sensor Technology.
 * [AI4Mobile](https://www.ai4mobile.org/en/) ---
 AI-aided Wireless Systems for Mobility in Industry and Traffic.
-* [OrtoFern3D](https://www.hhi.fraunhofer.de/en/departments/wn/projects/archive/ortofern3d.html) ---
-Precise 3D-Localization System for Wireless Controllers in District Heating Networks.
+
+### Videos
+
+{% include video id="eXiBL_ynCsA" provider="youtube" %}
+In collaboration with HHI [mm-Wave research group](https://www.hhi.fraunhofer.de/en/departments/wn/research-groups/mm-wave.html) under the [6G-RIC](https://6g-ric.de) project. The demo has or will be showcased live
+at [IEEE MILCOM 2024](https://milcom2024.ieee-milcom.org/) in Washington,
+[Berlin 6G Conference 2024](https://www.6g-plattform.de/berlin-6g-conference/) in Berlin,
+[EuCNC & 6G Summit 2024](https://www.eucnc.eu/2024) in Antwerp,
+and [IEEE 6G Summit 2024](https://www.5gsummit.org/dresden-2024/) in Dresden (Best demo award).
+
+{% include video id="1d0eJBWdedSc1OgiNjNsA2gpcFnaNbOyR" provider="google-drive" %}
+Talk on behalf of [Prof. Slawomir Stanczak](https://www.tu.berlin/en/netit/prof-dr-ing-slawomir-stanczak)
+for the workshop
+[Integrated Sensing and Communications: Information theory, signal processing, and applications](https://commitworkshop.wixsite.com/workshop2024),
+organized by [TU Berlin](https://www.tu.berlin/en/commit/)
+and sponsored by [Huawei](https://www.huawei.com/eu/).
+
+{% include video id="XLmIa59BS7w" provider="youtube" %}
+Part of 2023 [AI/ML in 5G Challenge](https://aiforgood.itu.int/about-ai-for-good/aiml-in-5g-challenge/),
+an initiative by [ITU AI for Good](https://aiforgood.itu.int/).
+Watch the challenge finale [here](https://www.youtube.com/live/kvnc-hM7FaQ?si=iD2cg6QnFSX0mOFk&t=2802)
+
+{% include video id="_FzU2-G8ep8" provider="youtube" %}
+Joint work with [Ericsson](https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/germany/eurolab),
+presented at [EUSIPCO 2022](https://2022.eusipco.org/) in Belgrade.
+
+
+
 
 ### Publications
 
-* R. Hernangomez, J. Fink, R. L. G. Cavalcante, Z. Utkovski, and S. Stanczak, “Optimized Detection with Analog Beamforming for Monostatic Integrated Sensing and Communication,” _to be presented at the 2024 IEEE International Conference on Communications (ICC)_, Denver, CO, Jun. 2024
-* P. Rosemann, S. Partani, M. Miranda, J. Mahn, M. Karrenbauer, W. Meli, R. Hernangomez, M. Lubke, J. Kochems, S. Kopsell, A. Aziz-Koch, R. Askar, J. Beuster, O. Blume, N. Franchi, R. Thoma, S. Stanczak, and H. D. Schotten, “Enabling Mobility-Oriented JCAS in 6G Networks: An Architecture Proposal,”  _to be presented at the 2024 IEEE 4th International Symposium on Joint Communications & Sensing (JC&S)_, Leuven, Belgium, Mar. 2024. Preprint available: [arXiv.2311.11623](https://doi.org/10.48550/arXiv.2311.11623).
-* R. Hernangómez, A. Palaios, C. Watermann, D. Schäufele, P. Geuer, R. Ismayilov, M. Parvini, A. Krause, M. Kasparick, T. Neugebauer, O. D. Ramos-Cantor, H. Tchouankem, J. L. Calvo, B. Chen, G. Fettweis, and S. Stańczak, “Towards an AI-enabled Connected Industry: AGV Communication and Sensor Measurement Datasets,” _To appear in IEEE Communications Magazine_, 2024, Preprint available: [arXiv.2301.03364](https://doi.org/10.48550/arXiv.2301.03364).
+* S. Wittig, R. Hernangómez, K. Vardanyan, R. Askar, A. Haj-Omar, M. Peter, and S. Stańczak, “Demonstration of a Real-Time Testbed for D-Band Integrated Sensing and Communication,” _to be demonstrated at IEEE MILCOM 2024_, Washington, DC, USA, Oct. 2024. Preprint available: https://arxiv.org/abs/2407.04728
+* R. Hernangómez, J. Fink, R. L. G. Cavalcante, Z. Utkovski, and S. Stańczak, “Optimized Detection with Analog Beamforming for Monostatic Integrated Sensing and Communication,” in ICC 2024 - IEEE International Conference on Communications, Denver, CO, Jun. 2024, pp. 317–323. [doi: 10.1109/ICC51166.2024.10622845](https://doi.org/10.1109/ICC51166.2024.10622845).
+* R. Hernangómez, A. Palaios, C. Watermann, D. Schäufele, P. Geuer, R. Ismayilov, M. Parvini, A. Krause, M. Kasparick, T. Neugebauer, O. D. Ramos-Cantor, H. Tchouankem, J. L. Calvo, B. Chen, G. Fettweis, and S. Stańczak, “Toward an AI-Enabled Connected Industry: AGV Communication and Sensor Measurement Datasets,” IEEE Communications Magazine, vol. 62, no. 4, pp. 90–95, Apr. 2024, [doi: 10.1109/MCOM.001.2300494](https://doi.org/10.1109/MCOM.001.2300494).
+* P. Rosemann, S. Partani, M. Miranda, J. Mahn, M. Karrenbauer, W. Meli, R. Hernangomez, M. Lubke, J. Kochems, S. Kopsell, A. Aziz-Koch, R. Askar, J. Beuster, O. Blume, N. Franchi, R. Thoma, S. Stanczak, and H. D. Schotten, “Enabling Mobility-Oriented JCAS in 6G Networks: An Architecture Proposal,”  _presented at the 2024 IEEE 4th International Symposium on Joint Communications & Sensing (JC&S)_, Leuven, Belgium, Mar. 2024. Preprint available: [arXiv.2311.11623](https://doi.org/10.48550/arXiv.2311.11623).
 * R. Hernangómez, P. Geuer, A. Palaios, D. Schäufele, C. Watermann, K. Taleb-Bouhemadi,
 M. Parvini, A. Krause, S. Partani, C. Vielhaus, M. Kasparick, D. F. Külzer,
 F. Burmeister, F. H. P. Fitzek, H. D. Schotten, G. Fettweis, and S. Stańczak,
