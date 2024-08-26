@@ -4,6 +4,7 @@ title: "Research"
 toc: true
 toc_label: "Research"
 toc_icon: "signal"
+toc_sticky: true
 ---
 
 My research interests include machine and deep learning,
@@ -43,6 +44,7 @@ at [IEEE MILCOM 2024](https://milcom2024.ieee-milcom.org/) in Washington,
 [Berlin 6G Conference 2024](https://www.6g-plattform.de/berlin-6g-conference/) in Berlin,
 [EuCNC & 6G Summit 2024](https://www.eucnc.eu/2024) in Antwerp,
 and [IEEE 6G Summit 2024](https://www.5gsummit.org/dresden-2024/) in Dresden (Best demo award).
+{: .small}
 
 {% include video id="1d0eJBWdedSc1OgiNjNsA2gpcFnaNbOyR" provider="google-drive" %}
 Talk on behalf of [Prof. Slawomir Stanczak](https://www.tu.berlin/en/netit/prof-dr-ing-slawomir-stanczak)
@@ -50,11 +52,13 @@ for the workshop
 [Integrated Sensing and Communications: Information theory, signal processing, and applications](https://commitworkshop.wixsite.com/workshop2024),
 organized by [TU Berlin](https://www.tu.berlin/en/commit/)
 and sponsored by [Huawei](https://www.huawei.com/eu/).
+{: .small}
 
 {% include video id="XLmIa59BS7w" provider="youtube" %}
 Part of 2023 [AI/ML in 5G Challenge](https://aiforgood.itu.int/about-ai-for-good/aiml-in-5g-challenge/),
 an initiative by [ITU AI for Good](https://aiforgood.itu.int/).
 Watch the challenge finale [here](https://www.youtube.com/live/kvnc-hM7FaQ?si=iD2cg6QnFSX0mOFk&t=2802)
+{: .small}
 
 {% include video id="_FzU2-G8ep8" provider="youtube" %}
 Joint work with [Ericsson](https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/germany/eurolab),
