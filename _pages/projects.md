@@ -24,7 +24,7 @@ as a guideline to establish the separation between art and technique, respective
 That being said, if you think you lack the background to understand the deepest details,
 feel free to jump out of the boat at any time.
 
-[<i class="fas fa-globe-europe"></i>][corona-atlas]
+<i class="fas fa-globe-europe"></i>
 From 2021 to 2022, my brother [Diego](https://dieghernan.github.io/) and I
 ran a [now discontinued website](https://dieghernan.github.io/corona-atlas.de/en) 
 displaying Germany's COVID-19 risk travel guidelines on an interactive, multilingual map.
