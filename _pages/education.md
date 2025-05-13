@@ -7,12 +7,12 @@ title: "Education"
 
 ### Technische Universität Berlin
 
-(_2018-Now_)
+(_2019-Now_)
 
 Currently I am pursuing my PhD at
 [TU Berlin](https://www.tu.berlin/en/eecs/)
 within the 
-[Network Information Theory Group](https://www.netit.tu-berlin.de/menue/network_information_theory_group/).
+[Network Information Theory Group](https://www.tu.berlin/netit).
 You can read about my research
 [here](../research).
 
@@ -37,9 +37,9 @@ the [Department of Electronic Engineering](http://www.die.upm.es/en) at the
 
 ## Student Projects
 
-Along with my regular courses, I already had the chance to get
+Along with my regular courses, I had the chance to get
 hands-on experience during my graduate and undergraduate times
-thanks to different projects and theses:
+thanks to different projects:
 
 - [**Requirements and Partitioning of Otoacoustic Emission Measurement Algorithms**][tfm].
 During my exchange year at TU Munich, I was lucky enough to work on Otoacoustic Emission (OAE)
@@ -53,11 +53,11 @@ I could develop digital signal processing algorithms for the
 equalization and calibration of Ofelia high-end loudspeakers
 (Online information available in Spanish).
 - [**BQ Chair**](https://www.youtube.com/watch?v=ww8EBchI8Fg).
-I worked for the spanish electronic manufacturer [BQ](https://www.bq.com/en/)
+I worked for the former Spanish electronic manufacturer [BQ](https://en.wikipedia.org/wiki/BQ_(company))
 at their University-Industry Chair at UPM as part of my Bachelor's thesis.
-There I developed a proof of concept of a wireless interactive monitoring system.
+There I developed a proof of concept of a wireless IoT monitoring system.
 The linked video (in Spanish) showcases the student projects my classmates in the chair
-and I were working in at that time.
+and I were working in at that time back in 2015.
 - [**Pi Matching. Rasperry-Pi-based Speech recognition system**](https://pimatching.wordpress.com/).
 Together with my dear classmate [Guillermo Ortiz Jiménez](https://gortizji.github.io/),
 I worked in a special project on embedded speech recognition

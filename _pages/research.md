@@ -11,15 +11,17 @@ My research interests include machine learning, signal processing and informatio
 specially in application to radar and
 wireless communication.
 
-Ever since I started my PhD, I have been lucky enough to join forces with some
-leading companies in the technology and telecommunication sectors,
-such as **Ericsson** or **Bosch**,
-in order to carry out my research.
+Ever since I started my PhD, I have been lucky enough to carry out my research
+alongside leading companies in the technology and telecommunication sectors,
+such as [Ericsson](https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/germany/eurolab),
+[Nokia](https://www.nokia.com/bell-labs/about/locations/stuttgart-germany/),
+[Bosch](https://www.bosch.com/research/research-fields/digitalization-and-connectivity/research-on-connectivity-technologies/),
+or [Huawei](https://www.huawei.com/en/corporate-information/research-development).
 From 2018 to 2021, I collaborated closely with
 [Infineon Technologies AG](https://www.infineon.com/)
 around their
 [radar sensors for IoT](https://www.infineon.com/cms/en/product/promopages/60GHz/),
-adopted by companies like [Google](https://www.infineon.com/cms/en/careers/changemakers/blogs/googles-ripple-radar-standard/)
+adopted by [Google](https://www.infineon.com/cms/en/careers/changemakers/blogs/googles-ripple-radar-standard/)
 for touchless human-machine interaction.
 
 ### Projects
@@ -27,7 +29,7 @@ for touchless human-machine interaction.
 As a research associate at the
 [Fraunhofer Heinrich Hertz Institute](https://www.hhi.fraunhofer.de/en) (HHI),
 I am involved in several
-public and private research projects, including the following ones:
+public and private research projects, including:
 
 * [6G-ICAS4Mobility](https://www.6g-icas4mobility.de/) --- Integrated Communication and Sensing for 6G Mobility.
 * [6G-RIC](https://6g-ric.de) --- Germany-wide Research and Innovation Cluster for 6G Mobile Technologies.
@@ -38,11 +40,14 @@ AI-aided Wireless Systems for Mobility in Industry and Traffic.
 ### Videos
 
 {% include video id="eXiBL_ynCsA" provider="youtube" %}
-In collaboration with HHI [mm-Wave research group](https://www.hhi.fraunhofer.de/en/departments/wn/research-groups/mm-wave.html) under the [6G-RIC](https://6g-ric.de) project. The demo has been or will be showcased live
-at [IEEE MILCOM 2024](https://milcom2024.ieee-milcom.org/),
+In collaboration with HHI [mm-Wave research group](https://www.hhi.fraunhofer.de/en/departments/wn/research-groups/mm-wave.html) under the [6G-RIC](https://6g-ric.de) project. The demo has been showcased live
+at
+[IEEE JC&S Symposium 2025](https://jcns-symposium.org/legacy/2025/),
+[Brooklyn 6G Summit 2024](https://ieeetv.ieee.org/event/brooklyn-6g-summit-2024) (2nd Best Demo Award),
+[IEEE MILCOM 2024](https://milcom2024.ieee-milcom.org/),
 [Berlin 6G Conference 2024](https://www.6g-plattform.de/berlin-6g-conference/),
 [EuCNC & 6G Summit 2024](https://www.eucnc.eu/2024),
-and [IEEE 6G Summit Dresden 2024](https://www.5gsummit.org/dresden-2024/) (Best demo award).
+and [IEEE 6G Summit Dresden 2024](https://www.5gsummit.org/dresden-2024/) (E2E best demo award).
 {: .small}
 
 <br>
@@ -73,7 +78,9 @@ presented at [EUSIPCO 2022](https://2022.eusipco.org/) in Belgrade.
 
 ### Publications
 
-* S. Wittig, R. Hernangómez, K. Vardanyan, R. Askar, A. Haj-Omar, M. Peter, and S. Stańczak, “Demonstration of a Real-Time Testbed for D-Band Integrated Sensing and Communication,” _to be demonstrated at IEEE MILCOM 2024_, Washington, DC, USA, Oct. 2024. Preprint available: at [[arXiv/2407.04728]](https://arxiv.org/abs/2407.04728).
+* R. Hernangómez, J. Fink, R. L. G. Cavalcante, and S. Stańczak, “CISSIR: Beam Codebooks with Self-Interference Reduction Guarantees for Integrated Sensing and Communication Beyond 5G,” _Submitted to IEEE_, Feb. 2025, Preprint available at [[arXiv/2502.10371]](https://arxiv.org/abs/2502.10371).
+* S. Wittig, R. Askar, R. Hernangόmez, M. Peter, and S. Stańczak, “Real-Time Demonstration of Integrated Sensing and Communication in the Sub-Terahertz D-Band,” in 2025 IEEE 5th International Symposium on Joint Communications &amp; Sensing (JC&amp;S), Oulu, Finland: IEEE, Jan. 2025, pp. 1–2. [doi: 10.1109/JCS64661.2025.10880625](https://doi.org/10.1109/JCS64661.2025.10880625).
+* S. Wittig, R. Hernangómez, K. Vardanyan, R. Askar, A. Haj-Omar, M. Peter, and S. Stańczak, “Demonstration of a Real-Time Testbed for D-Band Integrated Sensing and Communication,” in MILCOM 2024 - 2024 IEEE Military Communications Conference (MILCOM), Washington, DC, USA, Oct. 2024, pp. 641–642. [doi: 10.1109/MILCOM61039.2024.10774050](https://doi.org/10.1109/MILCOM61039.2024.10774050).
 * R. Hernangómez, J. Fink, R. L. G. Cavalcante, Z. Utkovski, and S. Stańczak, “Optimized Detection with Analog Beamforming for Monostatic Integrated Sensing and Communication,” in ICC 2024 - IEEE International Conference on Communications, Denver, CO, Jun. 2024, pp. 317–323. [doi: 10.1109/ICC51166.2024.10622845](https://doi.org/10.1109/ICC51166.2024.10622845).
 * R. Hernangómez, A. Palaios, C. Watermann, D. Schäufele, P. Geuer, R. Ismayilov, M. Parvini, A. Krause, M. Kasparick, T. Neugebauer, O. D. Ramos-Cantor, H. Tchouankem, J. L. Calvo, B. Chen, G. Fettweis, and S. Stańczak, “Toward an AI-Enabled Connected Industry: AGV Communication and Sensor Measurement Datasets,” IEEE Communications Magazine, vol. 62, no. 4, pp. 90–95, Apr. 2024, [doi: 10.1109/MCOM.001.2300494](https://doi.org/10.1109/MCOM.001.2300494).
 * P. Rosemann, S. Partani, M. Miranda, J. Mahn, M. Karrenbauer, W. Meli, R. Hernangomez, M. Lubke, J. Kochems, S. Kopsell, A. Aziz-Koch, R. Askar, J. Beuster, O. Blume, N. Franchi, R. Thoma, S. Stanczak, and H. D. Schotten, “Enabling Mobility-Oriented JCAS in 6G Networks: An Architecture Proposal,”  _presented at the 2024 IEEE 4th International Symposium on Joint Communications & Sensing (JC&S)_, Leuven, Belgium, Mar. 2024. Preprint available: [arXiv.2311.11623](https://doi.org/10.48550/arXiv.2311.11623).

@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Art Code projects
 layout: collection
 permalink: /projects/
 collection: projects
@@ -25,10 +25,8 @@ That being said, if you think you lack the background to understand the deepest 
 feel free to jump out of the boat at any time.
 
 [<i class="fas fa-globe-europe"></i>][corona-atlas]
-I have also teamed up with my brother [Diego](https://dieghernan.github.io/)
-to make an interactive, multilingual map displaying Germany's risk assessment
-for international travel regarding COVID-19. Check it out at
-[corona-atlas.de][corona-atlas].
+From 2021 to 2022, my brother [Diego](https://dieghernan.github.io/) and I
+ran a [now discontinued website](https://dieghernan.github.io/corona-atlas.de/en) 
+displaying Germany's COVID-19 risk travel guidelines on an interactive, multilingual map.
+You can read more about it on [his blog](https://dieghernan.github.io/202203_Corona-timelapse/).
  {: .notice--primary}
- 
-[corona-atlas]: https://corona-atlas.de/en
