@@ -1,13 +1,9 @@
 main:
-  - title: "Projects"
-    url: /projects/
-  #- title: "Categories"
-  #  url: /categories/
   - title: "Research"
     url: /research/
+  - title: "Art code"
+    url: /projects/
   - title: "Education"
     url: /education/
   - title: "About"
     url: /about/
-  #- title: "Tags"
-  #  url: /tags/
