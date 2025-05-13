@@ -23,7 +23,7 @@ coded a tool to actually listen to it.
 ## <i class="fas fa-palette"></i> Music theory goes interactive
 
 
-<iframe src="/assets/widgets/music-scales.html" scrolling="no" width="100%" height="700" frameborder="0" allowtransparency="true">
+<iframe src="/assets/widgets/music-scales.html" scrolling="no" width="100%" height="900" frameborder="0" allowtransparency="true">
 </iframe>
 
 The widget can take up to one minute to load, so in the meantime
