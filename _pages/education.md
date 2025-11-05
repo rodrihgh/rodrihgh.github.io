@@ -7,13 +7,16 @@ title: "Education"
 
 ### Technische Universität Berlin
 
-(_2019-Now_)
+(_2019-2025_)
 
-Currently I am pursuing my PhD at
-[TU Berlin](https://www.tu.berlin/en/eecs/)
-within the 
-[Network Information Theory Group](https://www.tu.berlin/netit).
-You can read about my research
+I received my PhD (Dr.-Ing.)
+degree (_summa cum laude_)
+from the [TU Berlin](https://www.tu.berlin/en/eecs/).
+My doctoral thesis
+["Wireless Communication and Sensing: From Integration Challenges to Cross-Domain Learning"](https://www.tu.berlin/en/netit/news-details/phd-defense-rodrigo-hernangomez-herrero)
+was supervised by Prof. [Sławomir Stańczak](https://www.tu.berlin/en/netit/prof-dr-ing-slawomir-stanczak)
+at the  [Network Information Theory Chair](https://www.tu.berlin/en/netit).
+You can read more about my research
 [here](../research).
 
 ### Technische Universität München
@@ -22,7 +25,8 @@ You can read about my research
 
 I finished my Master's during an Erasmus exchange year at
 [TUM](https://www.tum.de/en/), where I also wrote my
-[Master's thesis][tfm].
+Master's thesis
+[“Requirements and Partitioning of Otoacoustic Emission Measurement Algorithms”][tfm].
 
 ### Universidad Politécnica de Madrid
 
@@ -58,10 +62,6 @@ at their University-Industry Chair at UPM as part of my Bachelor's thesis.
 There I developed a proof of concept of a wireless IoT monitoring system.
 The linked video (in Spanish) showcases the student projects my classmates in the chair
 and I were working in at that time back in 2015.
-- [**Pi Matching. Rasperry-Pi-based Speech recognition system**](https://pimatching.wordpress.com/).
-Together with my dear classmate [Guillermo Ortiz Jiménez](https://gortizji.github.io/),
-I worked in a special project on embedded speech recognition
-for a lab course on digital systems during our undergraduate studies.
 
 [tfm]: https://mediatum.ub.tum.de/1542820
 

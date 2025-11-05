@@ -66,7 +66,7 @@ plugins:
 author:
   name   : "Rodrigo Hernangómez"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Wireless researcher and PhD student. Fascinated by the interplay between beauty and math."
+  bio    : "Wireless researcher, PhD. Fascinated by the interplay between beauty and math."
   location: Berlin, Germany
   links:
     - label: "LinkedIn"
