@@ -7,20 +7,29 @@ toc_icon: "signal"
 toc_sticky: true
 ---
 
-My research interests include machine learning, signal processing and information theory,
-especially in application to radar and
-wireless communication.
+My research interests include statistical
+[machine learning](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/)
+and [signal processing](http://www.dspguide.com/),
+especially in application to [radar](https://www.radartutorial.eu/index.en.html)
+and [wireless communication](https://web.stanford.edu/~dntse/wireless_book.html).
 
-Ever since the beginning of my career, I have been lucky enough to carry out my research
-alongside leading companies in the technology and telecommunication sectors,
+Since the beginning of my career, I have been lucky enough to carry out my research
+on [predictive mobile networks][pqos] and
+[integrated sensing and communication](https://isac.committees.comsoc.org/)
+alongside leading tech companies,
 such as [Ericsson](https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/germany/eurolab),
 [Nokia](https://www.nokia.com/bell-labs/about/locations/stuttgart-germany/),
 [Bosch](https://www.bosch.com/research/research-fields/digitalization-and-connectivity/research-on-connectivity-technologies/),
 or [Huawei](https://www.huawei.com/en/corporate-information/research-development).
 From 2018 to 2021, I collaborated closely with
 [Infineon Technologies AG](https://www.infineon.com/)
-around their
-[radar sensors for IoT](https://www.infineon.com/products/sensor/radar-sensors/radar-sensors-for-iot).
+to endow their
+[IoT radar sensors](https://www.infineon.com/products/sensor/radar-sensors/radar-sensors-for-iot)
+with [adaptive machine learning][racpit]
+capabilities.
+
+[pqos]: https://doi.org/10.1109/ACCESS.2023.3303528
+[racpit]: https://doi.org/10.3390/s22041519
 
 ### Projects
 
@@ -95,10 +104,10 @@ F. Burmeister, F. H. P. Fitzek, H. D. Schotten, G. Fettweis, and S. Stańczak,
 in WSA & SCC 2023; 26th International ITG Workshop on Smart Antennas and 13th Conference on Systems, Communications, and Coding, Braunschweig, Germany, Feb. 2023, pp. 1–6. [ISBN 978-3-8007-6050-3](https://ieeexplore.ieee.org/abstract/document/10104578).
 * A. Palaios, C. L. Vielhaus, D. F. Külzer, C. Watermann, R. Hernangómez,
 S. Partani, P. Geuer, A. Krause, R. Sattiraju, M. Kasparick, G. Fettweis,
-F. H. P. Fitzek, H. D. Schotten, and S. Stańczak, “Machine Learning for QoS Prediction in Vehicular Communication: Challenges and Solution Approaches,” IEEE Access, vol. 11, pp. 92459-92477, 2023, [doi: 10.1109/ACCESS.2023.3303528](https://doi.org/10.1109/ACCESS.2023.3303528).
+F. H. P. Fitzek, H. D. Schotten, and S. Stańczak, “Machine Learning for QoS Prediction in Vehicular Communication: Challenges and Solution Approaches,” IEEE Access, vol. 11, pp. 92459-92477, 2023, [doi: 10.1109/ACCESS.2023.3303528][pqos].
 * R. Hernangómez, A. Palaios, G. Guruvayoorappan, M. Kasparick, N. U. Ain, and S. Stańczak, “Online QoS estimation for vehicular radio environments,” in 2022 30th European Signal Processing Conference (EUSIPCO), Belgrade, Serbia, Aug. 2022, pp. 1701–1705. [doi: 10.23919/EUSIPCO55093.2022.9909612](https://doi.org/10.23919/EUSIPCO55093.2022.9909612).
 * R. Hernangómez, I. Bjelaković, L. Servadei, and S. Stańczak, “Unsupervised Domain Adaptation across FMCW Radar Configurations Using Margin Disparity Discrepancy,” in 2022 30th European Signal Processing Conference (EUSIPCO), Belgrade, Serbia, Aug. 2022, pp. 1566–1570. [doi: 10.23919/EUSIPCO55093.2022.9909618](https://doi.org/10.23919/EUSIPCO55093.2022.9909618).
-* R. Hernangómez, T. Visentin, L. Servadei, H. Khodabakhshandeh, and S. Stańczak, “Improving Radar Human Activity Classification Using Synthetic Data with Image Transformation,” Sensors, vol. 22, no. 4, Art. no. 4, Jan. 2022, [doi: 10.3390/s22041519](https://doi.org/10.3390/s22041519).
+* R. Hernangómez, T. Visentin, L. Servadei, H. Khodabakhshandeh, and S. Stańczak, “Improving Radar Human Activity Classification Using Synthetic Data with Image Transformation,” Sensors, vol. 22, no. 4, Art. no. 4, Jan. 2022, [doi: 10.3390/s22041519][racpit].
 * A. Palaios, P. Geuer, J. Fink, D. F. Külzer, F. Göttsch, M. Kasparick,
 D. Schäufele, R. Hernangómez, S. Partani, R. Sattiraju, A. Kumar,
 F. Burmeister, A. Weinand, C. L. Vielhaus, F. H. P. Fitzek, G. P. Fettweis,
