@@ -13,9 +13,9 @@ I received my PhD (Dr.-Ing.)
 degree (_summa cum laude_)
 from the [TU Berlin](https://www.tu.berlin/en/eecs/).
 My doctoral thesis
-["Wireless Communication and Sensing: From Integration Challenges to Cross-Domain Learning"](https://www.tu.berlin/en/netit/news-details/phd-defense-rodrigo-hernangomez-herrero)
+["Wireless Communication and Sensing: From Integration Challenges to Cross-Domain Learning"](https://depositonce.tu-berlin.de/handle/11303/25853)
 was supervised by Prof. [Sławomir Stańczak](https://www.tu.berlin/en/netit/prof-dr-ing-slawomir-stanczak)
-at the  [Network Information Theory Chair](https://www.tu.berlin/en/netit).
+at the [Network Information Theory Chair](https://www.tu.berlin/en/netit).
 You can read more about my research
 [here](../research).
 
@@ -32,36 +32,20 @@ Master's thesis
 
 (_2011-2017_)
 
-I received my Bachelor and Master Degrees for Telecommunication Engineering from
+I received my Bachelor's and Master's Degrees for Telecommunication Engineering from
 [UPM](http://www.upm.es/internacional) in 2015 and 2017, respectively.
-During the last years of the Bachelor and the first year of the Master I also collaborated with
-the [Department of Electronic Engineering](http://www.die.upm.es/en) at the
-[B105 Electronic Systems Lab](http://elb105.com/) and the
-**BQ Chair**.
-
-## Student Projects
-
-Along with my regular courses, I had the chance to get
-hands-on experience during my graduate and undergraduate times
-thanks to different projects:
-
-- [**Requirements and Partitioning of Otoacoustic Emission Measurement Algorithms**][tfm].
-During my exchange year at TU Munich, I was lucky enough to work on Otoacoustic Emission (OAE)
-techniques on embedded systems for my Master's Thesis. OAEs enable objective diagnosis of hearing impairment,
-which is mostly applied to neonates. The goal within the project was to contribute to the development of
-smartphone-ready OAE measurement devices that make OAE early screening worldwide available
-in order to reduce the incidence of hearing impairment in infants.
-- [**Ofelia. High-End Loudspeakers**](http://elb105.com/tag/ofelia/).
-As a research assistant at B105 Electronic Systems Lab at UPM,
-I could develop digital signal processing algorithms for the
-equalization and calibration of Ofelia high-end loudspeakers
-(Online information available in Spanish).
-- [**BQ Chair**](https://www.youtube.com/watch?v=ww8EBchI8Fg).
-I worked for the former Spanish electronic manufacturer [BQ](https://en.wikipedia.org/wiki/BQ_(company))
-at their University-Industry Chair at UPM as part of my Bachelor's thesis.
-There I developed a proof of concept of a wireless IoT monitoring system.
-The linked video (in Spanish) showcases the student projects my classmates in the chair
-and I were working in at that time back in 2015.
+During the end of the Bachelor and the beginning of the Master's,
+I also collaborated with
+the [Department of Electronic Engineering](http://www.die.upm.es/en) at
+the [BQ Chair](https://www.youtube.com/watch?v=ww8EBchI8Fg) and at the
+[B105 Electronic Systems Lab](http://elb105.com/).
+In the former, I developed
+a proof of concept for a
+[wireless IoT monitoring system](https://youtu.be/ww8EBchI8Fg?si=t4BFisKmRYtFXxIR&t=307),
+whereas the **B105 Lab** allowed me to
+investigate digital signal processing algorithms for
+audio equalization and calibration with its
+[high-end loudspeakers, "Ofelia"](http://elb105.com/tag/ofelia/).
 
 [tfm]: https://mediatum.ub.tum.de/1542820
 

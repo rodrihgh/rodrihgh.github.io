@@ -4,10 +4,11 @@ title: "About"
 recaptcha: true
 ---
 
-Hi! My name is Rodrigo Hernangómez and
+Hi! My name is Rodrigo Hernangómez.
 I was born and raised in [Madrid](https://www.esmadrid.com/en), where I also got my M.Sc.
 in Telecommunication Engineering from the
-[Universidad Politécnica de Madrid](http://www.upm.es/internacional).
+[Universidad Politécnica de Madrid](http://www.upm.es/internacional) after
+an exchange year in [Munich](https://www.muenchen.de/en/).
 
 My PhD took me all the way to
 [Berlin](https://www.berlin.de/en/life/), where
