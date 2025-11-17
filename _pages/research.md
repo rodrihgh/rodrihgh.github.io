@@ -13,7 +13,8 @@ and [signal processing](http://www.dspguide.com/),
 especially in application to [radar](https://www.radartutorial.eu/index.en.html)
 and [wireless communication](https://web.stanford.edu/~dntse/wireless_book.html).
 
-Since the beginning of my career, I have been lucky enough to carry out my research
+Since the beginning of my career at
+the [Fraunhofer Heinrich Hertz Institute (HHI)][hhi], I have been lucky enough to carry out my research
 on [predictive mobile networks][pqos] and
 [integrated sensing and communication](https://isac.committees.comsoc.org/)
 alongside leading tech companies,
@@ -30,11 +31,12 @@ capabilities.
 
 [pqos]: https://doi.org/10.1109/ACCESS.2023.3303528
 [racpit]: https://doi.org/10.3390/s22041519
+[hhi]: https://www.hhi.fraunhofer.de/en
 
 ### Projects
 
 As a research associate at the
-[Fraunhofer Heinrich Hertz Institute](https://www.hhi.fraunhofer.de/en) (HHI),
+[HHI][hhi]
 I have been involved in several
 public and private research projects.
 
