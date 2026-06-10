@@ -12,16 +12,17 @@ excerpt: '[**"Art is the science of uselessness."**](science-of-uselessness) ---
 
 Hi! Welcome to **Science of Uselessness**.
 This is a personal website I originally created
-during COVID lockdown to display some
-[engineering-meets-art ideas](projects) I developed for fun.
+during COVID lockdown to display some of my
+[engineering-meets-art ideas](projects).
 Since then, the site has also evolved into a
 [professional portfolio](research).
 
 Regardless whether you are looking into my
 [professional](research) or
 [private](projects) projects,
-I hope you find some cool ideas here and
-[you reach me out](about#contact) for feedback, appreciation, clarification, etc.
+I hope you find some cool ideas here.
+Please,
+[reach me out](about#contact) for feedback, appreciation, clarification, etc.
 
 Have fun!
 

@@ -13,12 +13,11 @@ and [signal processing](http://www.dspguide.com/),
 especially in application to [radar](https://www.radartutorial.eu/index.en.html)
 and [wireless communication](https://web.stanford.edu/~dntse/wireless_book.html).
 
-Since the beginning of my career at
-the [Fraunhofer Heinrich Hertz Institute (HHI)][hhi], I have been lucky enough to carry out my research
+Since the beginning of my career, I have been lucky enough to carry out my research
 on [predictive mobile networks][pqos] and
 [integrated sensing and communication](https://isac.committees.comsoc.org/)
 alongside leading tech companies,
-such as [Ericsson](https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/germany/eurolab),
+such as [Ericsson][edd],
 [Nokia](https://www.nokia.com/bell-labs/about/locations/stuttgart-germany/),
 [Bosch](https://www.bosch.com/research/research-fields/digitalization-and-connectivity/research-on-connectivity-technologies/),
 or [Huawei](https://www.huawei.com/en/corporate-information/research-development).
@@ -31,24 +30,25 @@ capabilities.
 
 [pqos]: https://doi.org/10.1109/ACCESS.2023.3303528
 [racpit]: https://doi.org/10.3390/s22041519
-[hhi]: https://www.hhi.fraunhofer.de/en
+[hhi]: https://www.hhi.fraunhofer.de/en/wn
+[edd]: https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/germany/eurolab
 
 ### Projects
 
-As a research associate at the
+During my time (2018-2026) as a research associate at the
 [HHI][hhi]
-I have been involved in several
+I was involved in several
 public and private research projects.
 
 #### 2022-2025
 
 * [6G-RIC](https://6g-ric.de) --- Germany-wide Research and Innovation Cluster for 6G Mobile Technologies.
-* [KOMSENS-6G](https://www.komsens-6g.com/) --- Perceptive 6G Communication Networks with Integrated Sensor Technology.
+* [KOMSENS-6G](https://web.archive.org/web/20250807051824/https://www.komsens-6g.com/) --- Perceptive 6G Communication Networks with Integrated Sensor Technology.
 * [6G-ICAS4Mobility](https://www.6g-icas4mobility.de/) --- Integrated Communication and Sensing for 6G Mobility.
 
 #### 2020-2023
 
-* [AI4Mobile](https://www.ai4mobile.org/en/) ---
+* [AI4Mobile](https://web.archive.org/web/20231005013437/https://www.ai4mobile.org/en/) ---
 AI-aided Wireless Systems for Mobility in Industry and Traffic.
 
 ### Videos
@@ -59,7 +59,7 @@ at
 [IEEE JC&S Symposium 2025](https://jcns-symposium.org/legacy/2025/),
 [Brooklyn 6G Summit 2024](https://ieeetv.ieee.org/event/brooklyn-6g-summit-2024) (2nd Best Demo Award),
 [IEEE MILCOM 2024](https://milcom2024.ieee-milcom.org/),
-[Berlin 6G Conference 2024](https://www.6g-plattform.de/berlin-6g-conference/),
+[Berlin 6G Conference 2024](https://www.berlin-6g-conference.de/),
 [EuCNC & 6G Summit 2024](https://www.eucnc.eu/2024),
 and [IEEE 6G Summit Dresden 2024](https://www.5gsummit.org/dresden-2024/) (E2E best demo award).
 {: .small}
@@ -77,7 +77,7 @@ and sponsored by [Huawei](https://www.huawei.com/eu/).
 <br>
 
 {% include video id="XLmIa59BS7w" provider="youtube" %}
-Part of 2023 [AI/ML in 5G Challenge](https://aiforgood.itu.int/about-ai-for-good/aiml-in-5g-challenge/),
+Part of 2023 [AI/ML in 5G Challenge](https://aiforgood.itu.int/machine-learning-challenges/),
 an initiative by [ITU AI for Good](https://aiforgood.itu.int/).
 Watch the challenge finale [here](https://www.youtube.com/live/kvnc-hM7FaQ?si=iD2cg6QnFSX0mOFk&t=2802).
 {: .small}
@@ -85,14 +85,14 @@ Watch the challenge finale [here](https://www.youtube.com/live/kvnc-hM7FaQ?si=iD
 <br>
 
 {% include video id="_FzU2-G8ep8" provider="youtube" %}
-Joint work with [Ericsson](https://www.ericsson.com/en/about-us/company-facts/ericsson-worldwide/germany/eurolab),
+Joint work with [Ericsson][edd],
 presented at [EUSIPCO 2022](https://2022.eusipco.org/) in Belgrade.
 {: .small}
 
 
 ### Publications
 
-* R. Hernangómez, J. Fink, R. L. G. Cavalcante, and S. Stańczak, “CISSIR: Beam Codebooks with Self-Interference Reduction Guarantees for Integrated Sensing and Communication Beyond 5G,” IEEE Transactions on Wireless Communications, pp. 1–15, 2025, [doi: 10.1109/TWC.2025.3625372](https://doi.org/10.1109/TWC.2025.3625372).
+* R. Hernangómez, J. Fink, R. L. G. Cavalcante, and S. Stańczak, “CISSIR: Beam Codebooks with Self-Interference Reduction Guarantees for Integrated Sensing and Communication Beyond 5G,” IEEE Transactions on Wireless Communications, vol. 25, pp. 6523-6537, 2026, [doi: 10.1109/TWC.2025.3625372](https://doi.org/10.1109/TWC.2025.3625372).
 * S. Wittig, R. Askar, R. Hernangόmez, M. Peter, and S. Stańczak, “Real-Time Demonstration of Integrated Sensing and Communication in the Sub-Terahertz D-Band,” in 2025 IEEE 5th International Symposium on Joint Communications &amp; Sensing (JC&amp;S), Oulu, Finland: IEEE, Jan. 2025, pp. 1–2. [doi: 10.1109/JCS64661.2025.10880625](https://doi.org/10.1109/JCS64661.2025.10880625).
 * S. Wittig, R. Hernangómez, K. Vardanyan, R. Askar, A. Haj-Omar, M. Peter, and S. Stańczak, “Demonstration of a Real-Time Testbed for D-Band Integrated Sensing and Communication,” in MILCOM 2024 - 2024 IEEE Military Communications Conference (MILCOM), Washington, DC, USA, Oct. 2024, pp. 641–642. [doi: 10.1109/MILCOM61039.2024.10774050](https://doi.org/10.1109/MILCOM61039.2024.10774050).
 * R. Hernangómez, J. Fink, R. L. G. Cavalcante, Z. Utkovski, and S. Stańczak, “Optimized Detection with Analog Beamforming for Monostatic Integrated Sensing and Communication,” in ICC 2024 - IEEE International Conference on Communications, Denver, CO, Jun. 2024, pp. 317–323. [doi: 10.1109/ICC51166.2024.10622845](https://doi.org/10.1109/ICC51166.2024.10622845).

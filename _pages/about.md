@@ -8,16 +8,20 @@ toc_sticky: true
 recaptcha: true
 ---
 
-Hi! My name is Rodrigo Hernangómez.
+Hi! My name is Rodrigo Hernangómez
+and I am a Mobile Networks Engineer at
+[Deutsche Telekom](https://www.telekom.com/en/company/)
+in [Bonn, Germany](https://www.bonn.de/bonn-erleben/index.php?loc=en).
+
 I was born and raised in [Madrid](https://www.esmadrid.com/en), where I also got my M.Sc.
 in Telecommunication Engineering from the
 [Universidad Politécnica de Madrid](http://www.upm.es/internacional) after
 an exchange year in [Munich](https://www.muenchen.de/en/).
 
 My PhD took me all the way to
-[Berlin](https://www.berlin.de/en/life/), where
-I currently work as a research associate at the
-[Fraunhofer Institute for Telecommunication, Heinrich Hertz Institute](https://www.hhi.fraunhofer.de/en).
+[Berlin](https://www.berlin.de/en/tourism/), where
+I worked for 8 years as a research associate at the
+[Fraunhofer Institute for Telecommunication, Heinrich Hertz Institute](https://www.hhi.fraunhofer.de/en/wn).
 My [research interests](../research) lie in the intersection of wireless communications, radar, and machine learning.
 
 Apart from that, I am also deeply interested in other topics
@@ -80,8 +84,7 @@ audio equalization and calibration with its
 ## Contact
 
 You can find me on
-[social media](#footer),
-at [TU Berlin](https://www.netit.tu-berlin.de/menue/team/extern/hernangomez/)
+[social media](#footer)
 or at
 [Research Gate](https://www.researchgate.net/profile/Rodrigo_Hernangomez).
 
