@@ -27,7 +27,7 @@ minimal_mistakes_skin: dirt
 search: true
 
 reCaptcha:
-  siteKey: 6LdF5uYUAAAAALPHJAys7PkiU7BiTJi-NRPTG9wm
+  siteKey: "6LcGEmEtAAAAAMjQ5sh9U4Etzc0M-Yzlji1nARik"
 
 # Build settings
 markdown: kramdown
